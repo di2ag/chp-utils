@@ -9,7 +9,7 @@ setup(
     version = '0.0.0',
     author = 'Luke Veenhuis',
     author_email = 'luke.j.veenhuis@dartmouth.edu',
-    url = 'https://github.com/di2ag/chp-utils',
+    url = 'https://github.com/di2ag/chp_utils',
     description = 'A set of tools for any chp api',
     long_description = long_description,
     long_description_content_type = 'text/markdown',
