@@ -12,10 +12,8 @@ logger = logging.getLogger(__name__)
 
 class MetaKGValidator:
     def __init__(self, query_graph) -> None:
-        logger.note('pinging metakg')
         self.meta_knowledge_graph_location = "http://chp.thayer.dartmouth.edu/meta_knowledge_graph/"
         self._get_meta_knowledge_graph()
-        logger.note('pinged metakg')
         self._get_supported_categories()
         self._get_supported_predicates()
         self._get_supported_id_prefixes()
@@ -36,7 +34,7 @@ class MetaKGValidator:
         resource_path = parentDir+'/'.join(('/schemas', 'meta-kg.json'))
         #file_str = pkg_resources.resource_string(parentDir, resource_path)
         meta_kg_file = open(resource_path, 'r')
-        self.meta_kg = json.load(meta_kg_file)
+        self.meta_knowledge_graph = json.load(meta_kg_file)
     def _get_supported_categories(self) -> None:
         self.supported_categories = set()
         for edge in self.meta_knowledge_graph['edges']:
