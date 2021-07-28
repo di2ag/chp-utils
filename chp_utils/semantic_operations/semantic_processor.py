@@ -22,7 +22,7 @@ class SemanticProcessor():
         
     def _get_meta_kg(self)->None:
         resource_package = __name__
-        resource_path = '/'.join(('chp_utils', 'schemas', 'meta-kg.json'))
+        resource_path = '/'.join(('meta-kg.json'))
         file_str = pkg_resources.resource_string(resource_package, resource_path)
         meta_kg_file = open(file_str, 'r')
         self.meta_kg = json.load(meta_kg_file)
