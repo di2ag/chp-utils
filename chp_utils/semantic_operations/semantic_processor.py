@@ -30,7 +30,7 @@ class SemanticProcessor():
         parentDir = os.path.abspath(os.path.join(curDir, os.pardir))
         
         #resource_package = __name__
-        resource_path = parentDir+'/'.join(('schemas', 'meta-kg.json'))
+        resource_path = parentDir+'/'.join(('/schemas', 'meta-kg.json'))
         #file_str = pkg_resources.resource_string(parentDir, resource_path)
         meta_kg_file = open(resource_path, 'r')
         self.meta_kg = json.load(meta_kg_file)
