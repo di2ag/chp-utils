@@ -6,7 +6,7 @@ with open('README.md', 'r') as stream:
 
 setup(
     name = 'chp_utils',
-    version = '0.0.0',
+    version = '0.1.0',
     author = 'Luke Veenhuis',
     author_email = 'luke.j.veenhuis@dartmouth.edu',
     url = 'https://github.com/di2ag/chp_utils',
