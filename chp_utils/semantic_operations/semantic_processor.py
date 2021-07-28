@@ -4,7 +4,7 @@ from trapi_model.query_graph import QueryGraph
 from trapi_model.biolink.constants import get_biolink_entity
 from chp_utils.semantic_operations.semantic_processor_exceptions import *
 import pkg_resources
-
+import os
 
 class SemanticProcessor():
     
@@ -21,8 +21,17 @@ class SemanticProcessor():
             return response.json()
         
     def _get_meta_kg(self)->None:
-        resource_package = __name__
-        file_str = pkg_resources.resource_string(resource_package, 'meta-kg.json')
+        curfilePath = os.path.abspath(__file__)
+
+        # this will return current directory in which python file resides.
+        curDir = os.path.abspath(os.path.join(curfilePath, os.pardir))
+
+        # this will return parent directory.
+        parentDir = os.path.abspath(os.path.join(curDir, os.pardir))
+        
+        #resource_package = __name__
+        resource_path = '/'.join(('schemas', 'meta-kg.json'))
+        file_str = pkg_resources.resource_string(parentDir, resource_path)
         meta_kg_file = open(file_str, 'r')
         self.meta_kg = json.load(meta_kg_file)
     
