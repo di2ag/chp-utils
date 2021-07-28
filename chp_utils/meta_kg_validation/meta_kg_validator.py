@@ -1,6 +1,6 @@
-import requests
 from metakg_validation_exceptions import *
-
+import os
+import json
 import logging
 # Setup logging
 logging.addLevelName(25, "NOTE")
@@ -23,80 +23,20 @@ class MetaKGValidator:
         self._get_suppported_prefix_category_pairs()
         self.query_graph = query_graph
 
-    def _get_meta_knowledge_graph(self) -> None:
-        #response = requests.get(self.meta_knowledge_graph_location)
-        #meta_knowledge_graph = response.json()
-        self.meta_knowledge_graph = {
-"nodes": {
-    "biolink:Gene": {
-      "id_prefixes": [
-        "ENSEMBL"
-      ]
-    },
-    "biolink:Drug": {
-      "id_prefixes": [
-        "CHEMBL"
-      ]
-    },
-    "biolink:Disease": {
-      "id_prefixes": [
-        "MONDO"
-      ]
-    },
-    "biolink:PhenotypicFeature": {
-      "id_prefixes": [
-        "EFO"
-      ]
-    }
-  },
-  "edges": [
-    {
-      "subject": "biolink:Gene",
-      "object": "biolink:Disease",
-      "predicate": "biolink:gene_associated_with_condition"
-    },
-    {
-      "subject": "biolink:Disease",
-      "object": "biolink:Gene",
-      "predicate": "biolink:condition_associated_with_gene"
-    },
-    {
-      "subject": "biolink:Gene",
-      "object": "biolink:Drug",
-      "predicate": "biolink:interacts_with"
-    },
-    {
-      "subject": "biolink:Drug",
-      "object": "biolink:Disease",
-      "predicate": "biolink:treats"
-    },
-    {
-      "subject": "biolink:Disease",
-      "object": "biolink:Drug",
-      "predicate": "biolink:treated_by"
-    },
-    {
-      "subject": "biolink:Disease",
-      "object": "biolink:PhenotypicFeature",
-      "predicate": "biolink:has_phenotype"
-    },
-    {
-      "subject": "biolink:Gene",
-      "object": "biolink:Gene",
-      "predicate": "biolink:genetically_interacts_with"
-    },
-    {
-      "subject": "biolink:Disease",
-      "object": "biolink:Drug",
-      "predicate": "biolink:treated_by"
-    },
-    {
-      "subject": "biolink:PhenotypicFeature",
-      "object": "biolink:Disease",
-      "predicate": "biolink:phenotype_of"
-    }
-  ]
-}
+    def _get_meta_kg(self)->None:
+        curfilePath = os.path.abspath(__file__)
+
+        # this will return current directory in which python file resides.
+        curDir = os.path.abspath(os.path.join(curfilePath, os.pardir))
+
+        # this will return parent directory.
+        parentDir = os.path.abspath(os.path.join(curDir, os.pardir))
+        
+        #resource_package = __name__
+        resource_path = parentDir+'/'.join(('/schemas', 'meta-kg.json'))
+        #file_str = pkg_resources.resource_string(parentDir, resource_path)
+        meta_kg_file = open(resource_path, 'r')
+        self.meta_kg = json.load(meta_kg_file)
     def _get_supported_categories(self) -> None:
         self.supported_categories = set()
         for edge in self.meta_knowledge_graph['edges']:
