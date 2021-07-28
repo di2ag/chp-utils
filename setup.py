@@ -14,9 +14,9 @@ setup(
     long_description = long_description,
     long_description_content_type = 'text/markdown',
     packages =[
-        'meta_kg',
-        'meta_kg_validation',
-        'semantic_operations'
+        'chp_utils.meta_kg',
+        'chp_utils.meta_kg_validation',
+        'chp_utils.semantic_operations'
     ],
     package_data = {
         'schemas':['*.json']

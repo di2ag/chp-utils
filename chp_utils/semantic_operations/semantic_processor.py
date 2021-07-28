@@ -3,7 +3,7 @@ import json
 from trapi_model.query_graph import QueryGraph
 from trapi_model.biolink.constants import get_biolink_entity
 from semantic_operations.semantic_processor_exceptions import *
-import yaml
+
 
 class SemanticProcessor():
     
