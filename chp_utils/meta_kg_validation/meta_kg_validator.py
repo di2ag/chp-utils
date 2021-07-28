@@ -1,4 +1,4 @@
-from metakg_validation_exceptions import *
+from chp_utils.meta_kg_validation.metakg_validation_exceptions import *
 import os
 import json
 import logging
