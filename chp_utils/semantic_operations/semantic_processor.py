@@ -20,7 +20,7 @@ class SemanticProcessor():
             return response.json()
         
     def _get_meta_kg(self)->None:
-        meta_kg_file = open('schemas/meta-kg.json', 'r')
+        meta_kg_file = open('./schemas/meta-kg.json', 'r')
         self.meta_kg = json.load(meta_kg_file)
     
     def _get_wildcard_definitions(self)->None:        
