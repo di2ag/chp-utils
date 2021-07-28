@@ -21,7 +21,7 @@ class MetaKGValidator:
         self._get_suppported_prefix_category_pairs()
         self.query_graph = query_graph
 
-    def _get_meta_kg(self)->None:
+    def _get_meta_knowledge_graph(self)->None:
         curfilePath = os.path.abspath(__file__)
 
         # this will return current directory in which python file resides.
