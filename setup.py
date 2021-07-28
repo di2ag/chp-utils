@@ -19,7 +19,7 @@ setup(
         'chp_utils.semantic_operations'
     ],
     package_data = {
-        'schemas':['*.json']
+        'chp_utils.schemas':['*.json']
     },
     include_package_data = True,
     install_requires=[],
