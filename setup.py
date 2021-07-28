@@ -16,7 +16,8 @@ setup(
     packages =[
         'chp_utils.meta_kg',
         'chp_utils.meta_kg_validation',
-        'chp_utils.semantic_operations'
+        'chp_utils.semantic_operations',
+        'chp_utils.schemas'
     ],
     package_data = {
         'chp_utils.schemas':['*.json']
