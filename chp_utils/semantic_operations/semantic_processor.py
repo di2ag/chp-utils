@@ -104,6 +104,7 @@ class SemanticProcessor():
             provided_predicates = [predicate.passed_name for predicate in edge_obj.predicates]
 
             if provided_predicates == None:
+                print("foo")
                 provided_predicates == ["biolink:related_to"]
 
             subject_node = nodes[edge_obj.subject]
