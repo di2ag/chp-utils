@@ -102,7 +102,7 @@ class SemanticProcessor():
         for edge in edges:
             edge_obj = edges[edge]
             provided_predicates = [predicate.passed_name for predicate in edge_obj.predicates]
-
+            print(provided_predicates)
             if provided_predicates == None:
                 print("foo")
                 provided_predicates == ["biolink:related_to"]
