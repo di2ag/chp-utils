@@ -1,5 +1,7 @@
 from collections import defaultdict
 
+from trapi_model.biolink.constants import *
+
 class SriNodeNormalizerMixin:
     def _get_normalized_nodes(self, curies, **kwargs):
         """ Returns normalizations for all curies passed.
@@ -60,10 +62,13 @@ class SriNodeNormalizerMixin:
         return self._parse_semantic_types_response(out.json())
 
     def _parse_normalized_nodes_response(self, resp):
-        parse = defaultdict(list)
+        parse = defaultdict(dict)
         for curie, normalization_dict in resp.items():
+            parsed_normalization_dict = defaultdict(list)
             for equal_identifier in normalization_dict["equivalent_identifiers"]:
-                parse[curie].append(equal_identifier["identifier"])
+                parse_normalization_dict["equivalent_identifier"].append(equal_identifier)
+            parse_normalization_dict["types"] = [get_biolink_entity(biolink_curie) for biolink_curie in normalization_dict["types"]]
+            parse[curie] = dict(parse_normalization_dict)
         return dict(parse)
 
     def _parse_curie_prefixes_response(self, resp):
