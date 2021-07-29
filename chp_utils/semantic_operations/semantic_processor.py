@@ -49,7 +49,6 @@ class SemanticProcessor():
 
             self.wildcard_definitions[object_category].append({predicate:subject_category})
         
-    
     def _get_node_definitions(self)->None:
         metakg_node_definitions = self.meta_kg["nodes"]
         self.supported_categories = metakg_node_definitions.keys()
@@ -103,6 +102,9 @@ class SemanticProcessor():
         for edge in edges:
             edge_obj = edges[edge]
             provided_predicates = [predicate.passed_name for predicate in edge_obj.predicates]
+
+            if provided_predicates == None:
+                provided_predicates == ["biolink:related_to"]
 
             subject_node = nodes[edge_obj.subject]
             provided_subject_categories = [category.passed_name for category in subject_node.categories]
