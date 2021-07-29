@@ -5,6 +5,14 @@ from trapi_model.biolink.constants import get_biolink_entity
 from chp_utils.semantic_operations.semantic_processor_exceptions import *
 import pkg_resources
 import os
+import logging
+# Setup logging
+logging.addLevelName(25, "NOTE")
+# Add a special logging function
+def note(self, message, *args, **kwargs):
+    self._log(25, message, args, kwargs)
+logging.Logger.note = note
+logger = logging.getLogger(__name__)
 
 class SemanticProcessor():
     
@@ -102,7 +110,7 @@ class SemanticProcessor():
         for edge in edges:
             edge_obj = edges[edge]
             provided_predicates = [predicate.passed_name for predicate in edge_obj.predicates]
-            print(provided_predicates)
+            logger.note(provided_predicates)
             if provided_predicates == None:
                 print("foo")
                 provided_predicates == ["biolink:related_to"]
