@@ -45,17 +45,23 @@ class SemanticProcessor():
     
     def _get_wildcard_definitions(self)->None:        
         metakg_edge_definitions = self.meta_kg["edges"]
-        self.wildcard_definitions = {}
+        self.subject_wildcard_definitions = {}
+        self.object_wildcard_definitions = {}
 
         for metakg_edge_definition in metakg_edge_definitions:
             subject_category = metakg_edge_definition["subject"]
             predicate = metakg_edge_definition["predicate"]
             object_category = metakg_edge_definition["object"]
             
-            if self.wildcard_definitions.get(object_category) == None:
-                self.wildcard_definitions.update({object_category : list()})
+            if self.subject_wildcard_definitions.get(object_category) == None:
+                self.subject_wildcard_definitions.update({object_category : list()})
 
-            self.wildcard_definitions[object_category].append({predicate:subject_category})
+            self.subject_wildcard_definitions[object_category].append({predicate:subject_category})
+
+            if self.object_wildcard_definitions.get(subject_category) == None:
+                self.object_wildcard_definitions.update({subject_category:list()})
+
+            self.object_wildcard_definitions[subject_category].append({predicate:object_category})
         
     def _get_node_definitions(self)->None:
         metakg_node_definitions = self.meta_kg["nodes"]
@@ -146,14 +152,14 @@ class SemanticProcessor():
 
         object_node = [edges[wildcard_edge].object][0]
 
-        wildcard_object_categories = [category.passed_name for category in nodes[object_node].categories]
+        object_categories = [category.passed_name for category in nodes[object_node].categories]
         provided_predicates = [predicate.passed_name for predicate in edges[wildcard_edge].predicates]
         provided_subject_categories = [category.passed_name for category in nodes[wildcard_node].categories]
     
-        for wildcard_object_category in wildcard_object_categories:
-            possible_subject_predicate_tuples = self.wildcard_definitions.get(wildcard_object_category)
+        for object_category in object_categories:
+            possible_subject_predicate_tuples = self.subject_wildcard_definitions.get(object_category)
             for i, possible_subject_predicate_tuple in enumerate(possible_subject_predicate_tuples, 1):
-                
+                print(possible_subject_predicate_tuple)
                 possible_predicate = list(possible_subject_predicate_tuple.keys())[0]
                 possible_subject = possible_subject_predicate_tuple[possible_predicate]
                 
@@ -187,18 +193,22 @@ class SemanticProcessor():
     def _process_object_wildcard(self, query_graph, wildcard_node, wildcard_edge):
         matches_found = 0
         tuple_match = ()
-        
+        print('fuck')
         nodes = query_graph.nodes
         edges = query_graph.edges
 
         subject_node = [edges[wildcard_edge].subject][0]
 
-        provided_object_categories = [category.passed_name for category in nodes[subject_node].categories]
+        provided_object_categories = [category.passed_name for category in nodes[wildcard_node].categories]
+        print(provided_object_categories)
         provided_predicates = [predicate.passed_name for predicate in edges[wildcard_edge].predicates]
-        wildcard_object_categories = [category.passed_name for category in nodes[wildcard_node].categories]
+        subject_categories = [category.passed_name for category in nodes[subject_node].categories]
     
-        for wildcard_subject_category in wildcard_object_categories:
-            possible_object_predicate_tuples = self.wildcard_definitions.get(wildcard_subject_category)
+        for subject_category in subject_categories:
+            possible_object_predicate_tuples = self.object_wildcard_definitions.get(subject_category)
+            
+            print(subject_category, possible_object_predicate_tuples)
+            
             for i, possible_object_predicate_tuple in enumerate(possible_object_predicate_tuples, 1):
                 
                 possible_predicate = list(possible_object_predicate_tuple.keys())[0]
