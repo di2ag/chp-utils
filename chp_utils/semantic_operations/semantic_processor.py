@@ -204,15 +204,17 @@ class SemanticProcessor():
             possible_object_predicate_tuples = self.object_wildcard_definitions.get(subject_category)
                         
             for i, possible_object_predicate_tuple in enumerate(possible_object_predicate_tuples, 1):
-                
+                #print(possible_object_predicate_tuples)
                 possible_predicate = list(possible_object_predicate_tuple.keys())[0]
+                print(possible_predicate)
                 possible_object = possible_object_predicate_tuple[possible_predicate]
+                print(possible_object)
                 
                 for provided_object_category in provided_object_categories:
                     for provided_predicate in provided_predicates:
                         wildcard_object_descendents = self._biolink_category_descendent_lookup(provided_object_category)
                         wildcard_object_descendents.append(provided_object_category)
-
+                        #print(provided_object_category, subject_category)
                         provided_predicate_descendents = self._biolink_category_descendent_lookup(provided_predicate)
                         provided_predicate_descendents.append(provided_predicate)
 
