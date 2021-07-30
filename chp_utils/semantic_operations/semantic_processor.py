@@ -115,7 +115,6 @@ class SemanticProcessor():
         for edge in edges:
             edge_obj = edges[edge]
             
-            print(edge_obj.predicates)
             if edge_obj.predicates is not None:
                 
                 provided_predicates = [predicate.passed_name for predicate in edge_obj.predicates]
@@ -159,7 +158,6 @@ class SemanticProcessor():
         for object_category in object_categories:
             possible_subject_predicate_tuples = self.subject_wildcard_definitions.get(object_category)
             for i, possible_subject_predicate_tuple in enumerate(possible_subject_predicate_tuples, 1):
-                print(possible_subject_predicate_tuple)
                 possible_predicate = list(possible_subject_predicate_tuple.keys())[0]
                 possible_subject = possible_subject_predicate_tuple[possible_predicate]
                 
@@ -193,22 +191,18 @@ class SemanticProcessor():
     def _process_object_wildcard(self, query_graph, wildcard_node, wildcard_edge):
         matches_found = 0
         tuple_match = ()
-        print('fuck')
         nodes = query_graph.nodes
         edges = query_graph.edges
 
         subject_node = [edges[wildcard_edge].subject][0]
 
         provided_object_categories = [category.passed_name for category in nodes[wildcard_node].categories]
-        print(provided_object_categories)
         provided_predicates = [predicate.passed_name for predicate in edges[wildcard_edge].predicates]
         subject_categories = [category.passed_name for category in nodes[subject_node].categories]
     
         for subject_category in subject_categories:
             possible_object_predicate_tuples = self.object_wildcard_definitions.get(subject_category)
-            
-            print(subject_category, possible_object_predicate_tuples)
-            
+                        
             for i, possible_object_predicate_tuple in enumerate(possible_object_predicate_tuples, 1):
                 
                 possible_predicate = list(possible_object_predicate_tuple.keys())[0]
@@ -217,8 +211,10 @@ class SemanticProcessor():
                 for provided_object_category in provided_object_categories:
                     for provided_predicate in provided_predicates:
                         wildcard_object_descendents = self._biolink_category_descendent_lookup(provided_object_category)
+                        wildcard_object_descendents.append(provided_object_category)
 
                         provided_predicate_descendents = self._biolink_category_descendent_lookup(provided_predicate)
+                        provided_predicate_descendents.append(provided_predicate)
 
                         wildcard_object_descendents = set(wildcard_object_descendents)
                         
