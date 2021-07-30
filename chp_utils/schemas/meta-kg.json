@@ -7,7 +7,7 @@
     },
     "biolink:Drug": {
       "id_prefixes": [
-        "CHEMBL"
+        "CHEMBL.COMPOUND"
       ]
     },
     "biolink:Disease": {
@@ -22,6 +22,11 @@
     }
   },
   "edges": [
+    {
+      "subject":"biolink:Drug",
+      "object":"biolink:Gene",
+      "predicate":"biolink:interacts_with"
+    },
     {
       "subject": "biolink:Gene",
       "object": "biolink:Disease",

@@ -101,6 +101,8 @@ class SemanticProcessor():
                         category_descendant_found = False
                         for provided_category in provided_categories:
                             descendants = self._biolink_category_descendent_lookup(provided_category)
+                            descendants.append(provided_category)
+                            print(expected_category)
                             if expected_category in descendants:
                                 category_descendant_found = True
                                 node_obj.set_categories(expected_category)
