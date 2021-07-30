@@ -106,14 +106,16 @@ class SemanticProcessor():
     def _process_edges(self, query_graph:QueryGraph):
         edges = query_graph.edges
         nodes = query_graph.nodes
-
         for edge in edges:
             edge_obj = edges[edge]
-            provided_predicates = [predicate.passed_name for predicate in edge_obj.predicates]
-            logger.note(provided_predicates)
-            if provided_predicates == None:
-                print("foo")
-                provided_predicates == ["biolink:related_to"]
+            
+            print(edge_obj.predicates)
+            if edge_obj.predicates is not None:
+                
+                provided_predicates = [predicate.passed_name for predicate in edge_obj.predicates]
+            else:
+                edge_obj.set_predicates(["biolink:related_to"])
+                edges[edge] = edge_obj
 
             subject_node = nodes[edge_obj.subject]
             provided_subject_categories = [category.passed_name for category in subject_node.categories]
