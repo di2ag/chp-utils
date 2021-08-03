@@ -1,4 +1,4 @@
-"""Setup file for chp-utils"""
+"""Setup file for  chp-utils"""
 from setuptools import setup
 
 with open('README.md', 'r') as stream:
