@@ -14,14 +14,12 @@ class SriNodeNormalizerMixin:
         """
         _url = self.url + 'get_normalized_nodes'
         #Build json params
-        params = {"curies": curies}
+        params = {"curie": curies}
 
         verbose = kwargs.pop('verbose', True)
         
-        if len(curies) == 1:
-            from_cache, out = self._get(_url, params=params, verbose=verbose)
-        else:
-            from_cache, out = self._post(_url, params=params, verbose=verbose)
+        from_cache, out = self._get(_url, params=params, verbose=verbose)
+
         if verbose and from_cache:
             print('Result from cache.')
         return self._parse_normalized_nodes_response(out.json())
@@ -66,9 +64,9 @@ class SriNodeNormalizerMixin:
         for curie, normalization_dict in resp.items():
             parsed_normalization_dict = defaultdict(list)
             for equal_identifier in normalization_dict["equivalent_identifiers"]:
-                parse_normalization_dict["equivalent_identifier"].append(equal_identifier)
-            parse_normalization_dict["types"] = [get_biolink_entity(biolink_curie) for biolink_curie in normalization_dict["types"]]
-            parse[curie] = dict(parse_normalization_dict)
+                parsed_normalization_dict["equivalent_identifier"].append(equal_identifier)
+            parsed_normalization_dict["types"] = [get_biolink_entity(biolink_curie) for biolink_curie in normalization_dict["type"]]
+            parse[curie] = dict(parsed_normalization_dict)
         return dict(parse)
 
     def _parse_curie_prefixes_response(self, resp):
