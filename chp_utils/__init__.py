@@ -5,8 +5,8 @@ from copy import copy
 import types
 
 from .client import BaseClient
-from .mixins.sri_node_normalizer import SriNodeNormalizerMixin
-from .mixins.sri_ontology_kp import SriOntologyKpMixin
+from .mixins.client.sri_node_normalizer import SriNodeNormalizerMixin
+from .mixins.client.sri_ontology_kp import SriOntologyKpMixin
 
 # Aliases
 COMMON_ALIASES = {}
@@ -23,7 +23,7 @@ SRI_NODE_NORMALIZER_API_ALIASES.update({
 SRI_ONTOLOGY_KP_API_ALIASES = copy(COMMON_ALIASES)
 SRI_ONTOLOGY_KP_API_ALIASES.update({
     "_query": 'query',
-    "_get_ontology_descendents": 'get_ontology_descendents',
+    "_get_ontology_descendants": 'get_ontology_descendants',
 })
 
 # Kwargs
