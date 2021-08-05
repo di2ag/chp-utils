@@ -1,0 +1,356 @@
+import logging
+import itertools
+from copy import deepcopy
+from collections import defaultdict
+
+from trapi_model.query import Query
+from trapi_model.biolink.constants import *
+from trapi_model.logger import Logger
+
+from chp_utils import SriNodeNormalizerApiClient, SriOntologyKpApiClient
+from chp_utils.exceptions import SriOntologyKpException
+
+class BaseQueryProcessor:
+    """ Query Processor class used to abstract the processing infrastructure from
+        the views:
+
+        :param request: Incoming POST request with a TRAPI message.
+        :type request: request
+    """
+    def __init__(self, query):
+        self.query_copy = query.get_copy()
+    
+
+    def fill_biolink_categories(self, query):
+        return query
+
+    def _extract_all_curies(self, queries):
+        curies = []
+        for query in queries:
+            query_graph = query.message.query_graph
+            for node_id, node in query_graph.nodes.items():
+                if node.ids is not None:
+                    curies.extend(node.ids)
+        return curies
+
+    def _get_most_general_preference(self, possible_preferences):
+        unsorted_entities = []
+        for curie, category in possible_preferences:
+            unsorted_entities.append((len(category.get_ancestors()), curie, category))
+        return sorted(unsorted_entities)[0]
+
+    def _get_most_specific_biolink_entity(self, entities):
+        unsorted_entities = []
+        for entity in entities:
+            unsorted_entities.append((len(entity.get_ancestors()), entity.get_curie()))
+        most_specific_entity_str = sorted(unsorted_entities, reverse=True)[0][1]
+        return get_biolink_entity(most_specific_entity_str)
+
+    def _get_preferred(self, query, curie, categories, normalization_dict, meta_knowledge_graph):
+        # Ensure query graph categories and normalization type (categories) are consistent
+        #print(meta_knowledge_graph.json())
+        curie_types = normalization_dict[curie]["types"]
+        #print([t.get_curie() for t in curie_types])
+        #input('types')
+        curie_prefix = curie.split(':')[0]
+        possible_preferences = []
+        for curie_type in curie_types:
+            if curie_type in meta_knowledge_graph.nodes:
+                # Take first entry in id_prefixes of the meta KG
+                preferred_prefix = meta_knowledge_graph.nodes[curie_type].id_prefixes[0]
+                #print(preferred_prefix)
+                #input('Got Here.')
+                if curie_prefix != preferred_prefix:
+                    for equivalent_id_obj in normalization_dict[curie]["equivalent_identifier"]:
+                        equivalent_id = equivalent_id_obj["identifier"]
+                        equiv_prefix = equivalent_id.split(':')[0]
+                        if equiv_prefix == preferred_prefix:
+                            possible_preferences.append(
+                                    (equivalent_id, curie_type)
+                                    )
+                            break
+                else:
+                    possible_preferences.append(
+                            (curie, curie_type)
+                            )
+        #print(possible_preferences)
+        #input()
+        # Go through each possible preference and return the preferred curie that with the most general category
+        if len(possible_preferences) == 0:
+            query.warning('Could not normalize curie: {}, probably will cause failure.'.format(curie))
+            return curie, categories
+        if len(possible_preferences) > 1:
+            preferred_curie, preferred_category = self._get_most_general_preference(possible_preferences)
+        else:
+            preferred_curie, preferred_category = possible_preferences[0]
+        return preferred_curie, preferred_category
+
+    def _normalize_query_graphs(self, queries, normalization_dict, meta_knowledge_graph):
+        normalization_map = {}
+        for query in queries:
+            query_graph = query.message.query_graph
+            for node_id, node in query_graph.nodes.items():
+                if node.ids is None:
+                    continue
+                # Get preferred curie and category based on meta kg
+                preferred_curie, preferred_category = self._get_preferred(
+                        query,
+                        node.ids[0],
+                        node.categories[0],
+                        normalization_dict, 
+                        meta_knowledge_graph,
+                        )
+                # Check if curie was actually converted
+                if node.ids[0] != preferred_curie:
+                    query.info('Normalized curie: {} to {}'.format(node.ids[0], preferred_curie))
+                    normalization_map[preferred_curie] = node.ids[0]
+                    node.ids = [preferred_curie]
+                # Check categories alignment
+                if node.categories is None:
+                    node.categories = [preferred_category]
+                    query.info(
+                            'Filling in empty category for node {}, with {}'.format(
+                                node_id,
+                                preferred_category,
+                                )
+                            )
+                elif node.categories[0] != preferred_category:
+                    query.warning(
+                        'Passed category for {}: {}, did not match our preferred category {} for this curie. Going with our preferred category.'.format(
+                                node_id,
+                                node.categories[0].get_curie(),
+                                preferred_category.get_curie(),
+                                )
+                            )
+                    node.categories = [preferred_category]
+
+        return queries, normalization_map
+
+    def normalize_to_preferred(self, queries, meta_knowledge_graph=None, with_normalization_map=False):
+        # Instantiate client
+        node_normalizer_client = SriNodeNormalizerApiClient()
+        
+        # Get all curies to normalize
+        curies_to_normalize = self._extract_all_curies(queries)
+
+        # Get normalized nodes
+        normalization_dict = node_normalizer_client.get_normalized_nodes(curies_to_normalize)
+        #print(normalization_dict)
+        #input()
+        # Normalize query graph
+        queries, normalization_map = self._normalize_query_graphs(queries, normalization_dict, meta_knowledge_graph)
+        if with_normalization_map:
+            return queries, normalization_map
+        return queries
+
+    def conflate_categories(self, queries, conflation_map=None):
+        for query in queries:
+            query = conflation_map.conflate(query)
+        return queries
+
+
+    def expand_batch_query(self, query):
+        # Expand if batch query
+        if query.is_batch_query():
+            return query.expand_batch_query()
+        # Otherwise wrap query in list
+        return [query]
+    
+    def _extract_all_curies_for_ontology_kp(self, queries):
+        curies = defaultdict(list)
+        for query in queries:
+            query_graph = query.message.query_graph
+            for node_id, node in query_graph.nodes.items():
+                if node.ids is not None:
+                    curies[node.categories[0]].extend(node.ids)
+        return dict(curies)
+
+    def _expand_query_with_supported_ontological_descendants(self, query, descendants_map, curies):
+        onto_expanded_queries = []
+        for biolink_entity, curie_descendants_dict in descendants_map.items():
+            for curie, descendants in curie_descendants_dict.items():
+                supported_descendants = list(
+                        set.intersection(
+                            *[
+                                set(curies.curies[biolink_entity].keys()),
+                                set(descendants),
+                                ]
+                            )
+                        )
+                # Using sorted to keep tests consistent
+                for supported_descendant in sorted(supported_descendants):
+                    new_query = query.get_copy()
+                    onto_expanded_message = new_query.message.find_and_replace(curie, supported_descendant)
+                    if onto_expanded_message.to_dict() != new_query.message.to_dict():
+                        new_query.info('Ontologically expanded {} to {}'.format(curie, supported_descendant))
+                        new_query.message = onto_expanded_message
+                        onto_expanded_queries.append(new_query)
+        if len(onto_expanded_queries) == 0:
+            return [query]
+        return onto_expanded_queries
+
+    def expand_supported_ontological_descendants(self, queries, curies_database=None):
+        # Intialize queries logger
+        queries_logger = Logger()
+        # Initialize client
+        ontology_kp_client = SriOntologyKpApiClient()
+
+        # Get all curies to expand via the Ontology KP
+        curies_to_onto_expand = self._extract_all_curies_for_ontology_kp(queries)
+
+        descendants_map = {}
+        for biolink_entity, curies in curies_to_onto_expand.items():
+            try:
+                descendants = ontology_kp_client.get_ontology_descendants(curies, biolink_entity)
+            except SriOntologyKpException as ex:
+                queries_logger.error(str(ex))
+                continue
+            if len(descendants) > 0:
+                descendants_map[biolink_entity] = descendants
+        #print(descendants_map)
+        #input()
+
+        # Expand each query ontologically with all supported descendants
+        onto_expanded_queries = []
+        for query in queries:
+            onto_expanded_queries.extend(
+                    self._expand_query_with_supported_ontological_descendants(
+                        query,
+                        descendants_map,
+                        curies_database,
+                        )
+                    )
+        # Merge in queries logger to each individual query log
+        for query in onto_expanded_queries:
+            query.logger.add_logs(queries_logger.to_dict())
+        return onto_expanded_queries
+
+    def _expand_categories_with_semantic_operations(self, query, meta_knowledge_graph):
+        query_graph = query.message.query_graph
+        queries = []
+        node_expansion_map = {}
+        for node_id, node in query_graph.nodes.items():
+            if node.categories is None or node.categories[0] in meta_knowledge_graph.nodes:
+                continue
+            # Else run semantic operations to get descedants
+            descendants = node.categories[0].get_descendants()
+            supported_descendants = list(
+                    set.intersection(
+                        *[
+                            set(descendants),
+                            set(meta_knowledge_graph.nodes),
+                            ]
+                        )
+                    )
+            if len(supported_descendants) == 0:
+                query.warning('Biolink category {} is not inherently supported and could not find any supported descendants,'.format(node.categories[0].get_curie()))
+                continue
+            node_expansion_map[node_id] = sorted(supported_descendants)
+        # Now expand query using supported descendants
+        node_id_map = sorted([node_id for node_id in node_expansion_map])
+        supported_descendants_map = [node_expansion_map[node_id] for node_id in node_id_map]
+        for category_prod in itertools.product(*supported_descendants_map):
+            new_query = query.get_copy()
+            for node_id, category in zip(node_id_map, category_prod):
+                new_query.message.query_graph.nodes[node_id].categories = [category]
+                new_query.info('Converted category {} to {} using Biolink semantic operations.'.format(query_graph.nodes[node_id].categories[0].get_curie(), category.get_curie()))
+            queries.append(new_query)
+        # Check if any category expansions occurred
+        if len(queries) == 0:
+            return [query]
+        return queries
+
+    def _expand_predicates_with_semantic_operations(self, query, supported_edge_predicates):
+        query_graph = query.message.query_graph
+        queries = []
+        edge_expansion_map = {}
+        for edge_id, edge in query_graph.edges.items():
+            # If predicate is null that substitute with biolink related to.
+            if edge.predicates is None:
+                edge.predicates = [BIOLINK_RELATED_TO_ENTITY]
+            elif edge.predicates[0] in supported_edge_predicates:
+                continue
+            # Else run semantic operations to get descedants
+            descendants = edge.predicates[0].get_descendants()
+            supported_descendants = list(
+                    set.intersection(
+                        *[
+                            set(descendants),
+                            set(supported_edge_predicates),
+                            ]
+                        )
+                    )
+            if len(supported_descendants) == 0:
+                query.warning('Biolink predicate {} is not inherently supported and could not find any supported descendants,'.format(edge.predicates[0].get_curie()))
+                continue
+            edge_expansion_map[edge_id] = sorted(supported_descendants)
+        # Now expand query using supported descendants
+        edge_id_map = sorted([edge_id for edge_id in edge_expansion_map])
+        supported_descendants_map = [edge_expansion_map[edge_id] for edge_id in edge_id_map]
+        for predicate_prod in itertools.product(*supported_descendants_map):
+            new_query = query.get_copy()
+            for edge_id, predicate in zip(edge_id_map, predicate_prod):
+                new_query.message.query_graph.edges[edge_id].predicates = [predicate]
+                new_query.info('Converted predicate {} to {} using Biolink semantic operations.'.format(query_graph.edges[edge_id].predicates[0].get_curie(), predicate.get_curie()))
+            queries.append(new_query)
+        # Check if any predicate expansions occurred
+        if len(queries) == 0:
+            return [query]
+        return queries
+ 
+    def expand_with_semantic_ops(self, queries, meta_knowledge_graph=None):
+        supported_edge_predicates = [meta_edge.predicate for meta_edge in meta_knowledge_graph.edges]
+        expanded_categories = []
+        # Expand categories
+        for query in queries:
+            expanded_categories.extend(
+                    self._expand_categories_with_semantic_operations(query, meta_knowledge_graph)
+                    )
+        # Expand predicates on already expanded category queries.
+        expanded_predicates = []
+        for query in expanded_categories:
+            # Expand predicates
+            expanded_predicates.extend(
+                    self._expand_predicates_with_semantic_operations(query, supported_edge_predicates)
+                    )
+        return expanded_predicates
+
+    def filter_queries_inconsistent_with_meta_knowledge_graph(self, queries, meta_knowledge_graph=None, with_inconsistent_queries=False):
+        consistent_queries = []
+        inconsistent_queries = []
+        meta_knowledge_graph_predicate_map = {edge.predicate: edge for edge in meta_knowledge_graph.edges}
+        for query in queries:
+            # Check each edge that it's subject and object are consistent with the meta KG.
+            query_graph = query.message.query_graph
+            is_consistent_query = True
+            for edge_id, edge in query_graph.edges.items():
+                if edge.predicates is None:
+                    edge.predicates = [BIOLINK_RELATED_TO_ENTITY]
+                subject_node = query_graph.nodes[edge.subject]
+                object_node = query_graph.nodes[edge.object]
+                predicate = edge.predicates[0]
+                try:
+                    meta_subject_category_for_predicate = meta_knowledge_graph_predicate_map[predicate].subject
+                    meta_object_category_for_predicate = meta_knowledge_graph_predicate_map[predicate].object
+                except KeyError:
+                    query.error(f'Predicate: {predicate.get_curie()} not supported in our meta knowledge graph.')
+                    is_consistent_query = False
+                    break
+                if subject_node.categories[0] != meta_subject_category_for_predicate:
+                    inconsistent_queries.append(query)
+                    query.error('Edge predicate subject mismatch with meta knowledge graph.')
+                    is_consistent_query = False
+                    break
+                if object_node.categories[0] != meta_object_category_for_predicate:
+                    inconsistent_queries.append(query)
+                    query.error('Edge predicate object mismatch with meta knowledge graph.')
+                    is_consistent_query = False
+                    break
+            if is_consistent_query:
+                consistent_queries.append(query)
+        if with_inconsistent_queries:
+            return consistent_queries, inconsistent_queries
+        return consistent_queries
+
+
+

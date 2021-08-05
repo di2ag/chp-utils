@@ -2,10 +2,9 @@
 Python client for generic API services.
 """
 
-from collections import defaultdict
 import logging
-
 import requests
+from collections import defaultdict
 
 try:
     import requests_cache
@@ -13,6 +12,7 @@ try:
 except ImportError:
     caching_avail = False
 
+from chp_utils.exceptions import GeneralApiErrorException
 
 __version__ = '0.0.1'
 
@@ -32,11 +32,15 @@ class BaseClient:
     def _get(self, url, params=None, verbose=True):
         params = params or {}
         res = requests.get(url, params=params)
+        if res.status_code != 200:
+            raise GeneralApiErrorException(res)
         from_cache = getattr(res, 'from_cache', False)
         return from_cache, res
 
     def _post(self, url, params, verbose=True):
         res = requests.post(url, json=params)
+        if res.status_code != 200:
+            raise GeneralApiErrorException(res)
         from_cache = getattr(res, 'from_cache', False)
         return from_cache, res
 
