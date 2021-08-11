@@ -22,3 +22,17 @@ class CurieDatabase:
         for biolink_entity, curies_list in curies.items():
             _curies[get_biolink_entity(biolink_entity)] = curies_list
         return _curies
+
+    def to_dict(self):
+        curies_dict = {}
+        for biolink_entity, curies_list in self.curies.items():
+            curies_dict[biolink_entity.get_curie()] = curies_list
+        return curies_dict
+
+
+    def json(self, filename=None):
+        if filename is None:
+            return json.dumps(self.to_dict(), indent=2)
+        with open(filename, 'w') as f_:
+            json.dump(self.to_dict(), f_, indent=2)
+

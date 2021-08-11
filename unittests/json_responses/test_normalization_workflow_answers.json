@@ -64,7 +64,8 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "pk": "1b4dab26-7db5-47cd-a191-eceedd62f5b9"
+      "id": "c67057ee-6309-4ad7-a2a9-4a30edd5b90c",
+      "status": null
     }
   ],
   [
@@ -133,25 +134,26 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.971988",
+          "timestamp": "2021-08-11T05:30:45.824735",
           "level": "INFO",
           "message": "Normalized curie: MEDDRA:10006192 to MONDO:0007254",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:14.523634",
+          "timestamp": "2021-08-11T05:30:53.628544",
           "level": "INFO",
           "message": "Converted category biolink:NamedThing to biolink:Drug using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:14.612697",
+          "timestamp": "2021-08-11T05:30:53.752487",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treats using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "351f9c77-ffb4-40b5-a96c-6f1786f6faad"
+      "id": "3c2eb7ba-518c-444b-a1bd-dccb8bd5f47e",
+      "status": null
     },
     {
       "message": {
@@ -218,25 +220,26 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.971988",
+          "timestamp": "2021-08-11T05:30:45.824735",
           "level": "INFO",
           "message": "Normalized curie: MEDDRA:10006192 to MONDO:0007254",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:14.528315",
+          "timestamp": "2021-08-11T05:30:53.635043",
           "level": "INFO",
           "message": "Converted category biolink:NamedThing to biolink:Gene using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:14.623196",
+          "timestamp": "2021-08-11T05:30:53.764415",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:gene_associated_with_condition using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "df4e1a0c-221e-41d2-96e3-96c076c1f3df"
+      "id": "97648336-b292-48b0-8aaf-55ce2fd07843",
+      "status": null
     },
     {
       "message": {
@@ -303,25 +306,26 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.971988",
+          "timestamp": "2021-08-11T05:30:45.824735",
           "level": "INFO",
           "message": "Normalized curie: MEDDRA:10006192 to MONDO:0007254",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:14.533028",
+          "timestamp": "2021-08-11T05:30:53.640208",
           "level": "INFO",
           "message": "Converted category biolink:NamedThing to biolink:PhenotypicFeature using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:14.682597",
+          "timestamp": "2021-08-11T05:30:53.825952",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:phenotype_of using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "d8bb9473-5758-41a0-87fc-61ffe635cebb"
+      "id": "ac4915df-022a-4fcd-90b2-a541a58ca89f",
+      "status": null
     }
   ],
   [
@@ -390,19 +394,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:07.123610",
+          "timestamp": "2021-08-11T05:30:45.958345",
           "level": "INFO",
           "message": "Normalized curie: MEDDRA:10006192 to MONDO:0007254",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.903030",
+          "timestamp": "2021-08-11T05:30:46.688851",
           "level": "WARNING",
           "message": "Conflated biolink:ChemicalSubstance with biolink:Drug",
           "code": null
         }
       ],
-      "pk": "4eb0b257-3e5f-4a9e-aeb4-b4662e087636"
+      "id": "b3723f5d-4804-42c8-a27d-d85e8e3e9c0a",
+      "status": null
     }
   ],
   [
@@ -473,25 +478,26 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:07.269628",
+          "timestamp": "2021-08-11T05:30:46.092575",
           "level": "INFO",
           "message": "Normalized curie: MEDDRA:10006192 to MONDO:0007254",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.269692",
+          "timestamp": "2021-08-11T05:30:46.092590",
           "level": "WARNING",
           "message": "Passed category for n1: biolink:BiologicalEntity, did not match our preferred category biolink:Disease for this curie. Going with our preferred category.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:14.737712",
+          "timestamp": "2021-08-11T05:30:53.883223",
           "level": "INFO",
           "message": "Converted predicate biolink:genetic_association to biolink:gene_associated_with_condition using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "f7fe3d52-5aaa-4423-b107-43c926aa6276"
+      "id": "59306954-74d5-48d6-b2d9-061f94269d3d",
+      "status": null
     }
   ],
   [
@@ -562,31 +568,32 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:07.408376",
+          "timestamp": "2021-08-11T05:30:46.228916",
           "level": "WARNING",
           "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.932398",
+          "timestamp": "2021-08-11T05:30:46.719597",
           "level": "WARNING",
           "message": "Conflated biolink:ChemicalSubstance with biolink:Drug",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:12.755456",
+          "timestamp": "2021-08-11T05:30:51.671219",
           "level": "INFO",
           "message": "Ontologically expanded MONDO:0004992 to MONDO:0001657",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:14.797177",
+          "timestamp": "2021-08-11T05:30:53.946467",
           "level": "INFO",
           "message": "Converted predicate biolink:affects to biolink:treats using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "85544a8a-3fd5-4083-8ded-bfc1e57de529"
+      "id": "88a33280-02a7-445d-8dc1-2e2ebf953758",
+      "status": null
     },
     {
       "message": {
@@ -655,31 +662,32 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:07.408376",
+          "timestamp": "2021-08-11T05:30:46.228916",
           "level": "WARNING",
           "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.932398",
+          "timestamp": "2021-08-11T05:30:46.719597",
           "level": "WARNING",
           "message": "Conflated biolink:ChemicalSubstance with biolink:Drug",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:12.766051",
+          "timestamp": "2021-08-11T05:30:51.681286",
           "level": "INFO",
           "message": "Ontologically expanded MONDO:0004992 to MONDO:0005061",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:14.802216",
+          "timestamp": "2021-08-11T05:30:53.951700",
           "level": "INFO",
           "message": "Converted predicate biolink:affects to biolink:treats using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "d4b77cb2-c89f-4fbd-bac1-d2eefed7e7af"
+      "id": "48759847-2378-48e0-8e0b-1fb0358a9be6",
+      "status": null
     },
     {
       "message": {
@@ -748,31 +756,32 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:07.408376",
+          "timestamp": "2021-08-11T05:30:46.228916",
           "level": "WARNING",
           "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.932398",
+          "timestamp": "2021-08-11T05:30:46.719597",
           "level": "WARNING",
           "message": "Conflated biolink:ChemicalSubstance with biolink:Drug",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:12.776222",
+          "timestamp": "2021-08-11T05:30:51.691581",
           "level": "INFO",
           "message": "Ontologically expanded MONDO:0004992 to MONDO:0007254",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:14.807723",
+          "timestamp": "2021-08-11T05:30:53.958028",
           "level": "INFO",
           "message": "Converted predicate biolink:affects to biolink:treats using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "1d8cc43c-7c5b-4284-ae85-a66816e6b04b"
+      "id": "5e4a5fb8-db46-4cb2-b7ab-e20cbf3f8560",
+      "status": null
     },
     {
       "message": {
@@ -841,37 +850,38 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:07.408541",
+          "timestamp": "2021-08-11T05:30:46.228958",
           "level": "INFO",
           "message": "Normalized curie: CHEBI:4672 to CHEMBL.COMPOUND:CHEMBL92",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.408579",
+          "timestamp": "2021-08-11T05:30:46.228967",
           "level": "WARNING",
           "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.937407",
+          "timestamp": "2021-08-11T05:30:46.725269",
           "level": "WARNING",
           "message": "Conflated biolink:ChemicalSubstance with biolink:Drug",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:12.786293",
+          "timestamp": "2021-08-11T05:30:51.701929",
           "level": "INFO",
           "message": "Ontologically expanded MONDO:0004992 to MONDO:0001657",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:14.812668",
+          "timestamp": "2021-08-11T05:30:53.966187",
           "level": "INFO",
           "message": "Converted predicate biolink:affects to biolink:treats using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "ba96a96d-e4d9-434a-94c4-bfa1358a14c6"
+      "id": "8914c597-1a0e-4b04-91ce-100978853c33",
+      "status": null
     },
     {
       "message": {
@@ -940,37 +950,38 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:07.408541",
+          "timestamp": "2021-08-11T05:30:46.228958",
           "level": "INFO",
           "message": "Normalized curie: CHEBI:4672 to CHEMBL.COMPOUND:CHEMBL92",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.408579",
+          "timestamp": "2021-08-11T05:30:46.228967",
           "level": "WARNING",
           "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.937407",
+          "timestamp": "2021-08-11T05:30:46.725269",
           "level": "WARNING",
           "message": "Conflated biolink:ChemicalSubstance with biolink:Drug",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:12.796176",
+          "timestamp": "2021-08-11T05:30:51.712176",
           "level": "INFO",
           "message": "Ontologically expanded MONDO:0004992 to MONDO:0005061",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:14.817825",
+          "timestamp": "2021-08-11T05:30:53.971713",
           "level": "INFO",
           "message": "Converted predicate biolink:affects to biolink:treats using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "f959453c-9f87-40d8-b980-91dcd5733f16"
+      "id": "edb692c3-fe44-4c91-b5c8-3b472efe61e9",
+      "status": null
     },
     {
       "message": {
@@ -1039,37 +1050,38 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:07.408541",
+          "timestamp": "2021-08-11T05:30:46.228958",
           "level": "INFO",
           "message": "Normalized curie: CHEBI:4672 to CHEMBL.COMPOUND:CHEMBL92",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.408579",
+          "timestamp": "2021-08-11T05:30:46.228967",
           "level": "WARNING",
           "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.937407",
+          "timestamp": "2021-08-11T05:30:46.725269",
           "level": "WARNING",
           "message": "Conflated biolink:ChemicalSubstance with biolink:Drug",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:12.808705",
+          "timestamp": "2021-08-11T05:30:51.722347",
           "level": "INFO",
           "message": "Ontologically expanded MONDO:0004992 to MONDO:0007254",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:14.823292",
+          "timestamp": "2021-08-11T05:30:53.977214",
           "level": "INFO",
           "message": "Converted predicate biolink:affects to biolink:treats using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "ce5af966-4bc6-43f0-ab5b-8a52cc89bd08"
+      "id": "a4cbb3ff-f20b-4691-9135-5581cd688459",
+      "status": null
     },
     {
       "message": {
@@ -1138,37 +1150,38 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:07.408714",
+          "timestamp": "2021-08-11T05:30:46.228997",
           "level": "INFO",
           "message": "Normalized curie: CHEBI:4672 to CHEMBL.COMPOUND:CHEMBL92",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.408748",
+          "timestamp": "2021-08-11T05:30:46.229005",
           "level": "WARNING",
           "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.942118",
+          "timestamp": "2021-08-11T05:30:46.731576",
           "level": "WARNING",
           "message": "Conflated biolink:ChemicalSubstance with biolink:Drug",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:12.820924",
+          "timestamp": "2021-08-11T05:30:51.732836",
           "level": "INFO",
           "message": "Ontologically expanded MONDO:0004992 to MONDO:0001657",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:14.828443",
+          "timestamp": "2021-08-11T05:30:53.985687",
           "level": "INFO",
           "message": "Converted predicate biolink:affects to biolink:treats using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "a07e066c-824f-4fee-8fe2-d4a860751f3f"
+      "id": "753f2165-666a-49b4-af52-7c93101fd641",
+      "status": null
     },
     {
       "message": {
@@ -1237,37 +1250,38 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:07.408714",
+          "timestamp": "2021-08-11T05:30:46.228997",
           "level": "INFO",
           "message": "Normalized curie: CHEBI:4672 to CHEMBL.COMPOUND:CHEMBL92",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.408748",
+          "timestamp": "2021-08-11T05:30:46.229005",
           "level": "WARNING",
           "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.942118",
+          "timestamp": "2021-08-11T05:30:46.731576",
           "level": "WARNING",
           "message": "Conflated biolink:ChemicalSubstance with biolink:Drug",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:12.831047",
+          "timestamp": "2021-08-11T05:30:51.742479",
           "level": "INFO",
           "message": "Ontologically expanded MONDO:0004992 to MONDO:0005061",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:14.833409",
+          "timestamp": "2021-08-11T05:30:53.991332",
           "level": "INFO",
           "message": "Converted predicate biolink:affects to biolink:treats using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "f8abbc31-9b22-4b1a-9772-3f0d5cbd8c43"
+      "id": "24626bf7-259f-43b9-a624-38c602b50196",
+      "status": null
     },
     {
       "message": {
@@ -1336,40 +1350,230 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:07.408714",
+          "timestamp": "2021-08-11T05:30:46.228997",
           "level": "INFO",
           "message": "Normalized curie: CHEBI:4672 to CHEMBL.COMPOUND:CHEMBL92",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.408748",
+          "timestamp": "2021-08-11T05:30:46.229005",
           "level": "WARNING",
           "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.942118",
+          "timestamp": "2021-08-11T05:30:46.731576",
           "level": "WARNING",
           "message": "Conflated biolink:ChemicalSubstance with biolink:Drug",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:12.841195",
+          "timestamp": "2021-08-11T05:30:51.753080",
           "level": "INFO",
           "message": "Ontologically expanded MONDO:0004992 to MONDO:0007254",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:14.838786",
+          "timestamp": "2021-08-11T05:30:53.996714",
           "level": "INFO",
           "message": "Converted predicate biolink:affects to biolink:treats using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "d6dfb7f6-ecda-4cab-884d-b3adb2b8a793"
+      "id": "b5d48042-00ef-4f52-9e61-d278ab99bdaa",
+      "status": null
     }
   ],
-  [],
+  [
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "ENSEMBL:ENSG00000171564"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL1201568"
+              ],
+              "categories": [
+                "biolink:Drug"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:interacts_with"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 1000,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2021-08-11T05:30:46.361994",
+          "level": "INFO",
+          "message": "Normalized curie: OMIM:134830 to ENSEMBL:ENSG00000171564",
+          "code": null
+        },
+        {
+          "timestamp": "2021-08-11T05:30:46.362026",
+          "level": "WARNING",
+          "message": "Passed category for n1: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "code": null
+        },
+        {
+          "timestamp": "2021-08-11T05:30:46.752677",
+          "level": "WARNING",
+          "message": "Conflated biolink:ChemicalSubstance with biolink:Drug",
+          "code": null
+        },
+        {
+          "timestamp": "2021-08-11T05:30:54.045392",
+          "level": "INFO",
+          "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
+          "code": null
+        }
+      ],
+      "id": "0eb84992-a74b-4838-80e7-c9e282ccab0d",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "ENSEMBL:ENSG00000171564"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL1351"
+              ],
+              "categories": [
+                "biolink:Drug"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:interacts_with"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 1000,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2021-08-11T05:30:46.362045",
+          "level": "INFO",
+          "message": "Normalized curie: OMIM:134830 to ENSEMBL:ENSG00000171564",
+          "code": null
+        },
+        {
+          "timestamp": "2021-08-11T05:30:46.362067",
+          "level": "WARNING",
+          "message": "Passed category for n1: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "code": null
+        },
+        {
+          "timestamp": "2021-08-11T05:30:46.759062",
+          "level": "WARNING",
+          "message": "Conflated biolink:ChemicalSubstance with biolink:Drug",
+          "code": null
+        },
+        {
+          "timestamp": "2021-08-11T05:30:54.096636",
+          "level": "INFO",
+          "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
+          "code": null
+        }
+      ],
+      "id": "dd5d3f04-c752-4028-83eb-b4c725b53b16",
+      "status": null
+    }
+  ],
   [
     {
       "message": {
@@ -1438,37 +1642,38 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:07.686625",
+          "timestamp": "2021-08-11T05:30:46.496787",
           "level": "INFO",
           "message": "Normalized curie: CHEBI:45863 to CHEMBL.COMPOUND:CHEMBL428647",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.686687",
+          "timestamp": "2021-08-11T05:30:46.496803",
           "level": "WARNING",
           "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.686769",
+          "timestamp": "2021-08-11T05:30:46.496822",
           "level": "INFO",
           "message": "Normalized curie: UMLS:C1367721 to ENSEMBL:ENSG00000138798",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.976426",
+          "timestamp": "2021-08-11T05:30:46.774914",
           "level": "WARNING",
           "message": "Conflated biolink:ChemicalSubstance with biolink:Drug",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:15.054197",
+          "timestamp": "2021-08-11T05:30:54.254455",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "5f8039a5-aa9e-47a9-9d6e-076a89717b15"
+      "id": "1d71a52f-5aad-4620-b45d-08f9b1e77eb2",
+      "status": null
     },
     {
       "message": {
@@ -1537,31 +1742,32 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:07.686853",
+          "timestamp": "2021-08-11T05:30:46.496842",
           "level": "INFO",
           "message": "Normalized curie: CHEBI:45863 to CHEMBL.COMPOUND:CHEMBL428647",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.686888",
+          "timestamp": "2021-08-11T05:30:46.496850",
           "level": "WARNING",
           "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.981197",
+          "timestamp": "2021-08-11T05:30:46.780383",
           "level": "WARNING",
           "message": "Conflated biolink:ChemicalSubstance with biolink:Drug",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:15.094977",
+          "timestamp": "2021-08-11T05:30:54.295721",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "0c410378-78a1-4949-857e-dd2aafe0f983"
+      "id": "859e433a-eb86-4cea-8c47-8cb8fd2e3386",
+      "status": null
     },
     {
       "message": {
@@ -1630,37 +1836,38 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:07.687023",
+          "timestamp": "2021-08-11T05:30:46.496882",
           "level": "INFO",
           "message": "Normalized curie: CHEBI:45863 to CHEMBL.COMPOUND:CHEMBL428647",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.687056",
+          "timestamp": "2021-08-11T05:30:46.496891",
           "level": "WARNING",
           "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.687130",
+          "timestamp": "2021-08-11T05:30:46.496908",
           "level": "INFO",
           "message": "Normalized curie: NCBIGene:55907 to ENSEMBL:ENSG00000111726",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.986146",
+          "timestamp": "2021-08-11T05:30:46.785667",
           "level": "WARNING",
           "message": "Conflated biolink:ChemicalSubstance with biolink:Drug",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:15.134604",
+          "timestamp": "2021-08-11T05:30:54.340248",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "d6905cc9-538c-454f-a2e8-ed2294c13bc3"
+      "id": "9c4cc811-43c7-43bc-a3a0-6148ac4b69d1",
+      "status": null
     },
     {
       "message": {
@@ -1729,37 +1936,38 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:07.687210",
+          "timestamp": "2021-08-11T05:30:46.496927",
           "level": "INFO",
           "message": "Normalized curie: CHEBI:45863 to CHEMBL.COMPOUND:CHEMBL428647",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.687243",
+          "timestamp": "2021-08-11T05:30:46.496934",
           "level": "WARNING",
           "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.687276",
+          "timestamp": "2021-08-11T05:30:46.496951",
           "level": "INFO",
           "message": "Normalized curie: HGNC:9688 to ENSEMBL:ENSG00000177469",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.990925",
+          "timestamp": "2021-08-11T05:30:46.791193",
           "level": "WARNING",
           "message": "Conflated biolink:ChemicalSubstance with biolink:Drug",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:15.174166",
+          "timestamp": "2021-08-11T05:30:54.385217",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "ce2b93c5-99da-41ae-a466-9c07a8cbb475"
+      "id": "cc286131-56ab-4282-9c65-6a2daf4ff1eb",
+      "status": null
     },
     {
       "message": {
@@ -1828,31 +2036,32 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:07.687299",
+          "timestamp": "2021-08-11T05:30:46.496973",
           "level": "WARNING",
           "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.687315",
+          "timestamp": "2021-08-11T05:30:46.496990",
           "level": "INFO",
           "message": "Normalized curie: UMLS:C1367721 to ENSEMBL:ENSG00000138798",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.995858",
+          "timestamp": "2021-08-11T05:30:46.796478",
           "level": "WARNING",
           "message": "Conflated biolink:ChemicalSubstance with biolink:Drug",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:15.214087",
+          "timestamp": "2021-08-11T05:30:54.428593",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "c39f62d9-5e63-4b1e-aedf-4ab8c38698d9"
+      "id": "e494c6bc-18ec-4f13-bffc-f9d0e825b211",
+      "status": null
     },
     {
       "message": {
@@ -1921,25 +2130,26 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:07.687337",
+          "timestamp": "2021-08-11T05:30:46.497013",
           "level": "WARNING",
           "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:08.000663",
+          "timestamp": "2021-08-11T05:30:46.802055",
           "level": "WARNING",
           "message": "Conflated biolink:ChemicalSubstance with biolink:Drug",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:15.254678",
+          "timestamp": "2021-08-11T05:30:54.471235",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "73f44ef8-2598-4833-a1b0-66290f242e00"
+      "id": "62c40582-46e0-498a-b095-1162980b67be",
+      "status": null
     },
     {
       "message": {
@@ -2008,31 +2218,32 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:07.687371",
+          "timestamp": "2021-08-11T05:30:46.497047",
           "level": "WARNING",
           "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.687388",
+          "timestamp": "2021-08-11T05:30:46.497064",
           "level": "INFO",
           "message": "Normalized curie: NCBIGene:55907 to ENSEMBL:ENSG00000111726",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:08.005613",
+          "timestamp": "2021-08-11T05:30:46.807401",
           "level": "WARNING",
           "message": "Conflated biolink:ChemicalSubstance with biolink:Drug",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:15.295021",
+          "timestamp": "2021-08-11T05:30:54.514689",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "2a5c0940-3d09-46ec-90dd-753ebe332f27"
+      "id": "8a00b502-2251-418d-9128-bf2fd69274b3",
+      "status": null
     },
     {
       "message": {
@@ -2101,31 +2312,32 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:07.687409",
+          "timestamp": "2021-08-11T05:30:46.497086",
           "level": "WARNING",
           "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.687425",
+          "timestamp": "2021-08-11T05:30:46.497103",
           "level": "INFO",
           "message": "Normalized curie: HGNC:9688 to ENSEMBL:ENSG00000177469",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:08.010538",
+          "timestamp": "2021-08-11T05:30:46.812715",
           "level": "WARNING",
           "message": "Conflated biolink:ChemicalSubstance with biolink:Drug",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:15.335032",
+          "timestamp": "2021-08-11T05:30:54.558104",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "b6b8e0cc-a887-4fee-af3a-c9f54fba6186"
+      "id": "96d7efe2-ba0f-4156-9615-d5f6c76ccca4",
+      "status": null
     },
     {
       "message": {
@@ -2194,31 +2406,32 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:07.687447",
+          "timestamp": "2021-08-11T05:30:46.497125",
           "level": "WARNING",
           "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.687463",
+          "timestamp": "2021-08-11T05:30:46.497141",
           "level": "INFO",
           "message": "Normalized curie: UMLS:C1367721 to ENSEMBL:ENSG00000138798",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:08.015342",
+          "timestamp": "2021-08-11T05:30:46.818719",
           "level": "WARNING",
           "message": "Conflated biolink:ChemicalSubstance with biolink:Drug",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:15.375250",
+          "timestamp": "2021-08-11T05:30:54.607519",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "b950792b-6b20-48ea-8ed0-2782156be4d1"
+      "id": "a991277f-927c-4e3c-9fe9-fc81ef5d03a7",
+      "status": null
     },
     {
       "message": {
@@ -2287,25 +2500,26 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:07.687485",
+          "timestamp": "2021-08-11T05:30:46.497163",
           "level": "WARNING",
           "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:08.020301",
+          "timestamp": "2021-08-11T05:30:46.826489",
           "level": "WARNING",
           "message": "Conflated biolink:ChemicalSubstance with biolink:Drug",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:15.415240",
+          "timestamp": "2021-08-11T05:30:54.649945",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "96149359-a974-4fee-8f50-304caf8e9e4d"
+      "id": "14d9a9d5-817d-4ba8-ba02-05e59086055e",
+      "status": null
     },
     {
       "message": {
@@ -2374,31 +2588,32 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:07.687519",
+          "timestamp": "2021-08-11T05:30:46.497198",
           "level": "WARNING",
           "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.687535",
+          "timestamp": "2021-08-11T05:30:46.497214",
           "level": "INFO",
           "message": "Normalized curie: NCBIGene:55907 to ENSEMBL:ENSG00000111726",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:08.025186",
+          "timestamp": "2021-08-11T05:30:46.834199",
           "level": "WARNING",
           "message": "Conflated biolink:ChemicalSubstance with biolink:Drug",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:15.455675",
+          "timestamp": "2021-08-11T05:30:54.692511",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "6e28aa30-322e-4a41-857a-b1e18a4a9031"
+      "id": "977e28a2-e72b-48d8-86c9-5d3947859c35",
+      "status": null
     },
     {
       "message": {
@@ -2467,31 +2682,32 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:07.687557",
+          "timestamp": "2021-08-11T05:30:46.497236",
           "level": "WARNING",
           "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.687573",
+          "timestamp": "2021-08-11T05:30:46.497252",
           "level": "INFO",
           "message": "Normalized curie: HGNC:9688 to ENSEMBL:ENSG00000177469",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:08.029985",
+          "timestamp": "2021-08-11T05:30:46.841062",
           "level": "WARNING",
           "message": "Conflated biolink:ChemicalSubstance with biolink:Drug",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:15.497496",
+          "timestamp": "2021-08-11T05:30:54.733142",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "6a3dfb78-d8fc-441c-b85c-fb8f890962d2"
+      "id": "c339559c-3191-410c-b77b-9b95ec17e96c",
+      "status": null
     },
     {
       "message": {
@@ -2560,31 +2776,32 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:07.687595",
+          "timestamp": "2021-08-11T05:30:46.497274",
           "level": "WARNING",
           "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.687611",
+          "timestamp": "2021-08-11T05:30:46.497290",
           "level": "INFO",
           "message": "Normalized curie: UMLS:C1367721 to ENSEMBL:ENSG00000138798",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:08.034934",
+          "timestamp": "2021-08-11T05:30:46.846519",
           "level": "WARNING",
           "message": "Conflated biolink:ChemicalSubstance with biolink:Drug",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:15.537444",
+          "timestamp": "2021-08-11T05:30:54.773996",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "edce1826-7e04-487a-b859-8b7bb60de3fd"
+      "id": "8ec65443-e8ee-4630-8a40-afed9d0d4296",
+      "status": null
     },
     {
       "message": {
@@ -2653,25 +2870,26 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:07.687634",
+          "timestamp": "2021-08-11T05:30:46.497312",
           "level": "WARNING",
           "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:08.039722",
+          "timestamp": "2021-08-11T05:30:46.851977",
           "level": "WARNING",
           "message": "Conflated biolink:ChemicalSubstance with biolink:Drug",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:15.576744",
+          "timestamp": "2021-08-11T05:30:54.815286",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "bc44edff-5ea3-4808-94dc-b7b32b4c5019"
+      "id": "d695a4be-824c-43f3-8a44-12c108ec2d65",
+      "status": null
     },
     {
       "message": {
@@ -2740,31 +2958,32 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:07.687668",
+          "timestamp": "2021-08-11T05:30:46.497346",
           "level": "WARNING",
           "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.687684",
+          "timestamp": "2021-08-11T05:30:46.497363",
           "level": "INFO",
           "message": "Normalized curie: NCBIGene:55907 to ENSEMBL:ENSG00000111726",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:08.044698",
+          "timestamp": "2021-08-11T05:30:46.857558",
           "level": "WARNING",
           "message": "Conflated biolink:ChemicalSubstance with biolink:Drug",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:15.616172",
+          "timestamp": "2021-08-11T05:30:54.856450",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "91b3a1c8-91b6-42b4-a163-0c3acfed1813"
+      "id": "ffda0bab-3274-41d2-af6c-cd2eb8c595a2",
+      "status": null
     },
     {
       "message": {
@@ -2833,31 +3052,32 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:07.687705",
+          "timestamp": "2021-08-11T05:30:46.497384",
           "level": "WARNING",
           "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.687722",
+          "timestamp": "2021-08-11T05:30:46.497401",
           "level": "INFO",
           "message": "Normalized curie: HGNC:9688 to ENSEMBL:ENSG00000177469",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:08.049621",
+          "timestamp": "2021-08-11T05:30:46.862899",
           "level": "WARNING",
           "message": "Conflated biolink:ChemicalSubstance with biolink:Drug",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:15.658119",
+          "timestamp": "2021-08-11T05:30:54.897254",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "a96e7449-2b94-48d8-bbe4-cfb853baefb3"
+      "id": "84e73fba-6a34-410e-9c96-e67cc400836b",
+      "status": null
     }
   ],
   [
@@ -2951,25 +3171,26 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:07.854722",
+          "timestamp": "2021-08-11T05:30:46.631702",
           "level": "INFO",
           "message": "Normalized curie: UMLS:C1537465 to ENSEMBL:ENSG00000103888",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.854781",
+          "timestamp": "2021-08-11T05:30:46.631728",
           "level": "INFO",
           "message": "Normalized curie: MEDDRA:10006192 to MONDO:0007254",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:15.716577",
+          "timestamp": "2021-08-11T05:30:54.956218",
           "level": "INFO",
           "message": "Converted predicate biolink:genetic_association to biolink:gene_associated_with_condition using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "55f5259e-3efc-4616-a5fc-e489279d8fc0"
+      "id": "bcccd671-6ad4-4599-a439-2c0f0f4dc08c",
+      "status": null
     },
     {
       "message": {
@@ -3061,25 +3282,26 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:07.854832",
+          "timestamp": "2021-08-11T05:30:46.631750",
           "level": "INFO",
           "message": "Normalized curie: OMIM:609321 to ENSEMBL:ENSG00000156876",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.854873",
+          "timestamp": "2021-08-11T05:30:46.631768",
           "level": "INFO",
           "message": "Normalized curie: MEDDRA:10006192 to MONDO:0007254",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:15.726692",
+          "timestamp": "2021-08-11T05:30:54.966608",
           "level": "INFO",
           "message": "Converted predicate biolink:genetic_association to biolink:gene_associated_with_condition using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "77544454-df03-48c9-9cdc-e1ade058996f"
+      "id": "0b89ec99-e73d-43cc-9ec1-ed7bdaca7f8d",
+      "status": null
     },
     {
       "message": {
@@ -3171,25 +3393,26 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:07.854943",
+          "timestamp": "2021-08-11T05:30:46.631788",
           "level": "INFO",
           "message": "Normalized curie: OMIM:615958 to ENSEMBL:ENSG00000149346",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:07.854993",
+          "timestamp": "2021-08-11T05:30:46.631805",
           "level": "INFO",
           "message": "Normalized curie: MEDDRA:10006192 to MONDO:0007254",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:15.736706",
+          "timestamp": "2021-08-11T05:30:54.977612",
           "level": "INFO",
           "message": "Converted predicate biolink:genetic_association to biolink:gene_associated_with_condition using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "450077da-457c-4c91-bc7b-b106cead5286"
+      "id": "05b44e20-8bcd-48eb-895b-2841f8d3d6f9",
+      "status": null
     },
     {
       "message": {
@@ -3281,19 +3504,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:07.855086",
+          "timestamp": "2021-08-11T05:30:46.631838",
           "level": "INFO",
           "message": "Normalized curie: MEDDRA:10006192 to MONDO:0007254",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:15.747995",
+          "timestamp": "2021-08-11T05:30:54.988245",
           "level": "INFO",
           "message": "Converted predicate biolink:genetic_association to biolink:gene_associated_with_condition using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "b8824aed-7f1b-4a0e-8298-23ead225b5c2"
+      "id": "4586e00d-e90b-4798-b41e-ef3e8785724b",
+      "status": null
     }
   ]
 ]

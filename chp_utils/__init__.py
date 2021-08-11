@@ -7,6 +7,7 @@ import types
 from .client import BaseClient
 from .mixins.client.sri_node_normalizer import SriNodeNormalizerMixin
 from .mixins.client.sri_ontology_kp import SriOntologyKpMixin
+from chp_utils._version import __version__
 
 # Aliases
 COMMON_ALIASES = {}

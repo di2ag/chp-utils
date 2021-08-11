@@ -50,9 +50,9 @@ class TestTrapiQueryProcessor(unittest.TestCase):
         for test_query_list, correct_query_list in zip(test_queries, correct_queries):
             for test_query, correct_query in zip(test_query_list, correct_query_list):
                 # Pop out logs and pk
-                test_query.pop("pk")
+                test_query.pop("id")
                 test_query.pop("logs")
-                correct_query.pop("pk")
+                correct_query.pop("id")
                 correct_query.pop("logs")
                 # Assert
                 self.assertEqual(test_query, correct_query)

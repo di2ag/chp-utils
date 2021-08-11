@@ -64,7 +64,8 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "pk": "0002aa97-c779-45b0-9c3a-8224043bb9dc"
+      "id": "8a38f7ff-2c31-4e91-9fba-f0b75ef0908a",
+      "status": null
     }
   ],
   [
@@ -133,19 +134,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:04.926135",
+          "timestamp": "2021-08-11T05:30:43.714135",
           "level": "INFO",
           "message": "Converted category biolink:NamedThing to biolink:Disease using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:04.946089",
+          "timestamp": "2021-08-11T05:30:43.741124",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:condition_associated_with_gene using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "9f54177f-b383-462d-b079-4e01159a7588"
+      "id": "415018a5-7b26-420f-ab51-e185474df241",
+      "status": null
     },
     {
       "message": {
@@ -212,19 +214,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:04.926135",
+          "timestamp": "2021-08-11T05:30:43.714135",
           "level": "INFO",
           "message": "Converted category biolink:NamedThing to biolink:Disease using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:04.950880",
+          "timestamp": "2021-08-11T05:30:43.745921",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:gene_associated_with_condition using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "3b700571-5fd1-47a8-9615-8140e132cb19"
+      "id": "7b5236be-de94-4920-9b60-0775c90fbe70",
+      "status": null
     },
     {
       "message": {
@@ -291,19 +294,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:04.926135",
+          "timestamp": "2021-08-11T05:30:43.714135",
           "level": "INFO",
           "message": "Converted category biolink:NamedThing to biolink:Disease using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:04.955766",
+          "timestamp": "2021-08-11T05:30:43.750874",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:genetically_interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "b07120ae-f64c-456b-ae9c-dbd6de99e3a1"
+      "id": "0667e272-56dc-4e3e-9b5e-5791919957ee",
+      "status": null
     },
     {
       "message": {
@@ -370,19 +374,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:04.926135",
+          "timestamp": "2021-08-11T05:30:43.714135",
           "level": "INFO",
           "message": "Converted category biolink:NamedThing to biolink:Disease using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:04.962083",
+          "timestamp": "2021-08-11T05:30:43.756338",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:has_phenotype using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "6c0634e2-c6e6-44ca-ab84-33ae9eee7c44"
+      "id": "a1663d29-1b5d-4057-8b2d-91ac76c13bac",
+      "status": null
     },
     {
       "message": {
@@ -449,19 +454,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:04.926135",
+          "timestamp": "2021-08-11T05:30:43.714135",
           "level": "INFO",
           "message": "Converted category biolink:NamedThing to biolink:Disease using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:04.966844",
+          "timestamp": "2021-08-11T05:30:43.761163",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "9508f5a4-aece-425d-babd-01fc5620f6e6"
+      "id": "9cf9d989-e8a1-4ec1-baf6-8bdc0142aa0a",
+      "status": null
     },
     {
       "message": {
@@ -528,19 +534,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:04.926135",
+          "timestamp": "2021-08-11T05:30:43.714135",
           "level": "INFO",
           "message": "Converted category biolink:NamedThing to biolink:Disease using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:04.971711",
+          "timestamp": "2021-08-11T05:30:43.766279",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:phenotype_of using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "4c125afb-495f-4a48-8f99-e5fd19d6b540"
+      "id": "0a9fb067-ee51-4eba-86b0-d5f3851a69e2",
+      "status": null
     },
     {
       "message": {
@@ -607,19 +614,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:04.926135",
+          "timestamp": "2021-08-11T05:30:43.714135",
           "level": "INFO",
           "message": "Converted category biolink:NamedThing to biolink:Disease using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:04.976575",
+          "timestamp": "2021-08-11T05:30:43.771418",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treated_by using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "35ff54a9-1dbb-4e13-bec2-45c6ac590211"
+      "id": "1197a98f-7903-4139-b6e7-0675069a1992",
+      "status": null
     },
     {
       "message": {
@@ -686,19 +694,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:04.926135",
+          "timestamp": "2021-08-11T05:30:43.714135",
           "level": "INFO",
           "message": "Converted category biolink:NamedThing to biolink:Disease using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:04.981341",
+          "timestamp": "2021-08-11T05:30:43.776290",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treats using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "3b2a4c35-1e88-48e4-b31e-d840c9cc0ced"
+      "id": "be26700e-788f-4cf6-ace1-0a92230de7d7",
+      "status": null
     },
     {
       "message": {
@@ -765,19 +774,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:04.931034",
+          "timestamp": "2021-08-11T05:30:43.721839",
           "level": "INFO",
           "message": "Converted category biolink:NamedThing to biolink:Drug using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:04.986918",
+          "timestamp": "2021-08-11T05:30:43.781954",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:condition_associated_with_gene using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "e280808d-b748-4008-a986-644b1852ef9b"
+      "id": "3ef79b2a-0d10-4c9a-a2db-ad8d6aa868bb",
+      "status": null
     },
     {
       "message": {
@@ -844,19 +854,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:04.931034",
+          "timestamp": "2021-08-11T05:30:43.721839",
           "level": "INFO",
           "message": "Converted category biolink:NamedThing to biolink:Drug using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:04.991893",
+          "timestamp": "2021-08-11T05:30:43.786843",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:gene_associated_with_condition using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "1be54d18-ed6e-4fde-b7e6-51196b9222ef"
+      "id": "60eb91c0-8860-4d4d-8b21-0fba76a7ad98",
+      "status": null
     },
     {
       "message": {
@@ -923,19 +934,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:04.931034",
+          "timestamp": "2021-08-11T05:30:43.721839",
           "level": "INFO",
           "message": "Converted category biolink:NamedThing to biolink:Drug using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:04.996676",
+          "timestamp": "2021-08-11T05:30:43.792026",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:genetically_interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "27dd374f-8eb5-434f-847b-4ac7e5fec7e6"
+      "id": "a33e0dde-00e7-447f-8f02-51f8f995c0a1",
+      "status": null
     },
     {
       "message": {
@@ -1002,19 +1014,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:04.931034",
+          "timestamp": "2021-08-11T05:30:43.721839",
           "level": "INFO",
           "message": "Converted category biolink:NamedThing to biolink:Drug using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:05.001624",
+          "timestamp": "2021-08-11T05:30:43.798890",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:has_phenotype using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "9f09f6de-5d86-4e9c-bd88-ee22b69bc8a5"
+      "id": "e1cc16ab-8964-450b-83f8-d222888d7471",
+      "status": null
     },
     {
       "message": {
@@ -1081,19 +1094,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:04.931034",
+          "timestamp": "2021-08-11T05:30:43.721839",
           "level": "INFO",
           "message": "Converted category biolink:NamedThing to biolink:Drug using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:05.006594",
+          "timestamp": "2021-08-11T05:30:43.803997",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "efaa9e8c-8b08-4a19-ab86-65dedcc62f09"
+      "id": "32bbd4f6-2b70-4145-bfbe-44cc23f3fabe",
+      "status": null
     },
     {
       "message": {
@@ -1160,19 +1174,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:04.931034",
+          "timestamp": "2021-08-11T05:30:43.721839",
           "level": "INFO",
           "message": "Converted category biolink:NamedThing to biolink:Drug using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:05.011386",
+          "timestamp": "2021-08-11T05:30:43.809360",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:phenotype_of using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "a69b8e5d-a720-4617-b625-f67a65455a43"
+      "id": "77b10b08-a934-48b4-959e-3f9c13cf7095",
+      "status": null
     },
     {
       "message": {
@@ -1239,19 +1254,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:04.931034",
+          "timestamp": "2021-08-11T05:30:43.721839",
           "level": "INFO",
           "message": "Converted category biolink:NamedThing to biolink:Drug using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:05.016436",
+          "timestamp": "2021-08-11T05:30:43.814493",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treated_by using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "01f5edad-5a28-4ab7-a58c-38a5210bebe6"
+      "id": "6dabaf72-3796-4e7f-8fc7-cb860f7361e1",
+      "status": null
     },
     {
       "message": {
@@ -1318,19 +1334,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:04.931034",
+          "timestamp": "2021-08-11T05:30:43.721839",
           "level": "INFO",
           "message": "Converted category biolink:NamedThing to biolink:Drug using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:05.021304",
+          "timestamp": "2021-08-11T05:30:43.819376",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treats using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "b5298548-8920-450c-8e76-ecb074933cf4"
+      "id": "1a615e11-8cf3-4183-8621-4e3aa9c4fb4f",
+      "status": null
     },
     {
       "message": {
@@ -1397,19 +1414,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:04.935699",
+          "timestamp": "2021-08-11T05:30:43.729151",
           "level": "INFO",
           "message": "Converted category biolink:NamedThing to biolink:Gene using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:05.026855",
+          "timestamp": "2021-08-11T05:30:43.825177",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:condition_associated_with_gene using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "25934dff-ef53-4e44-bb02-afc546b86e64"
+      "id": "71b9894d-e1d8-425d-8c56-539958a72888",
+      "status": null
     },
     {
       "message": {
@@ -1476,19 +1494,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:04.935699",
+          "timestamp": "2021-08-11T05:30:43.729151",
           "level": "INFO",
           "message": "Converted category biolink:NamedThing to biolink:Gene using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:05.031633",
+          "timestamp": "2021-08-11T05:30:43.829978",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:gene_associated_with_condition using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "ad8e04de-433b-4b47-9146-51d20e4edf17"
+      "id": "32b002ec-aead-4770-afde-d304522b3dbc",
+      "status": null
     },
     {
       "message": {
@@ -1555,19 +1574,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:04.935699",
+          "timestamp": "2021-08-11T05:30:43.729151",
           "level": "INFO",
           "message": "Converted category biolink:NamedThing to biolink:Gene using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:05.036532",
+          "timestamp": "2021-08-11T05:30:43.834841",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:genetically_interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "b515d890-0f57-4a88-be39-85950fcac1fc"
+      "id": "4da25e3e-5ac6-4a8b-96e8-ed00806c0870",
+      "status": null
     },
     {
       "message": {
@@ -1634,19 +1654,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:04.935699",
+          "timestamp": "2021-08-11T05:30:43.729151",
           "level": "INFO",
           "message": "Converted category biolink:NamedThing to biolink:Gene using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:05.041294",
+          "timestamp": "2021-08-11T05:30:43.839746",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:has_phenotype using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "97a965d2-828a-4a6f-844c-afcb99c1cd7d"
+      "id": "f51fa099-a05f-45af-85f9-05b44e41ae90",
+      "status": null
     },
     {
       "message": {
@@ -1713,19 +1734,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:04.935699",
+          "timestamp": "2021-08-11T05:30:43.729151",
           "level": "INFO",
           "message": "Converted category biolink:NamedThing to biolink:Gene using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:05.045998",
+          "timestamp": "2021-08-11T05:30:43.845388",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "fc6f2a6b-3717-4fba-b000-175f7e70e7ea"
+      "id": "e09cc504-bec5-4912-ab0a-037258103f96",
+      "status": null
     },
     {
       "message": {
@@ -1792,19 +1814,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:04.935699",
+          "timestamp": "2021-08-11T05:30:43.729151",
           "level": "INFO",
           "message": "Converted category biolink:NamedThing to biolink:Gene using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:05.050939",
+          "timestamp": "2021-08-11T05:30:43.850278",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:phenotype_of using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "9b8264fc-5d7d-448e-a173-7125ed800f5c"
+      "id": "64145d2b-b92c-4b97-9f2f-3e442e7403de",
+      "status": null
     },
     {
       "message": {
@@ -1871,19 +1894,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:04.935699",
+          "timestamp": "2021-08-11T05:30:43.729151",
           "level": "INFO",
           "message": "Converted category biolink:NamedThing to biolink:Gene using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:05.055607",
+          "timestamp": "2021-08-11T05:30:43.855335",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treated_by using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "77a2f3e4-496d-4050-bf82-dc34fed47fa0"
+      "id": "13999ce6-225f-4c5d-b838-9e99a382bae4",
+      "status": null
     },
     {
       "message": {
@@ -1950,19 +1974,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:04.935699",
+          "timestamp": "2021-08-11T05:30:43.729151",
           "level": "INFO",
           "message": "Converted category biolink:NamedThing to biolink:Gene using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:05.060313",
+          "timestamp": "2021-08-11T05:30:43.860445",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treats using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "6fc1f32e-02af-4f3e-92f6-8f374bef03b3"
+      "id": "b2e9b3b2-1368-4c8a-8486-25e9c18e4e66",
+      "status": null
     },
     {
       "message": {
@@ -2029,19 +2054,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:04.940417",
+          "timestamp": "2021-08-11T05:30:43.735211",
           "level": "INFO",
           "message": "Converted category biolink:NamedThing to biolink:PhenotypicFeature using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:05.065872",
+          "timestamp": "2021-08-11T05:30:43.866873",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:condition_associated_with_gene using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "bc437dbf-dcf5-432c-a3fc-9bc780db1f35"
+      "id": "7cfa317c-9583-4e3c-93d8-da78e7e2875d",
+      "status": null
     },
     {
       "message": {
@@ -2108,19 +2134,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:04.940417",
+          "timestamp": "2021-08-11T05:30:43.735211",
           "level": "INFO",
           "message": "Converted category biolink:NamedThing to biolink:PhenotypicFeature using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:05.070571",
+          "timestamp": "2021-08-11T05:30:43.872247",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:gene_associated_with_condition using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "7a28fd38-a920-46b4-a50c-58f7c5c7e01a"
+      "id": "388e0a9d-bfc5-4267-8b2f-61a8bf5f03db",
+      "status": null
     },
     {
       "message": {
@@ -2187,19 +2214,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:04.940417",
+          "timestamp": "2021-08-11T05:30:43.735211",
           "level": "INFO",
           "message": "Converted category biolink:NamedThing to biolink:PhenotypicFeature using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:05.075203",
+          "timestamp": "2021-08-11T05:30:43.877753",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:genetically_interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "0243ddb5-b616-4ffd-9d56-2f73d0360feb"
+      "id": "c14ed1be-61ce-4c78-a4cf-b80bbb1a9f4a",
+      "status": null
     },
     {
       "message": {
@@ -2266,19 +2294,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:04.940417",
+          "timestamp": "2021-08-11T05:30:43.735211",
           "level": "INFO",
           "message": "Converted category biolink:NamedThing to biolink:PhenotypicFeature using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:05.079962",
+          "timestamp": "2021-08-11T05:30:43.883446",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:has_phenotype using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "1fd77a7c-2be1-4668-af66-c021979eb8cf"
+      "id": "f1f58337-9c29-497f-96ce-172716c7fcfc",
+      "status": null
     },
     {
       "message": {
@@ -2345,19 +2374,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:04.940417",
+          "timestamp": "2021-08-11T05:30:43.735211",
           "level": "INFO",
           "message": "Converted category biolink:NamedThing to biolink:PhenotypicFeature using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:05.084891",
+          "timestamp": "2021-08-11T05:30:43.889523",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "cf06d4dc-f7e4-4dd4-9d60-f6eac630acfd"
+      "id": "1d217b56-aa1b-4934-b348-ae70bbb4a1e9",
+      "status": null
     },
     {
       "message": {
@@ -2424,19 +2454,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:04.940417",
+          "timestamp": "2021-08-11T05:30:43.735211",
           "level": "INFO",
           "message": "Converted category biolink:NamedThing to biolink:PhenotypicFeature using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:05.089623",
+          "timestamp": "2021-08-11T05:30:43.894915",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:phenotype_of using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "13ad5aaf-65c9-4030-b2e0-1da3a4c959f1"
+      "id": "c4ad7390-663d-4533-8459-e53169770f34",
+      "status": null
     },
     {
       "message": {
@@ -2503,19 +2534,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:04.940417",
+          "timestamp": "2021-08-11T05:30:43.735211",
           "level": "INFO",
           "message": "Converted category biolink:NamedThing to biolink:PhenotypicFeature using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:05.094386",
+          "timestamp": "2021-08-11T05:30:43.900472",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treated_by using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "622db64c-7b79-4e38-a3bf-5518533bd2ef"
+      "id": "05f35823-aaa4-4976-a326-1d21ddd2b72f",
+      "status": null
     },
     {
       "message": {
@@ -2582,19 +2614,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:04.940417",
+          "timestamp": "2021-08-11T05:30:43.735211",
           "level": "INFO",
           "message": "Converted category biolink:NamedThing to biolink:PhenotypicFeature using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:05.099086",
+          "timestamp": "2021-08-11T05:30:43.905932",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treats using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "68afda9a-599c-47ed-b758-151a40b07193"
+      "id": "5950078a-017b-4082-b6fa-f3d7088fa87b",
+      "status": null
     }
   ],
   [
@@ -2662,7 +2695,8 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "pk": "f7033313-189f-4e7d-96dc-1085a94e01d3"
+      "id": "db3f92bd-ded1-48d0-849a-50fab0852b53",
+      "status": null
     }
   ],
   [
@@ -2733,19 +2767,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.132586",
+          "timestamp": "2021-08-11T05:30:43.940951",
           "level": "INFO",
           "message": "Converted category biolink:BiologicalEntity to biolink:Disease using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:05.146757",
+          "timestamp": "2021-08-11T05:30:43.960103",
           "level": "INFO",
           "message": "Converted predicate biolink:genetic_association to biolink:condition_associated_with_gene using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "14cecdec-af9a-42b9-840c-6928080dc8d4"
+      "id": "654febd5-08c4-48ac-ab60-17738c54d158",
+      "status": null
     },
     {
       "message": {
@@ -2814,19 +2849,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.132586",
+          "timestamp": "2021-08-11T05:30:43.940951",
           "level": "INFO",
           "message": "Converted category biolink:BiologicalEntity to biolink:Disease using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:05.151404",
+          "timestamp": "2021-08-11T05:30:43.965252",
           "level": "INFO",
           "message": "Converted predicate biolink:genetic_association to biolink:gene_associated_with_condition using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "12dfc141-d044-4342-8ebc-a97c96d76fe7"
+      "id": "d1f9c7d2-e531-4c8a-9c39-d55ce0b1ac58",
+      "status": null
     },
     {
       "message": {
@@ -2895,19 +2931,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.137253",
+          "timestamp": "2021-08-11T05:30:43.948331",
           "level": "INFO",
           "message": "Converted category biolink:BiologicalEntity to biolink:Gene using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:05.156085",
+          "timestamp": "2021-08-11T05:30:43.970279",
           "level": "INFO",
           "message": "Converted predicate biolink:genetic_association to biolink:condition_associated_with_gene using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "60bb901b-fc17-483d-97ba-afc665ddf6db"
+      "id": "72e75e43-4251-4a1f-afdb-ce4ffe93fc1c",
+      "status": null
     },
     {
       "message": {
@@ -2976,19 +3013,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.137253",
+          "timestamp": "2021-08-11T05:30:43.948331",
           "level": "INFO",
           "message": "Converted category biolink:BiologicalEntity to biolink:Gene using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:05.160780",
+          "timestamp": "2021-08-11T05:30:43.975396",
           "level": "INFO",
           "message": "Converted predicate biolink:genetic_association to biolink:gene_associated_with_condition using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "31b0491c-3c09-4d7a-8308-3878d62380a2"
+      "id": "c36469f5-df31-48be-9c4d-545671223e2c",
+      "status": null
     },
     {
       "message": {
@@ -3057,19 +3095,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.141888",
+          "timestamp": "2021-08-11T05:30:43.954774",
           "level": "INFO",
           "message": "Converted category biolink:BiologicalEntity to biolink:PhenotypicFeature using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:05.165547",
+          "timestamp": "2021-08-11T05:30:43.980317",
           "level": "INFO",
           "message": "Converted predicate biolink:genetic_association to biolink:condition_associated_with_gene using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "99bfd5a1-127c-4a0c-97c8-9bc655106bae"
+      "id": "e2b3a0d4-7ad2-465b-8e8e-b2056e3e6492",
+      "status": null
     },
     {
       "message": {
@@ -3138,19 +3177,20 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.141888",
+          "timestamp": "2021-08-11T05:30:43.954774",
           "level": "INFO",
           "message": "Converted category biolink:BiologicalEntity to biolink:PhenotypicFeature using Biolink semantic operations.",
           "code": null
         },
         {
-          "timestamp": "2021-08-05T23:46:05.170226",
+          "timestamp": "2021-08-11T05:30:43.985414",
           "level": "INFO",
           "message": "Converted predicate biolink:genetic_association to biolink:gene_associated_with_condition using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "968f3229-ddf8-443a-ac93-fe07a8591855"
+      "id": "c068246f-d5e9-4388-96f3-49fe12edf83e",
+      "status": null
     }
   ],
   [
@@ -3221,13 +3261,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.214022",
+          "timestamp": "2021-08-11T05:30:44.033020",
           "level": "INFO",
           "message": "Converted predicate biolink:affects to biolink:treats using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "7f075955-463a-43be-854a-53e0ff33d61d"
+      "id": "017c2605-20e1-479e-bf8b-47506d74453d",
+      "status": null
     },
     {
       "message": {
@@ -3296,13 +3337,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.219473",
+          "timestamp": "2021-08-11T05:30:44.038288",
           "level": "INFO",
           "message": "Converted predicate biolink:affects to biolink:treats using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "301b466e-ee3b-4cfa-b0b0-d6bbaa58ecca"
+      "id": "7013d8b8-18b7-409a-afa5-a88db8cd67b7",
+      "status": null
     },
     {
       "message": {
@@ -3371,13 +3413,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.224564",
+          "timestamp": "2021-08-11T05:30:44.043591",
           "level": "INFO",
           "message": "Converted predicate biolink:affects to biolink:treats using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "37a522fb-11d7-4e0e-b466-6e84d8b4263a"
+      "id": "e3895013-3f72-45eb-bd08-788a6f342912",
+      "status": null
     }
   ],
   [
@@ -3448,13 +3491,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.258760",
+          "timestamp": "2021-08-11T05:30:44.079833",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:condition_associated_with_gene using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "a3b38517-2a60-4b2d-990d-b5f706829825"
+      "id": "2ed0fd84-b097-4d35-9fcb-0c127dc57ae6",
+      "status": null
     },
     {
       "message": {
@@ -3523,13 +3567,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.263942",
+          "timestamp": "2021-08-11T05:30:44.084827",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:gene_associated_with_condition using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "356d3052-4ab8-4ecb-adca-e7059172af18"
+      "id": "abce9db8-4f3d-44fb-8658-9fe46b2cfb59",
+      "status": null
     },
     {
       "message": {
@@ -3598,13 +3643,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.268660",
+          "timestamp": "2021-08-11T05:30:44.089717",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:genetically_interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "6aa5688a-73a2-4eb1-b619-08d4c7bebcc2"
+      "id": "f6ad5525-23d2-4c1f-8715-d6a5b6dcac20",
+      "status": null
     },
     {
       "message": {
@@ -3673,13 +3719,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.273320",
+          "timestamp": "2021-08-11T05:30:44.094677",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:has_phenotype using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "e55968fe-b731-44b3-9c78-f4a491ab11ce"
+      "id": "ce999510-9dee-4896-bcf3-0624b27b26ba",
+      "status": null
     },
     {
       "message": {
@@ -3748,13 +3795,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.278233",
+          "timestamp": "2021-08-11T05:30:44.099791",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "336352a9-641f-4032-bed0-d454beb12ade"
+      "id": "e5a11d8b-a4f1-465a-a100-7aa29441f891",
+      "status": null
     },
     {
       "message": {
@@ -3823,13 +3871,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.282955",
+          "timestamp": "2021-08-11T05:30:44.104871",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:phenotype_of using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "a0e1cbcd-7b8f-4503-9955-0d4d00013247"
+      "id": "1ddd4228-6574-4e92-8c46-30340ba65710",
+      "status": null
     },
     {
       "message": {
@@ -3898,13 +3947,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.287616",
+          "timestamp": "2021-08-11T05:30:44.110066",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treated_by using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "fbf19943-d415-40d1-8821-1be0465a3663"
+      "id": "12eb6cff-b347-4358-a9df-53c678b4e8eb",
+      "status": null
     },
     {
       "message": {
@@ -3973,13 +4023,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.292328",
+          "timestamp": "2021-08-11T05:30:44.115317",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treats using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "55b53705-b58e-4f4c-8d4e-f5252b61289a"
+      "id": "9d6c9484-8e0f-47ac-8732-32960b35b8b8",
+      "status": null
     },
     {
       "message": {
@@ -4048,13 +4099,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.298474",
+          "timestamp": "2021-08-11T05:30:44.121354",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:condition_associated_with_gene using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "a47b9aef-ab22-418f-bf47-4efc14f73ae7"
+      "id": "8f02b707-3d3a-4752-9e3a-f7448aca2396",
+      "status": null
     },
     {
       "message": {
@@ -4123,13 +4175,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.303174",
+          "timestamp": "2021-08-11T05:30:44.126538",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:gene_associated_with_condition using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "dd9d6322-1a2c-4fc4-84fb-c2a446bfb0e2"
+      "id": "9527fe5d-4e99-4f75-a68d-bad591a04d76",
+      "status": null
     },
     {
       "message": {
@@ -4198,13 +4251,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.307838",
+          "timestamp": "2021-08-11T05:30:44.131749",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:genetically_interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "0f753a89-f47e-4563-b324-d48a82eb461f"
+      "id": "df4ebf9c-fb4a-418c-a12a-6e53221887a9",
+      "status": null
     },
     {
       "message": {
@@ -4273,13 +4327,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.312665",
+          "timestamp": "2021-08-11T05:30:44.136976",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:has_phenotype using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "a70410df-b188-4b9f-a4df-8926edc5ee8a"
+      "id": "886d8702-ed56-4f06-a7c6-8eea52be1c26",
+      "status": null
     },
     {
       "message": {
@@ -4348,13 +4403,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.317382",
+          "timestamp": "2021-08-11T05:30:44.142170",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "d47c4439-a943-4901-bf9c-6481b79832c2"
+      "id": "9f5d7df3-0fbd-41e5-b7ef-1c5309f0cbf1",
+      "status": null
     },
     {
       "message": {
@@ -4423,13 +4479,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.322034",
+          "timestamp": "2021-08-11T05:30:44.147309",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:phenotype_of using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "0cc389b4-e0a1-4c72-9b2c-11fc63a18ad3"
+      "id": "91051b90-13fa-4000-9fdf-aa2ae34bc81c",
+      "status": null
     },
     {
       "message": {
@@ -4498,13 +4555,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.327112",
+          "timestamp": "2021-08-11T05:30:44.152726",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treated_by using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "0a6d19b1-a0f4-47d2-9e71-76840f220c82"
+      "id": "f7be82d1-b191-4e81-a526-01a344820748",
+      "status": null
     },
     {
       "message": {
@@ -4573,13 +4631,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.331812",
+          "timestamp": "2021-08-11T05:30:44.157397",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treats using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "bb8331f9-084e-463d-9f6d-069724697854"
+      "id": "0e7134d2-82dc-46e1-8186-ef4f72b9849c",
+      "status": null
     }
   ],
   [
@@ -4650,13 +4709,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.506887",
+          "timestamp": "2021-08-11T05:30:44.339950",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:condition_associated_with_gene using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "2766a260-6aac-461b-b63b-c18b6eb83b9f"
+      "id": "6e734c3e-91db-4445-91aa-bf853c5386d6",
+      "status": null
     },
     {
       "message": {
@@ -4725,13 +4785,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.511881",
+          "timestamp": "2021-08-11T05:30:44.345380",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:gene_associated_with_condition using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "798d284f-b823-4d4b-9fc4-158f39033e25"
+      "id": "883c5b75-9c74-4280-be1f-f7037ce7cc6e",
+      "status": null
     },
     {
       "message": {
@@ -4800,13 +4861,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.516850",
+          "timestamp": "2021-08-11T05:30:44.350749",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:genetically_interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "2c04c2f2-521c-4f8f-b7db-8308d8399672"
+      "id": "ce72d2d2-6539-446e-9cb5-41c1028b62c7",
+      "status": null
     },
     {
       "message": {
@@ -4875,13 +4937,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.521913",
+          "timestamp": "2021-08-11T05:30:44.356376",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:has_phenotype using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "f5362f66-b815-412b-a339-7aa5c4547284"
+      "id": "6eef1370-be33-4a0e-a0f6-1c4e8db02b9d",
+      "status": null
     },
     {
       "message": {
@@ -4950,13 +5013,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.526681",
+          "timestamp": "2021-08-11T05:30:44.361705",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "da9548ea-5bb2-4178-9eb5-8afa7e414dc9"
+      "id": "f447dc84-012f-43fb-b5b3-0dae4f9f9ab8",
+      "status": null
     },
     {
       "message": {
@@ -5025,13 +5089,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.531412",
+          "timestamp": "2021-08-11T05:30:44.367013",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:phenotype_of using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "63393bef-4f20-43a4-8af1-d88c9fa6683c"
+      "id": "f733dc1c-bb37-40d1-9761-00bd6752a223",
+      "status": null
     },
     {
       "message": {
@@ -5100,13 +5165,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.536343",
+          "timestamp": "2021-08-11T05:30:44.372568",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treated_by using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "2a5f9a7b-10ce-47ef-93e8-c9766203e900"
+      "id": "e2176033-3933-4bb6-ab18-328e71f409de",
+      "status": null
     },
     {
       "message": {
@@ -5175,13 +5241,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.541138",
+          "timestamp": "2021-08-11T05:30:44.378272",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treats using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "ec50bbea-559d-4fec-80c9-21f4c382a0cf"
+      "id": "eaee6a1c-b877-432e-a02c-e3759ea04fa1",
+      "status": null
     },
     {
       "message": {
@@ -5250,13 +5317,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.546745",
+          "timestamp": "2021-08-11T05:30:44.384689",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:condition_associated_with_gene using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "ebf41654-c560-4ab7-9c18-b4766b949f41"
+      "id": "38d14ada-26f1-4491-99db-64e59dbdadf5",
+      "status": null
     },
     {
       "message": {
@@ -5325,13 +5393,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.551705",
+          "timestamp": "2021-08-11T05:30:44.390115",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:gene_associated_with_condition using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "f1d67b8a-22ab-4ae9-8e28-b511fb1dee5a"
+      "id": "b228e496-62c9-4f8d-ba92-7a7b0ebd7b16",
+      "status": null
     },
     {
       "message": {
@@ -5400,13 +5469,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.556413",
+          "timestamp": "2021-08-11T05:30:44.395676",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:genetically_interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "ce44b615-dc92-4e69-8845-922dd7df2715"
+      "id": "dff5c050-924e-40c4-b6e0-ff4659b4e56f",
+      "status": null
     },
     {
       "message": {
@@ -5475,13 +5545,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.561318",
+          "timestamp": "2021-08-11T05:30:44.400970",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:has_phenotype using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "8e0fb8df-51c9-47db-b448-028b70bca5d5"
+      "id": "6d33bd3f-32ea-4ce0-83e2-de42bc9aff3a",
+      "status": null
     },
     {
       "message": {
@@ -5550,13 +5621,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.566353",
+          "timestamp": "2021-08-11T05:30:44.406121",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "12d22569-922e-46cd-8f34-7579c45021cb"
+      "id": "4ccdbc6b-c931-4085-afe8-0ee23c1d4858",
+      "status": null
     },
     {
       "message": {
@@ -5625,13 +5697,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.571063",
+          "timestamp": "2021-08-11T05:30:44.411197",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:phenotype_of using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "d88cb579-e651-4245-ada1-9c4966661d2a"
+      "id": "f6abb426-4d80-4ff1-89cd-969e52407423",
+      "status": null
     },
     {
       "message": {
@@ -5700,13 +5773,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.575926",
+          "timestamp": "2021-08-11T05:30:44.417388",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treated_by using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "f79d3f96-be49-47d4-94a1-4395287e0cdb"
+      "id": "35692e2c-357f-41fb-84e5-68f4006f4d57",
+      "status": null
     },
     {
       "message": {
@@ -5775,13 +5849,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.581220",
+          "timestamp": "2021-08-11T05:30:44.425007",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treats using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "5c90dc95-2dfc-4532-810b-b31dd40cadce"
+      "id": "55b5b04a-f2bc-4ab5-8293-b38412c9bc1d",
+      "status": null
     },
     {
       "message": {
@@ -5850,13 +5925,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.587316",
+          "timestamp": "2021-08-11T05:30:44.430960",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:condition_associated_with_gene using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "a8884935-af93-43cf-adcc-f194277a2281"
+      "id": "f3200c90-cf33-4064-86c6-c25bdc29e6fe",
+      "status": null
     },
     {
       "message": {
@@ -5925,13 +6001,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.592304",
+          "timestamp": "2021-08-11T05:30:44.435878",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:gene_associated_with_condition using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "2c335979-f19a-4fad-9d4b-4328c12687ca"
+      "id": "a1b3036a-290a-420a-94c3-07469b9061e9",
+      "status": null
     },
     {
       "message": {
@@ -6000,13 +6077,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.597329",
+          "timestamp": "2021-08-11T05:30:44.441035",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:genetically_interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "3b838742-4784-4979-a3d1-6f6b815be612"
+      "id": "55435dd5-aebf-4134-9705-521fe29d0fa5",
+      "status": null
     },
     {
       "message": {
@@ -6075,13 +6153,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.602530",
+          "timestamp": "2021-08-11T05:30:44.446017",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:has_phenotype using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "5089bca1-8bc8-47bf-b3a8-b9b812c4b0f7"
+      "id": "b5f3f9ef-7eca-44ee-9544-f1a89f887377",
+      "status": null
     },
     {
       "message": {
@@ -6150,13 +6229,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.607656",
+          "timestamp": "2021-08-11T05:30:44.450946",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "15854666-c695-4a9b-8d9e-2cbabfb6bdb9"
+      "id": "142b7bc1-3b4f-48c8-991f-5e904d2348dd",
+      "status": null
     },
     {
       "message": {
@@ -6225,13 +6305,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.612882",
+          "timestamp": "2021-08-11T05:30:44.456196",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:phenotype_of using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "946883bb-0c08-4e80-af68-158af4f08bdf"
+      "id": "008b867c-52bc-49a4-b401-15592e9b0da2",
+      "status": null
     },
     {
       "message": {
@@ -6300,13 +6381,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.618191",
+          "timestamp": "2021-08-11T05:30:44.461756",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treated_by using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "4f1309fe-c01f-458b-b73e-bc828e04a21f"
+      "id": "966f813e-0204-4aad-88ea-7459f31a7072",
+      "status": null
     },
     {
       "message": {
@@ -6375,13 +6457,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.623082",
+          "timestamp": "2021-08-11T05:30:44.467170",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treats using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "d80dc19e-2a06-487a-8c21-09b2415f1efd"
+      "id": "f8e06d8d-40b9-404f-96b1-7d5f2ce03e20",
+      "status": null
     },
     {
       "message": {
@@ -6450,13 +6533,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.629087",
+          "timestamp": "2021-08-11T05:30:44.473517",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:condition_associated_with_gene using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "71fd36e5-2f1e-4630-b446-dd61a0e99542"
+      "id": "651fafd5-dd84-4348-8eee-9e7b25022ac4",
+      "status": null
     },
     {
       "message": {
@@ -6525,13 +6609,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.633913",
+          "timestamp": "2021-08-11T05:30:44.479269",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:gene_associated_with_condition using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "e5426d56-57d6-43c6-adc5-2ab8c4233a38"
+      "id": "b3b7d0a8-e033-4963-99e6-103829dd8871",
+      "status": null
     },
     {
       "message": {
@@ -6600,13 +6685,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.638737",
+          "timestamp": "2021-08-11T05:30:44.484731",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:genetically_interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "ffb71165-e1e6-4f81-8744-8d8ac6538496"
+      "id": "d86bff61-4a21-4588-8fd7-35697544f12c",
+      "status": null
     },
     {
       "message": {
@@ -6675,13 +6761,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.643821",
+          "timestamp": "2021-08-11T05:30:44.490375",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:has_phenotype using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "c9a5d0df-221b-4d00-89a8-4ca8a7251002"
+      "id": "648fce65-7767-4648-ac81-7a169564c789",
+      "status": null
     },
     {
       "message": {
@@ -6750,13 +6837,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.648657",
+          "timestamp": "2021-08-11T05:30:44.495828",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "7f48cd68-a360-4066-9f8c-3282539827b3"
+      "id": "11c6c806-652c-4b60-8736-c9c27c825e22",
+      "status": null
     },
     {
       "message": {
@@ -6825,13 +6913,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.653482",
+          "timestamp": "2021-08-11T05:30:44.501268",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:phenotype_of using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "a43a7f9f-02b9-45c5-8e64-a0417d999148"
+      "id": "5f993eac-34d4-4fbd-abf9-14908fe7c4dc",
+      "status": null
     },
     {
       "message": {
@@ -6900,13 +6989,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.658631",
+          "timestamp": "2021-08-11T05:30:44.507026",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treated_by using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "3176360f-63ec-435c-9a5d-b400a666d64e"
+      "id": "2ba8211c-bacd-4455-bd36-da4824a82fba",
+      "status": null
     },
     {
       "message": {
@@ -6975,13 +7065,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.663510",
+          "timestamp": "2021-08-11T05:30:44.512449",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treats using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "6631f1a6-5281-4d70-b44f-b0151582ea7d"
+      "id": "6c3814e5-97d9-4a97-8272-3e7a7f5a9ac2",
+      "status": null
     },
     {
       "message": {
@@ -7050,13 +7141,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.669151",
+          "timestamp": "2021-08-11T05:30:44.518914",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:condition_associated_with_gene using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "398e79f6-9a6b-47cd-92c9-f30e38fa6337"
+      "id": "4d87cc33-177f-418f-9554-5585e7b145cb",
+      "status": null
     },
     {
       "message": {
@@ -7125,13 +7217,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.674149",
+          "timestamp": "2021-08-11T05:30:44.524262",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:gene_associated_with_condition using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "8fab2a19-e926-45ec-8fbd-4b82683732e6"
+      "id": "fb2bcff3-4d7f-4ba7-bb30-7eea52ad085f",
+      "status": null
     },
     {
       "message": {
@@ -7200,13 +7293,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.678976",
+          "timestamp": "2021-08-11T05:30:44.529756",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:genetically_interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "3e639229-bd81-4eb0-a7bf-26bc64d6a0fc"
+      "id": "17a8f6b3-1fcf-49f1-9746-844bcef2134b",
+      "status": null
     },
     {
       "message": {
@@ -7275,13 +7369,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.684001",
+          "timestamp": "2021-08-11T05:30:44.535362",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:has_phenotype using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "533a1062-e6dc-450b-9171-42d80a9add20"
+      "id": "a84bd593-0cc4-4de9-9817-17257184544a",
+      "status": null
     },
     {
       "message": {
@@ -7350,13 +7445,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.689005",
+          "timestamp": "2021-08-11T05:30:44.542301",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "c13b4265-f7fd-4f70-a902-1ddd1a23914f"
+      "id": "fefd28d4-2920-41a4-8719-93667cb88f95",
+      "status": null
     },
     {
       "message": {
@@ -7425,13 +7521,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.693845",
+          "timestamp": "2021-08-11T05:30:44.549299",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:phenotype_of using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "ed61711a-4582-4ee5-8bf3-10ba4b24277b"
+      "id": "db2de131-4383-4fe6-893b-38ecff54ef57",
+      "status": null
     },
     {
       "message": {
@@ -7500,13 +7597,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.698843",
+          "timestamp": "2021-08-11T05:30:44.554252",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treated_by using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "ecf1bd2c-8537-4268-8328-b43531b10097"
+      "id": "d7d4756f-12d6-47b6-9f13-e2081755ca37",
+      "status": null
     },
     {
       "message": {
@@ -7575,13 +7673,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.703840",
+          "timestamp": "2021-08-11T05:30:44.559473",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treats using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "4bba773d-ef19-40af-aacf-5eb1761d556d"
+      "id": "66652e81-049a-4c9d-b289-d89880eba3cb",
+      "status": null
     },
     {
       "message": {
@@ -7650,13 +7749,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.709641",
+          "timestamp": "2021-08-11T05:30:44.565228",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:condition_associated_with_gene using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "c7dfebae-7cf8-47f4-b579-95540c71be7f"
+      "id": "f3a3e870-61d3-48b2-b2b1-70e1ea2ff311",
+      "status": null
     },
     {
       "message": {
@@ -7725,13 +7825,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.714551",
+          "timestamp": "2021-08-11T05:30:44.570211",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:gene_associated_with_condition using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "73ef39b8-71b3-4637-9629-85fa28d6dc9e"
+      "id": "eca01c1f-dfc5-489e-8a0a-9a6c6adc0d62",
+      "status": null
     },
     {
       "message": {
@@ -7800,13 +7901,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.719631",
+          "timestamp": "2021-08-11T05:30:44.575400",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:genetically_interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "f0b801e3-e293-46e4-bceb-9f7aaf958fd7"
+      "id": "fc0848fd-2293-4c38-a7d2-52099ad984f6",
+      "status": null
     },
     {
       "message": {
@@ -7875,13 +7977,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.724763",
+          "timestamp": "2021-08-11T05:30:44.580593",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:has_phenotype using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "128e2bd2-b7e7-44bd-b7a2-346d2e137ee8"
+      "id": "df572ac9-0296-4bd5-9f30-5539c36bf4b1",
+      "status": null
     },
     {
       "message": {
@@ -7950,13 +8053,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.729679",
+          "timestamp": "2021-08-11T05:30:44.585702",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "d2b2d5b5-20fe-48d1-a5d9-d58b13493c62"
+      "id": "761dd08f-4d32-4138-a4f4-c51c7690a5b0",
+      "status": null
     },
     {
       "message": {
@@ -8025,13 +8129,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.734788",
+          "timestamp": "2021-08-11T05:30:44.590891",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:phenotype_of using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "80ee6443-3c64-4829-be23-c5921f2420dd"
+      "id": "420f1b47-0cc6-4d71-84d3-859a3b274b72",
+      "status": null
     },
     {
       "message": {
@@ -8100,13 +8205,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.739863",
+          "timestamp": "2021-08-11T05:30:44.596251",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treated_by using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "5c3afd83-2a9c-4e58-883e-80165de8e972"
+      "id": "1b0cb17b-826c-41fa-8d3c-661619662b2c",
+      "status": null
     },
     {
       "message": {
@@ -8175,13 +8281,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.744785",
+          "timestamp": "2021-08-11T05:30:44.601548",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treats using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "084319fb-c9da-444f-a24a-f3622f4c4d79"
+      "id": "410d05a2-6e8e-4419-8771-d9e282af7b09",
+      "status": null
     },
     {
       "message": {
@@ -8250,13 +8357,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.750640",
+          "timestamp": "2021-08-11T05:30:44.607327",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:condition_associated_with_gene using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "e22874bd-752d-4a87-ba87-9f9984fd1494"
+      "id": "273b8e48-c471-4f09-a20d-a7dbd53d23ea",
+      "status": null
     },
     {
       "message": {
@@ -8325,13 +8433,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.755563",
+          "timestamp": "2021-08-11T05:30:44.612447",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:gene_associated_with_condition using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "cfe8311e-03d2-46cf-8716-300e6e589a96"
+      "id": "808e9bc4-6522-45ec-a7c5-dff99fbb8be0",
+      "status": null
     },
     {
       "message": {
@@ -8400,13 +8509,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.760474",
+          "timestamp": "2021-08-11T05:30:44.617233",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:genetically_interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "83e59724-9798-41c7-98af-742d61bd7d34"
+      "id": "eec3f2e3-62fb-415f-ada5-32e52b87628e",
+      "status": null
     },
     {
       "message": {
@@ -8475,13 +8585,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.765526",
+          "timestamp": "2021-08-11T05:30:44.622320",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:has_phenotype using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "d51f6376-76cb-4a74-9fea-be339943c9db"
+      "id": "44175d32-68e7-41de-82d8-af7abf050813",
+      "status": null
     },
     {
       "message": {
@@ -8550,13 +8661,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.770485",
+          "timestamp": "2021-08-11T05:30:44.627401",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "78e74615-f4ec-49b6-b65f-63cd62a8954d"
+      "id": "f9a54b02-74e6-4256-8dce-6478db8baa7e",
+      "status": null
     },
     {
       "message": {
@@ -8625,13 +8737,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.775389",
+          "timestamp": "2021-08-11T05:30:44.632484",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:phenotype_of using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "5c446d13-07a2-467b-92b3-9ca832448693"
+      "id": "5e10d476-659e-41ca-886e-3a932ce0088c",
+      "status": null
     },
     {
       "message": {
@@ -8700,13 +8813,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.780439",
+          "timestamp": "2021-08-11T05:30:44.637756",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treated_by using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "0f2cb613-035e-4fec-b5a1-3579a725318b"
+      "id": "9edb163e-881b-4f8d-bcd2-79c8f090e8db",
+      "status": null
     },
     {
       "message": {
@@ -8775,13 +8889,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.785351",
+          "timestamp": "2021-08-11T05:30:44.643107",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treats using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "54530850-ba5b-4ed6-a69c-a7d8d2e79519"
+      "id": "c048c8fc-b47f-4129-978c-f49c8debd60f",
+      "status": null
     },
     {
       "message": {
@@ -8850,13 +8965,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.791112",
+          "timestamp": "2021-08-11T05:30:44.649342",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:condition_associated_with_gene using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "e9555f7e-82c1-4570-b4cb-a8db680b413a"
+      "id": "c51e1b4f-8f1c-4bff-8fa2-d476fd89ec5f",
+      "status": null
     },
     {
       "message": {
@@ -8925,13 +9041,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.795977",
+          "timestamp": "2021-08-11T05:30:44.654681",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:gene_associated_with_condition using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "07dbd185-b403-4ae1-860d-2c02d2837a05"
+      "id": "d84094e5-add2-4b16-b936-47cd7705198a",
+      "status": null
     },
     {
       "message": {
@@ -9000,13 +9117,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.800959",
+          "timestamp": "2021-08-11T05:30:44.659938",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:genetically_interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "34b1bdef-6daa-48e6-a59c-f6eae5a08fb7"
+      "id": "dd2fc182-b6c8-4611-a38d-c4e05418d1f1",
+      "status": null
     },
     {
       "message": {
@@ -9075,13 +9193,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.805894",
+          "timestamp": "2021-08-11T05:30:44.665345",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:has_phenotype using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "706552b3-afdb-404e-8569-50cf873738bb"
+      "id": "e41961cc-27fc-4513-a935-885be22c5691",
+      "status": null
     },
     {
       "message": {
@@ -9150,13 +9269,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.810886",
+          "timestamp": "2021-08-11T05:30:44.670650",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "a0f04334-4da4-4e40-ad4d-c7d522900d42"
+      "id": "39aeb403-3e8e-4c50-bb8a-e86ce1974502",
+      "status": null
     },
     {
       "message": {
@@ -9225,13 +9345,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.815846",
+          "timestamp": "2021-08-11T05:30:44.675942",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:phenotype_of using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "cb742e8b-b43d-4c65-80fa-8d277c52bb05"
+      "id": "420c052f-e62b-459a-94e3-a77634c3d6e8",
+      "status": null
     },
     {
       "message": {
@@ -9300,13 +9421,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.821064",
+          "timestamp": "2021-08-11T05:30:44.681619",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treated_by using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "12e9d8a1-8519-401d-a6a2-568db0db0f16"
+      "id": "b4d73962-aa2d-4051-9ec0-3d83484612d7",
+      "status": null
     },
     {
       "message": {
@@ -9375,13 +9497,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.826003",
+          "timestamp": "2021-08-11T05:30:44.686495",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treats using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "a2025421-c8b2-4ed4-81c4-8b4461cae8f1"
+      "id": "c020102e-1376-48e7-a909-d90b854adcff",
+      "status": null
     },
     {
       "message": {
@@ -9450,13 +9573,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.831806",
+          "timestamp": "2021-08-11T05:30:44.692204",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:condition_associated_with_gene using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "4615d285-d29b-4d10-90c7-f3c19dd589c0"
+      "id": "8478af45-ea0f-4a2d-9729-443c956a5104",
+      "status": null
     },
     {
       "message": {
@@ -9525,13 +9649,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.836812",
+          "timestamp": "2021-08-11T05:30:44.697207",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:gene_associated_with_condition using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "5181a73f-9777-4272-aafa-2bee3d770360"
+      "id": "4c0f52ef-5eda-4043-91e7-77966bbae639",
+      "status": null
     },
     {
       "message": {
@@ -9600,13 +9725,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.841674",
+          "timestamp": "2021-08-11T05:30:44.702786",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:genetically_interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "2857eba4-03ec-4794-8de2-65c5a1c09162"
+      "id": "3de6f910-5af6-4d44-8fc7-0013cb7cbc96",
+      "status": null
     },
     {
       "message": {
@@ -9675,13 +9801,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.846829",
+          "timestamp": "2021-08-11T05:30:44.707856",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:has_phenotype using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "acf5a508-caff-4167-b1ca-00dd4e0b30ed"
+      "id": "9c8734b3-dd89-4e53-ae9a-829dad98fa8c",
+      "status": null
     },
     {
       "message": {
@@ -9750,13 +9877,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.851725",
+          "timestamp": "2021-08-11T05:30:44.712643",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "5e9b851f-8ebf-40aa-a694-d9a6d779d719"
+      "id": "9c377cdc-3c69-4cd4-bcce-e5c7bfc3c7f1",
+      "status": null
     },
     {
       "message": {
@@ -9825,13 +9953,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.856609",
+          "timestamp": "2021-08-11T05:30:44.717519",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:phenotype_of using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "ac77d54b-f094-4e41-818a-9cffb03154a6"
+      "id": "334406a5-43d8-439f-ad1d-084c795d6dc4",
+      "status": null
     },
     {
       "message": {
@@ -9900,13 +10029,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.862760",
+          "timestamp": "2021-08-11T05:30:44.722583",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treated_by using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "89226d65-5c0d-4c75-9577-0c67e20288ea"
+      "id": "966da96f-0583-4b9c-b073-b4abb44619f4",
+      "status": null
     },
     {
       "message": {
@@ -9975,13 +10105,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.868144",
+          "timestamp": "2021-08-11T05:30:44.727630",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treats using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "b0271a6a-4da1-441c-bac0-09eeaa23994f"
+      "id": "47d1a499-1319-4a13-a025-d2271ce0b8a5",
+      "status": null
     },
     {
       "message": {
@@ -10050,13 +10181,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.874031",
+          "timestamp": "2021-08-11T05:30:44.733694",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:condition_associated_with_gene using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "d4d95120-4c83-40e3-b2d1-c23c5bc5817a"
+      "id": "f397eeba-69ea-49e8-b219-a11d82d804c2",
+      "status": null
     },
     {
       "message": {
@@ -10125,13 +10257,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.879141",
+          "timestamp": "2021-08-11T05:30:44.738844",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:gene_associated_with_condition using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "410cd5da-fce9-46dc-b071-f706e2ed5c37"
+      "id": "3b91f7d2-a21f-4445-9eeb-1f6de6217cd8",
+      "status": null
     },
     {
       "message": {
@@ -10200,13 +10333,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.883886",
+          "timestamp": "2021-08-11T05:30:44.744108",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:genetically_interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "3f460b0a-66b0-420b-a503-3ec5098d4c2a"
+      "id": "db408d99-1235-4f7b-9bd2-5c0984cd3b21",
+      "status": null
     },
     {
       "message": {
@@ -10275,13 +10409,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.888678",
+          "timestamp": "2021-08-11T05:30:44.748994",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:has_phenotype using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "ada08062-9a52-463a-8489-9c87b2756a8f"
+      "id": "644828e3-858b-4cd3-aad2-07a70824a489",
+      "status": null
     },
     {
       "message": {
@@ -10350,13 +10485,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.893883",
+          "timestamp": "2021-08-11T05:30:44.753951",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "89fccf38-9c61-4da6-9a5c-08baa81f8f65"
+      "id": "10ed2c14-2207-4229-8bb7-d89caf22742e",
+      "status": null
     },
     {
       "message": {
@@ -10425,13 +10561,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.898715",
+          "timestamp": "2021-08-11T05:30:44.758955",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:phenotype_of using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "3d55a9bd-dbba-43cd-bff6-4d87599a064a"
+      "id": "6523909d-31ab-4781-83ce-6bcfced7d376",
+      "status": null
     },
     {
       "message": {
@@ -10500,13 +10637,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.903480",
+          "timestamp": "2021-08-11T05:30:44.764089",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treated_by using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "74cd8a29-22b1-414d-a71a-0c3061d0d78c"
+      "id": "0493686d-f792-4681-b172-7be796b3068e",
+      "status": null
     },
     {
       "message": {
@@ -10575,13 +10713,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.908514",
+          "timestamp": "2021-08-11T05:30:44.768920",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treats using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "c29e0152-113d-4c1a-a98a-6ff5b4794095"
+      "id": "c8547f5e-2473-46c8-bc37-ef6232d64393",
+      "status": null
     },
     {
       "message": {
@@ -10650,13 +10789,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.914235",
+          "timestamp": "2021-08-11T05:30:44.774744",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:condition_associated_with_gene using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "088ab084-b32c-44d3-aeef-5f2e5a6919d2"
+      "id": "8e207db6-f3f3-4641-a14f-404f03a1681a",
+      "status": null
     },
     {
       "message": {
@@ -10725,13 +10865,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.919151",
+          "timestamp": "2021-08-11T05:30:44.779598",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:gene_associated_with_condition using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "d9aff1e0-1b46-44ec-9c36-e8c970e3a54c"
+      "id": "a7a1fa02-2fde-4c28-8116-8d803638a786",
+      "status": null
     },
     {
       "message": {
@@ -10800,13 +10941,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.924021",
+          "timestamp": "2021-08-11T05:30:44.784741",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:genetically_interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "0efe3030-1635-42d1-8201-3b0519ca19d0"
+      "id": "3b275d4b-86f5-4990-9e6c-76a5e189b72a",
+      "status": null
     },
     {
       "message": {
@@ -10875,13 +11017,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.928934",
+          "timestamp": "2021-08-11T05:30:44.789770",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:has_phenotype using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "3cde82be-6c49-40c8-9d7b-e4dc8bac4e69"
+      "id": "1df616ac-8b42-4496-9ee1-1853ac2f62fd",
+      "status": null
     },
     {
       "message": {
@@ -10950,13 +11093,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.933707",
+          "timestamp": "2021-08-11T05:30:44.794694",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "fe785572-c921-4c06-b2c9-d30e5bb19bc1"
+      "id": "de66d969-d0bd-4f26-84b3-f4c9e266fd9d",
+      "status": null
     },
     {
       "message": {
@@ -11025,13 +11169,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.938513",
+          "timestamp": "2021-08-11T05:30:44.799536",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:phenotype_of using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "8167229e-95a8-448b-89ba-9bde21d84f2e"
+      "id": "22646e87-faa0-4c23-a7f0-61822b16a27f",
+      "status": null
     },
     {
       "message": {
@@ -11100,13 +11245,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.943657",
+          "timestamp": "2021-08-11T05:30:44.804737",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treated_by using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "af1c1567-9b8b-4b0a-a96d-241dc83dae6a"
+      "id": "7d66acea-f059-479c-b3e1-72295097010a",
+      "status": null
     },
     {
       "message": {
@@ -11175,13 +11321,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.948534",
+          "timestamp": "2021-08-11T05:30:44.809644",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treats using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "8bfa9659-1519-4790-9002-e02b39ca16ff"
+      "id": "49fbadd8-87c4-4e31-883d-d8020c319138",
+      "status": null
     },
     {
       "message": {
@@ -11250,13 +11397,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.954863",
+          "timestamp": "2021-08-11T05:30:44.815509",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:condition_associated_with_gene using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "57e9366d-2c04-499d-87db-5beb55046989"
+      "id": "7652202b-ab28-4dbe-8889-fa78a4d3a8f8",
+      "status": null
     },
     {
       "message": {
@@ -11325,13 +11473,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.959641",
+          "timestamp": "2021-08-11T05:30:44.820463",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:gene_associated_with_condition using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "536b20b2-ac51-4c25-8b2d-c608ccaea74e"
+      "id": "3c352ba7-450c-4e13-9d5a-0156bd5d5fe2",
+      "status": null
     },
     {
       "message": {
@@ -11400,13 +11549,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.964424",
+          "timestamp": "2021-08-11T05:30:44.825518",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:genetically_interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "adf05cf2-baaa-4853-a2fc-17224cfeea86"
+      "id": "7d43665f-449d-4e1a-bd8a-cfc1559c53e4",
+      "status": null
     },
     {
       "message": {
@@ -11475,13 +11625,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.969335",
+          "timestamp": "2021-08-11T05:30:44.830601",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:has_phenotype using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "815dfdab-7227-44e5-b69b-89170375bf8d"
+      "id": "99e1ffb9-8fba-4837-9a95-dad2df0379c1",
+      "status": null
     },
     {
       "message": {
@@ -11550,13 +11701,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.974308",
+          "timestamp": "2021-08-11T05:30:44.835549",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "75a1a739-4222-42b3-9c8c-0bbe1bc4a266"
+      "id": "193fcfc5-4b15-4fe5-8e05-39129282b578",
+      "status": null
     },
     {
       "message": {
@@ -11625,13 +11777,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.979211",
+          "timestamp": "2021-08-11T05:30:44.840370",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:phenotype_of using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "94923ccb-0acb-4bbf-b79b-12aa0db0dbc5"
+      "id": "5e61e5e4-2fcd-4ff0-9954-a8ff03922252",
+      "status": null
     },
     {
       "message": {
@@ -11700,13 +11853,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.984591",
+          "timestamp": "2021-08-11T05:30:44.846553",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treated_by using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "5056e287-bad8-492b-978f-0b407c305ec2"
+      "id": "82458cee-fdb8-4df1-b719-0b1dd4c4efa8",
+      "status": null
     },
     {
       "message": {
@@ -11775,13 +11929,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.989501",
+          "timestamp": "2021-08-11T05:30:44.851403",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treats using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "c8fa0095-0560-47e5-bb02-ddf2b20ff91f"
+      "id": "f9778d39-df13-49a7-8746-e34c1601aac1",
+      "status": null
     },
     {
       "message": {
@@ -11850,13 +12005,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:05.995198",
+          "timestamp": "2021-08-11T05:30:44.857389",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:condition_associated_with_gene using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "70eefa30-230b-459b-9a87-df703e14a1ea"
+      "id": "458fc8f4-050e-4077-8b07-4fe1191130a3",
+      "status": null
     },
     {
       "message": {
@@ -11925,13 +12081,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.000275",
+          "timestamp": "2021-08-11T05:30:44.862327",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:gene_associated_with_condition using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "250615ee-890c-4aa2-b33e-abc356a6e754"
+      "id": "60d39be3-f7e1-4f70-a4d4-42c22777c0f5",
+      "status": null
     },
     {
       "message": {
@@ -12000,13 +12157,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.005165",
+          "timestamp": "2021-08-11T05:30:44.867394",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:genetically_interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "6dffb103-6674-467c-8d74-b39d5f75fccf"
+      "id": "dad802f7-bbb8-4903-b5f8-de566cb4ebc3",
+      "status": null
     },
     {
       "message": {
@@ -12075,13 +12233,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.010177",
+          "timestamp": "2021-08-11T05:30:44.872390",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:has_phenotype using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "13131aa0-57c3-4722-b02d-320d4b73d298"
+      "id": "4aa64bbd-bdd3-4f98-afcb-b054b8a0a8b4",
+      "status": null
     },
     {
       "message": {
@@ -12150,13 +12309,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.015080",
+          "timestamp": "2021-08-11T05:30:44.877282",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "c4556da9-4971-4e96-ab69-900fc773efc9"
+      "id": "710ac099-d09d-4396-8cbc-0388bdc10963",
+      "status": null
     },
     {
       "message": {
@@ -12225,13 +12385,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.020083",
+          "timestamp": "2021-08-11T05:30:44.882191",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:phenotype_of using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "2464aa75-207a-4267-b95a-6bae068eb432"
+      "id": "77cf60ae-59c9-4d18-afbc-473dec06216a",
+      "status": null
     },
     {
       "message": {
@@ -12300,13 +12461,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.025101",
+          "timestamp": "2021-08-11T05:30:44.887360",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treated_by using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "098d92d0-9017-4d1d-87a2-86393d1b2f10"
+      "id": "4fb82981-ca97-480a-b55a-96445bc4730d",
+      "status": null
     },
     {
       "message": {
@@ -12375,13 +12537,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.030071",
+          "timestamp": "2021-08-11T05:30:44.892264",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treats using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "6d222bba-3cc5-48a8-b738-fe3f359760ef"
+      "id": "bc5e6552-9dc2-411f-a910-e7415d8fceea",
+      "status": null
     },
     {
       "message": {
@@ -12450,13 +12613,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.035731",
+          "timestamp": "2021-08-11T05:30:44.898084",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:condition_associated_with_gene using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "e3ac1efb-c65d-40bd-8de1-4f064b6eab0a"
+      "id": "3bc5373c-735d-4d13-85b5-d9b77d539800",
+      "status": null
     },
     {
       "message": {
@@ -12525,13 +12689,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.040399",
+          "timestamp": "2021-08-11T05:30:44.902908",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:gene_associated_with_condition using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "c644aef2-89a7-432e-92e8-34bb18df720a"
+      "id": "b64f1810-173a-467e-8a43-fc70e07f2acd",
+      "status": null
     },
     {
       "message": {
@@ -12600,13 +12765,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.045167",
+          "timestamp": "2021-08-11T05:30:44.907895",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:genetically_interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "7dcc13b9-49cf-4192-909d-015b6e58cfe2"
+      "id": "11bbaa1e-b90a-44a8-97ec-00345ab0770c",
+      "status": null
     },
     {
       "message": {
@@ -12675,13 +12841,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.050969",
+          "timestamp": "2021-08-11T05:30:44.912870",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:has_phenotype using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "65734840-023c-4e0f-a1e1-91aecfed3c02"
+      "id": "ac9ceed4-b256-4147-bd12-f2f480511e77",
+      "status": null
     },
     {
       "message": {
@@ -12750,13 +12917,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.055652",
+          "timestamp": "2021-08-11T05:30:44.917791",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "debde6a6-1310-4e73-90ba-75146e96c7a2"
+      "id": "ede9aa66-a72a-4d1a-a84e-2ef6380a8a97",
+      "status": null
     },
     {
       "message": {
@@ -12825,13 +12993,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.060371",
+          "timestamp": "2021-08-11T05:30:44.922649",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:phenotype_of using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "081a74c8-9c43-4c3f-80f2-6cc25363d21d"
+      "id": "5ef9aabc-26f7-4d26-94ea-87fb169a3b11",
+      "status": null
     },
     {
       "message": {
@@ -12900,13 +13069,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.065395",
+          "timestamp": "2021-08-11T05:30:44.927842",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treated_by using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "a06332b9-ddd8-469f-a812-30df0509612d"
+      "id": "cbd228b5-43a8-4fad-887d-61d5f743d1c4",
+      "status": null
     },
     {
       "message": {
@@ -12975,13 +13145,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.070019",
+          "timestamp": "2021-08-11T05:30:44.932980",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treats using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "4985a6a5-ac5c-42c7-99b6-a94255f3522c"
+      "id": "adf17795-81b3-400c-b786-4d0dfad5e37e",
+      "status": null
     },
     {
       "message": {
@@ -13050,13 +13221,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.075562",
+          "timestamp": "2021-08-11T05:30:44.938972",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:condition_associated_with_gene using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "61e6ace0-c362-49d3-b9f9-531c94e2d193"
+      "id": "56569ab9-4ad6-4cbc-8559-f2b397d28f7c",
+      "status": null
     },
     {
       "message": {
@@ -13125,13 +13297,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.082021",
+          "timestamp": "2021-08-11T05:30:44.944018",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:gene_associated_with_condition using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "10569863-e196-4c51-9458-c11f3c28c885"
+      "id": "2b677791-97cb-4cbe-ba37-c0007b892f92",
+      "status": null
     },
     {
       "message": {
@@ -13200,13 +13373,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.086941",
+          "timestamp": "2021-08-11T05:30:44.949177",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:genetically_interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "e01a65d0-e385-400e-9a3d-27c07ecc0cf6"
+      "id": "22f31970-b792-4f56-9adc-84e28829435d",
+      "status": null
     },
     {
       "message": {
@@ -13275,13 +13449,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.092161",
+          "timestamp": "2021-08-11T05:30:44.954487",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:has_phenotype using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "675fc9ff-9921-4eb2-9757-8a035c1172bf"
+      "id": "862fec6c-aaa8-4bf2-8996-e887ddfd3508",
+      "status": null
     },
     {
       "message": {
@@ -13350,13 +13525,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.097140",
+          "timestamp": "2021-08-11T05:30:44.959704",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "e3ad5dc1-ddb3-4e07-a324-c9c1ac4608c4"
+      "id": "2c090138-12e3-4a21-bfec-d9e68b898fb4",
+      "status": null
     },
     {
       "message": {
@@ -13425,13 +13601,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.102015",
+          "timestamp": "2021-08-11T05:30:44.964873",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:phenotype_of using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "7dd6f942-1a14-49e0-b6b6-33521a9cbb57"
+      "id": "d5425650-96a6-4bb8-a00d-8dbcf6be3c91",
+      "status": null
     },
     {
       "message": {
@@ -13500,13 +13677,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.107091",
+          "timestamp": "2021-08-11T05:30:44.970233",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treated_by using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "b7e0f6b1-e13a-49d1-b6fe-38877897aa35"
+      "id": "73158e95-4979-404c-b3af-5f8ea3f8cbc3",
+      "status": null
     },
     {
       "message": {
@@ -13575,13 +13753,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.112100",
+          "timestamp": "2021-08-11T05:30:44.975364",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treats using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "3d184145-8a04-4245-a2f4-9a0bd2be7902"
+      "id": "0843ba86-6994-4bd6-b2b6-fbf1eb09d7b2",
+      "status": null
     },
     {
       "message": {
@@ -13650,13 +13829,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.118053",
+          "timestamp": "2021-08-11T05:30:44.981358",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:condition_associated_with_gene using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "49b49082-ecbb-4cea-b1e3-730567a9c1cc"
+      "id": "e26bef90-4a33-4019-81d0-0410a95f2538",
+      "status": null
     },
     {
       "message": {
@@ -13725,13 +13905,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.123086",
+          "timestamp": "2021-08-11T05:30:44.986320",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:gene_associated_with_condition using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "ac645f67-b3d3-44e2-87e4-1d361a3619cf"
+      "id": "df818556-9474-4ed0-8c4b-b391262026f5",
+      "status": null
     },
     {
       "message": {
@@ -13800,13 +13981,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.127951",
+          "timestamp": "2021-08-11T05:30:44.991517",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:genetically_interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "1e38f49d-aae0-484c-92e6-c44c4997a87f"
+      "id": "f7488df6-9fff-4c3f-a2f7-4660f6c19765",
+      "status": null
     },
     {
       "message": {
@@ -13875,13 +14057,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.132899",
+          "timestamp": "2021-08-11T05:30:44.996430",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:has_phenotype using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "367918d5-f135-4655-8374-a933cc1356f4"
+      "id": "3df16aed-bc87-48dc-987f-09c5c085f2bc",
+      "status": null
     },
     {
       "message": {
@@ -13950,13 +14133,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.137813",
+          "timestamp": "2021-08-11T05:30:45.001333",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:interacts_with using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "562338ce-7b01-4dbc-8f50-f53d65f71e09"
+      "id": "9a4dc7b5-091c-4c72-9269-139496d5fcc7",
+      "status": null
     },
     {
       "message": {
@@ -14025,13 +14209,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.142667",
+          "timestamp": "2021-08-11T05:30:45.006125",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:phenotype_of using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "53355b1f-bc5f-42e8-aa98-ddec10a5ae13"
+      "id": "9f0fb24a-7fed-498a-ba8a-0193f78ab507",
+      "status": null
     },
     {
       "message": {
@@ -14100,13 +14285,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.147878",
+          "timestamp": "2021-08-11T05:30:45.011753",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treated_by using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "815f8d9f-be43-4fa5-9c5e-86da4c3aecc7"
+      "id": "8e539b53-7951-4b90-a8b7-52d40446b494",
+      "status": null
     },
     {
       "message": {
@@ -14175,13 +14361,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.152819",
+          "timestamp": "2021-08-11T05:30:45.016700",
           "level": "INFO",
           "message": "Converted predicate biolink:related_to to biolink:treats using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "066b3af5-2ca5-49f5-90d1-3a6f218f4788"
+      "id": "74c5735a-b73f-4dd2-8ca3-c697cbd8c0a5",
+      "status": null
     }
   ],
   [
@@ -14275,13 +14462,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.212011",
+          "timestamp": "2021-08-11T05:30:45.077027",
           "level": "INFO",
           "message": "Converted predicate biolink:genetic_association to biolink:condition_associated_with_gene using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "a4ff02ee-abcf-4361-b93e-1c73e22f7a37"
+      "id": "d23a42b4-c604-4fb9-962e-7815ff41db1e",
+      "status": null
     },
     {
       "message": {
@@ -14373,13 +14561,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.217182",
+          "timestamp": "2021-08-11T05:30:45.082715",
           "level": "INFO",
           "message": "Converted predicate biolink:genetic_association to biolink:gene_associated_with_condition using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "b8411a0c-c75e-4633-a715-128759df9727"
+      "id": "deaedbdf-7fc5-4842-a804-b16ba6fa4ed0",
+      "status": null
     },
     {
       "message": {
@@ -14471,13 +14660,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.222243",
+          "timestamp": "2021-08-11T05:30:45.088286",
           "level": "INFO",
           "message": "Converted predicate biolink:genetic_association to biolink:condition_associated_with_gene using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "35b21516-475e-4843-8232-299527ce0080"
+      "id": "70095f2b-77b0-4643-8c78-e0aa30e832a0",
+      "status": null
     },
     {
       "message": {
@@ -14569,13 +14759,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.227383",
+          "timestamp": "2021-08-11T05:30:45.093909",
           "level": "INFO",
           "message": "Converted predicate biolink:genetic_association to biolink:gene_associated_with_condition using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "eb76a2d0-f55b-4afd-935d-15af58fd6c27"
+      "id": "42aaa01b-d879-4bd8-974e-6923df2e939a",
+      "status": null
     },
     {
       "message": {
@@ -14667,13 +14858,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.232553",
+          "timestamp": "2021-08-11T05:30:45.099596",
           "level": "INFO",
           "message": "Converted predicate biolink:genetic_association to biolink:condition_associated_with_gene using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "80c3ea18-0b8a-41a0-a802-e77598ef05c0"
+      "id": "46f40588-853a-4611-9677-d9f04c94d0fe",
+      "status": null
     },
     {
       "message": {
@@ -14765,13 +14957,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.237679",
+          "timestamp": "2021-08-11T05:30:45.105177",
           "level": "INFO",
           "message": "Converted predicate biolink:genetic_association to biolink:gene_associated_with_condition using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "3a357c43-6256-4a4c-81f1-73692d3c4164"
+      "id": "7e8a5347-cbd5-4152-a1ca-c93b661821f5",
+      "status": null
     },
     {
       "message": {
@@ -14863,13 +15056,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.242839",
+          "timestamp": "2021-08-11T05:30:45.110745",
           "level": "INFO",
           "message": "Converted predicate biolink:genetic_association to biolink:condition_associated_with_gene using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "ac370b95-36ad-479c-85a5-3d35103fbd43"
+      "id": "c8c87061-9bc6-4517-8860-028e9662b6a1",
+      "status": null
     },
     {
       "message": {
@@ -14961,13 +15155,14 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-05T23:46:06.247909",
+          "timestamp": "2021-08-11T05:30:45.116444",
           "level": "INFO",
           "message": "Converted predicate biolink:genetic_association to biolink:gene_associated_with_condition using Biolink semantic operations.",
           "code": null
         }
       ],
-      "pk": "faf0d6a4-a7b1-462b-84d4-7464e5bc5c52"
+      "id": "6304d186-4c15-4e1e-8b0e-7983a476fc9e",
+      "status": null
     }
   ]
 ]

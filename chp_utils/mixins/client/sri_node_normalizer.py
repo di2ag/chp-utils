@@ -2,6 +2,8 @@ from collections import defaultdict
 
 from trapi_model.biolink.constants import *
 
+from chp_utils.exceptions import SriNodeNormalizerException
+
 class SriNodeNormalizerMixin:
     def _get_normalized_nodes(self, curies, **kwargs):
         """ Returns normalizations for all curies passed.
@@ -17,8 +19,10 @@ class SriNodeNormalizerMixin:
         params = {"curie": curies}
 
         verbose = kwargs.pop('verbose', True)
-        
-        from_cache, out = self._get(_url, params=params, verbose=verbose)
+        try: 
+            from_cache, out = self._get(_url, params=params, verbose=verbose)
+        except GeneralApiErrorException as ex:
+            raise SriNodeNormalizerException(ex.resp, _url, ontology_query)
 
         if verbose and from_cache:
             print('Result from cache.')
@@ -38,7 +42,11 @@ class SriNodeNormalizerMixin:
         params = {"semantic_type": semantic_types}
 
         verbose = kwargs.pop('verbose', True)
-        from_cache, out = self._get(_url, params=params, verbose=verbose)
+        try:
+            from_cache, out = self._get(_url, params=params, verbose=verbose)
+        except GeneralApiErrorException as ex:
+            raise SriNodeNormalizerException(ex.resp, _url, ontology_query)
+
         if verbose and from_cache:
             print('Result from cache.')
         return self._parse_curie_prefixes_response(out.json())
@@ -54,7 +62,10 @@ class SriNodeNormalizerMixin:
         params = None
 
         verbose = kwargs.pop('verbose', True)
-        from_cache, out = self._get(_url, params=params, verbose=verbose)
+        try:
+            from_cache, out = self._get(_url, params=params, verbose=verbose)
+        except GeneralApiErrorException as ex:
+            raise SriNodeNormalizerException(ex.resp, _url, ontology_query)
         if verbose and from_cache:
             print('Result from cache.')
         return self._parse_semantic_types_response(out.json())

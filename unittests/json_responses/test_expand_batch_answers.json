@@ -64,7 +64,8 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "pk": "47f5ba40-1b0a-4479-b0b3-b043f0de431e"
+      "id": "46c71563-d868-47d0-97e3-6c8431af00cb",
+      "status": null
     }
   ],
   [
@@ -130,7 +131,8 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "pk": "ef9e4941-61fd-480a-96e9-385f5284012f"
+      "id": "b2e0efd6-d71c-46f1-81fd-d7f92ef89042",
+      "status": null
     }
   ],
   [
@@ -198,7 +200,8 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "pk": "da524a61-5a26-421e-bddf-73b66a4c2736"
+      "id": "bd9f3b34-7d36-4cf5-8c84-a1380d62b25e",
+      "status": null
     }
   ],
   [
@@ -268,7 +271,8 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "pk": "a1a02dab-c093-4f74-9985-1a9b80f93fa4"
+      "id": "bb486f15-8b31-46e3-b9c8-633c1281935e",
+      "status": null
     }
   ],
   [
@@ -338,7 +342,8 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "pk": "1d5a26e8-9643-4310-b95a-cf9aea2a330b"
+      "id": "9ee155c6-15ad-4564-90e5-4d120ef4ade8",
+      "status": null
     },
     {
       "message": {
@@ -406,7 +411,8 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "pk": "b3557bd4-221b-4a89-92a1-bafa55c60824"
+      "id": "aa3c00d6-7c06-4680-b7f8-1dc4d227f920",
+      "status": null
     },
     {
       "message": {
@@ -474,7 +480,8 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "pk": "08062815-5e66-46ee-bae5-e8849dbbbc70"
+      "id": "7df4aca2-5c6f-4a35-8d43-8050717df4a4",
+      "status": null
     }
   ],
   [
@@ -544,7 +551,8 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "pk": "eace7741-9ce3-4475-bc1c-0e5306fbc0c3"
+      "id": "a3e985f1-f0df-4914-8bc1-c4e0170ffd4d",
+      "status": null
     },
     {
       "message": {
@@ -612,7 +620,8 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "pk": "98418a1e-0ff1-4d46-bd24-15321785479c"
+      "id": "b718bb6d-c241-41b7-bd78-04999ada5483",
+      "status": null
     }
   ],
   [
@@ -682,7 +691,8 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "pk": "4450503e-6518-47bd-93e5-39d6fba0d29c"
+      "id": "f5b85642-99b3-4316-ac0d-530061922b1f",
+      "status": null
     },
     {
       "message": {
@@ -750,7 +760,8 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "pk": "247990fc-25f4-40ce-a599-6ea7e46f0a90"
+      "id": "6dcd456e-454f-4939-9ed6-40efa4e0dc04",
+      "status": null
     },
     {
       "message": {
@@ -818,7 +829,8 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "pk": "79baeb4b-cb1f-4ef1-9740-fdc49b4bdeb2"
+      "id": "9375839f-c383-4876-b312-01b0e327e75c",
+      "status": null
     },
     {
       "message": {
@@ -886,7 +898,8 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "pk": "b33a994e-a5ce-4642-971b-dc761a3ec1cc"
+      "id": "fc0c24fd-dcdc-47dd-8830-5af482668277",
+      "status": null
     },
     {
       "message": {
@@ -954,7 +967,8 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "pk": "5f719f39-d820-4126-8ea3-94649ec877fb"
+      "id": "6821ebec-4c7d-46e9-aff9-5ee5d533077b",
+      "status": null
     },
     {
       "message": {
@@ -1022,7 +1036,8 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "pk": "1fb415b7-8429-4c50-8c36-069fb4bfc916"
+      "id": "9674a1d8-fbc3-49c6-9206-b2d60289fa64",
+      "status": null
     },
     {
       "message": {
@@ -1090,7 +1105,8 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "pk": "963ee7f6-e6c1-4211-9445-20282c9235ba"
+      "id": "eb6fbdc2-59dc-4363-978c-9803bba6f8b9",
+      "status": null
     },
     {
       "message": {
@@ -1158,7 +1174,8 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "pk": "cc66798f-cbad-410d-9895-8af68715e3d8"
+      "id": "7a044b6d-de2a-4d3c-8d7a-e55d21095554",
+      "status": null
     },
     {
       "message": {
@@ -1226,7 +1243,8 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "pk": "45c60957-e96c-4b03-958d-26c70eae63d8"
+      "id": "d47abde3-c3a0-4e43-9f01-df6eae0934f4",
+      "status": null
     },
     {
       "message": {
@@ -1294,7 +1312,8 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "pk": "d0d89cbc-31d6-4389-b969-ed42894ef20d"
+      "id": "2dd42a9f-be21-4b1d-bec2-f3cf6da09a67",
+      "status": null
     },
     {
       "message": {
@@ -1362,7 +1381,8 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "pk": "ad320c7b-c219-425b-8e6b-cc589c14fb1a"
+      "id": "704f9fd8-f186-4ada-8ad3-a8264824622d",
+      "status": null
     },
     {
       "message": {
@@ -1430,7 +1450,8 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "pk": "8f71ec08-ac58-4bfa-a8ba-263336dbded0"
+      "id": "1114d782-7ecf-4808-87c6-f526b62b6a4e",
+      "status": null
     },
     {
       "message": {
@@ -1498,7 +1519,8 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "pk": "a5ffae69-c236-4ed4-a17e-e65aeac1ee27"
+      "id": "9093e58d-34e5-49dc-ab8e-0fd914949d72",
+      "status": null
     },
     {
       "message": {
@@ -1566,7 +1588,8 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "pk": "ec7be9cf-eea3-4e01-bda6-b25338932d4a"
+      "id": "c9923058-a2c0-40e0-a9ea-8c92b18f1e5e",
+      "status": null
     },
     {
       "message": {
@@ -1634,7 +1657,8 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "pk": "7e7fd10d-78d9-4c5f-beeb-1e3f5d9fcdab"
+      "id": "91b4ca4e-26b3-453b-bf8b-a83e30611325",
+      "status": null
     },
     {
       "message": {
@@ -1702,7 +1726,8 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "pk": "ec311338-2137-44d7-a8f3-663e8bca1ebe"
+      "id": "df2b03c6-a103-492d-9f58-1e5f5652f412",
+      "status": null
     }
   ],
   [
@@ -1795,7 +1820,8 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "pk": "b4d5ece5-5940-4f38-b25a-123711357767"
+      "id": "fc9748be-c3be-45a0-adaa-daf39a63ffad",
+      "status": null
     },
     {
       "message": {
@@ -1886,7 +1912,8 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "pk": "3c654687-7a23-478c-9916-74cbac5cf021"
+      "id": "aec38d39-0e7b-4b7d-9f7d-5587a5db79f2",
+      "status": null
     },
     {
       "message": {
@@ -1977,7 +2004,8 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "pk": "c9f78062-ea07-470e-9f85-03bd2c586984"
+      "id": "a6a02564-67c0-4c83-8611-dec288441f75",
+      "status": null
     },
     {
       "message": {
@@ -2068,7 +2096,8 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "pk": "a6bb5386-a278-4f31-9c42-c50b65cca653"
+      "id": "4e01ea0b-008f-431a-93fb-709a07c0ddce",
+      "status": null
     }
   ]
 ]

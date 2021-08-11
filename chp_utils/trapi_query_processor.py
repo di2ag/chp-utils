@@ -2,6 +2,7 @@ import logging
 import itertools
 from copy import deepcopy
 from collections import defaultdict
+import json
 
 from trapi_model.query import Query
 from trapi_model.biolink.constants import *
@@ -14,16 +15,16 @@ class BaseQueryProcessor:
     """ Query Processor class used to abstract the processing infrastructure from
         the views:
 
-        :param request: Incoming POST request with a TRAPI message.
-        :type request: request
+        :param query: Load trapi query.
+        :type query: trapi_model.trapi_model.query.Query
     """
-    def __init__(self, query):
+    def __init__(self, query=None):
+        if query is not None:
+            self.query_copy = query.get_copy()
+
+    def setup_query(self, query):
         self.query_copy = query.get_copy()
     
-
-    def fill_biolink_categories(self, query):
-        return query
-
     def _extract_all_curies(self, queries):
         curies = []
         for query in queries:
@@ -48,18 +49,13 @@ class BaseQueryProcessor:
 
     def _get_preferred(self, query, curie, categories, normalization_dict, meta_knowledge_graph):
         # Ensure query graph categories and normalization type (categories) are consistent
-        #print(meta_knowledge_graph.json())
         curie_types = normalization_dict[curie]["types"]
-        #print([t.get_curie() for t in curie_types])
-        #input('types')
         curie_prefix = curie.split(':')[0]
         possible_preferences = []
         for curie_type in curie_types:
             if curie_type in meta_knowledge_graph.nodes:
                 # Take first entry in id_prefixes of the meta KG
                 preferred_prefix = meta_knowledge_graph.nodes[curie_type].id_prefixes[0]
-                #print(preferred_prefix)
-                #input('Got Here.')
                 if curie_prefix != preferred_prefix:
                     for equivalent_id_obj in normalization_dict[curie]["equivalent_identifier"]:
                         equivalent_id = equivalent_id_obj["identifier"]
@@ -73,8 +69,6 @@ class BaseQueryProcessor:
                     possible_preferences.append(
                             (curie, curie_type)
                             )
-        #print(possible_preferences)
-        #input()
         # Go through each possible preference and return the preferred curie that with the most general category
         if len(possible_preferences) == 0:
             query.warning('Could not normalize curie: {}, probably will cause failure.'.format(curie))
@@ -134,9 +128,13 @@ class BaseQueryProcessor:
         curies_to_normalize = self._extract_all_curies(queries)
 
         # Get normalized nodes
-        normalization_dict = node_normalizer_client.get_normalized_nodes(curies_to_normalize)
-        #print(normalization_dict)
-        #input()
+        try:
+            normalization_dict = node_normalizer_client.get_normalized_nodes(curies_to_normalize)
+        except SriNodeNormalizerException as ex:
+            # Iterate through each query and add a normalization error message
+            for query in queries:
+                query.error(f'Node Normalization error. Nodes are NOT normalized. {ex.message}')
+            return queries, {}
         # Normalize query graph
         queries, normalization_map = self._normalize_query_graphs(queries, normalization_dict, meta_knowledge_graph)
         if with_normalization_map:
@@ -207,9 +205,6 @@ class BaseQueryProcessor:
                 continue
             if len(descendants) > 0:
                 descendants_map[biolink_entity] = descendants
-        #print(descendants_map)
-        #input()
-
         # Expand each query ontologically with all supported descendants
         onto_expanded_queries = []
         for query in queries:
@@ -318,7 +313,9 @@ class BaseQueryProcessor:
     def filter_queries_inconsistent_with_meta_knowledge_graph(self, queries, meta_knowledge_graph=None, with_inconsistent_queries=False):
         consistent_queries = []
         inconsistent_queries = []
-        meta_knowledge_graph_predicate_map = {edge.predicate: edge for edge in meta_knowledge_graph.edges}
+        meta_knowledge_graph_predicate_map = defaultdict(list)
+        for edge in meta_knowledge_graph.edges:
+            meta_knowledge_graph_predicate_map[edge.predicate].append(edge)
         for query in queries:
             # Check each edge that it's subject and object are consistent with the meta KG.
             query_graph = query.message.query_graph
@@ -329,22 +326,20 @@ class BaseQueryProcessor:
                 subject_node = query_graph.nodes[edge.subject]
                 object_node = query_graph.nodes[edge.object]
                 predicate = edge.predicates[0]
-                try:
-                    meta_subject_category_for_predicate = meta_knowledge_graph_predicate_map[predicate].subject
-                    meta_object_category_for_predicate = meta_knowledge_graph_predicate_map[predicate].object
-                except KeyError:
+                if predicate in meta_knowledge_graph_predicate_map:
+                    found_consistent_edge = False
+                    for meta_edge in meta_knowledge_graph_predicate_map[predicate]:
+                        if subject_node.categories[0] == meta_edge.subject and object_node.categories[0] == meta_edge.object:
+                            found_consistent_edge = True
+                            break
+                    if not found_consistent_edge:
+                        query.error('Edge predicate subject/object mismatch with meta knowledge graph.')
+                        is_consistent_query = False
+                        inconsistent_queries.append(query)
+                else:
                     query.error(f'Predicate: {predicate.get_curie()} not supported in our meta knowledge graph.')
                     is_consistent_query = False
-                    break
-                if subject_node.categories[0] != meta_subject_category_for_predicate:
                     inconsistent_queries.append(query)
-                    query.error('Edge predicate subject mismatch with meta knowledge graph.')
-                    is_consistent_query = False
-                    break
-                if object_node.categories[0] != meta_object_category_for_predicate:
-                    inconsistent_queries.append(query)
-                    query.error('Edge predicate object mismatch with meta knowledge graph.')
-                    is_consistent_query = False
                     break
             if is_consistent_query:
                 consistent_queries.append(query)
@@ -352,5 +347,20 @@ class BaseQueryProcessor:
             return consistent_queries, inconsistent_queries
         return consistent_queries
 
+    def merge_responses(self, target_query, response_queries):
+        response_query = target_query.get_copy()
+        for query in response_queries:
+            # Update message
+            response_query.message.update(
+                    query.message.knowledge_graph,
+                    query.message.results,
+                    )
+            # Update Logs
+            response_query.logger.add_logs(query.logger.to_dict())
+        return response_query
 
-
+    def undo_normalization(self, response_query, normalization_map):
+        for normalized_curie, passed_curie in normalization_map.items():
+            response_query.message = response_query.message.find_and_replace(normalized_curie, passed_curie)
+        return response_query
+    
