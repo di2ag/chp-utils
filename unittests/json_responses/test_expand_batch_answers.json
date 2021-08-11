@@ -1,0 +1,2103 @@
+[
+  [
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": null,
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "MONDO:0007254"
+              ],
+              "categories": [
+                "biolink:Disease"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:gene_associated_with_condition"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 687,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "46c71563-d868-47d0-97e3-6c8431af00cb",
+      "status": null
+    }
+  ],
+  [
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": null,
+              "categories": [
+                "biolink:NamedThing"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "MEDDRA:10006192"
+              ],
+              "categories": [
+                "biolink:Disease"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": null,
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 687,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "b2e0efd6-d71c-46f1-81fd-d7f92ef89042",
+      "status": null
+    }
+  ],
+  [
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": null,
+              "categories": [
+                "biolink:ChemicalSubstance"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "MEDDRA:10006192"
+              ],
+              "categories": [
+                "biolink:Disease"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:treats"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 1186,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "bd9f3b34-7d36-4cf5-8c84-a1380d62b25e",
+      "status": null
+    }
+  ],
+  [
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "ENSEMBL:ENSG00000187889"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "MEDDRA:10006192"
+              ],
+              "categories": [
+                "biolink:BiologicalEntity"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:genetic_association"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 930,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "bb486f15-8b31-46e3-b9c8-633c1281935e",
+      "status": null
+    }
+  ],
+  [
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL1201583"
+              ],
+              "categories": [
+                "biolink:Drug"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "MONDO:0004992"
+              ],
+              "categories": [
+                "biolink:Disease"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:affects"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 1377,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "9ee155c6-15ad-4564-90e5-4d120ef4ade8",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEBI:4672"
+              ],
+              "categories": [
+                "biolink:Drug"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "MONDO:0004992"
+              ],
+              "categories": [
+                "biolink:Disease"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:affects"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 1377,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "aa3c00d6-7c06-4680-b7f8-1dc4d227f920",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEBI:4672"
+              ],
+              "categories": [
+                "biolink:Drug"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "MONDO:0004992"
+              ],
+              "categories": [
+                "biolink:Disease"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:affects"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 1377,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "7df4aca2-5c6f-4a35-8d43-8050717df4a4",
+      "status": null
+    }
+  ],
+  [
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "OMIM:134830"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL1201568"
+              ],
+              "categories": [
+                "biolink:Drug"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 1000,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "a3e985f1-f0df-4914-8bc1-c4e0170ffd4d",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "OMIM:134830"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL1351"
+              ],
+              "categories": [
+                "biolink:Drug"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 1000,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "b718bb6d-c241-41b7-bd78-04999ada5483",
+      "status": null
+    }
+  ],
+  [
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEBI:45863"
+              ],
+              "categories": [
+                "biolink:Drug"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "UMLS:C1367721"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 898,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "f5b85642-99b3-4316-ac0d-530061922b1f",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEBI:45863"
+              ],
+              "categories": [
+                "biolink:Drug"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "ENSEMBL:ENSG00000136631"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 898,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "6dcd456e-454f-4939-9ed6-40efa4e0dc04",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEBI:45863"
+              ],
+              "categories": [
+                "biolink:Drug"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "NCBIGene:55907"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 898,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "9375839f-c383-4876-b312-01b0e327e75c",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEBI:45863"
+              ],
+              "categories": [
+                "biolink:Drug"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "HGNC:9688"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 898,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "fc0c24fd-dcdc-47dd-8830-5af482668277",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL1201568"
+              ],
+              "categories": [
+                "biolink:Drug"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "UMLS:C1367721"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 898,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "6821ebec-4c7d-46e9-aff9-5ee5d533077b",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL1201568"
+              ],
+              "categories": [
+                "biolink:Drug"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "ENSEMBL:ENSG00000136631"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 898,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "9674a1d8-fbc3-49c6-9206-b2d60289fa64",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL1201568"
+              ],
+              "categories": [
+                "biolink:Drug"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "NCBIGene:55907"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 898,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "eb6fbdc2-59dc-4363-978c-9803bba6f8b9",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL1201568"
+              ],
+              "categories": [
+                "biolink:Drug"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "HGNC:9688"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 898,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "7a044b6d-de2a-4d3c-8d7a-e55d21095554",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL3545252"
+              ],
+              "categories": [
+                "biolink:Drug"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "UMLS:C1367721"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 898,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "d47abde3-c3a0-4e43-9f01-df6eae0934f4",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL3545252"
+              ],
+              "categories": [
+                "biolink:Drug"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "ENSEMBL:ENSG00000136631"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 898,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "2dd42a9f-be21-4b1d-bec2-f3cf6da09a67",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL3545252"
+              ],
+              "categories": [
+                "biolink:Drug"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "NCBIGene:55907"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 898,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "704f9fd8-f186-4ada-8ad3-a8264824622d",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL3545252"
+              ],
+              "categories": [
+                "biolink:Drug"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "HGNC:9688"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 898,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "1114d782-7ecf-4808-87c6-f526b62b6a4e",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL1201583"
+              ],
+              "categories": [
+                "biolink:Drug"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "UMLS:C1367721"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 898,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "9093e58d-34e5-49dc-ab8e-0fd914949d72",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL1201583"
+              ],
+              "categories": [
+                "biolink:Drug"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "ENSEMBL:ENSG00000136631"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 898,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "c9923058-a2c0-40e0-a9ea-8c92b18f1e5e",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL1201583"
+              ],
+              "categories": [
+                "biolink:Drug"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "NCBIGene:55907"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 898,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "91b4ca4e-26b3-453b-bf8b-a83e30611325",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL1201583"
+              ],
+              "categories": [
+                "biolink:Drug"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "HGNC:9688"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 898,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "df2b03c6-a103-492d-9f58-1e5f5652f412",
+      "status": null
+    }
+  ],
+  [
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "UMLS:C1537465"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "MEDDRA:10006192"
+              ],
+              "categories": [
+                "biolink:Disease"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:genetic_association"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 1276,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "predicate_context",
+                  "id": "CHP:PredicateContext",
+                  "operator": "==",
+                  "value": [
+                    "drug"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "drug",
+                  "id": "drug",
+                  "operator": "matches",
+                  "value": [
+                    "CHEMBL.COMPOUND:CHEMBL3545252",
+                    "CHEMBL.COMPOUND:CHEMBL1201568"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "fc9748be-c3be-45a0-adaa-daf39a63ffad",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "OMIM:609321"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "MEDDRA:10006192"
+              ],
+              "categories": [
+                "biolink:Disease"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:genetic_association"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 1276,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "predicate_context",
+                  "id": "CHP:PredicateContext",
+                  "operator": "==",
+                  "value": [
+                    "drug"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "drug",
+                  "id": "drug",
+                  "operator": "matches",
+                  "value": [
+                    "CHEMBL.COMPOUND:CHEMBL3545252",
+                    "CHEMBL.COMPOUND:CHEMBL1201568"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "aec38d39-0e7b-4b7d-9f7d-5587a5db79f2",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "OMIM:615958"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "MEDDRA:10006192"
+              ],
+              "categories": [
+                "biolink:Disease"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:genetic_association"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 1276,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "predicate_context",
+                  "id": "CHP:PredicateContext",
+                  "operator": "==",
+                  "value": [
+                    "drug"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "drug",
+                  "id": "drug",
+                  "operator": "matches",
+                  "value": [
+                    "CHEMBL.COMPOUND:CHEMBL3545252",
+                    "CHEMBL.COMPOUND:CHEMBL1201568"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "a6a02564-67c0-4c83-8611-dec288441f75",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "ENSEMBL:ENSG00000188869"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "MEDDRA:10006192"
+              ],
+              "categories": [
+                "biolink:Disease"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:genetic_association"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 1276,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "predicate_context",
+                  "id": "CHP:PredicateContext",
+                  "operator": "==",
+                  "value": [
+                    "drug"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "drug",
+                  "id": "drug",
+                  "operator": "matches",
+                  "value": [
+                    "CHEMBL.COMPOUND:CHEMBL3545252",
+                    "CHEMBL.COMPOUND:CHEMBL1201568"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "4e01ea0b-008f-431a-93fb-709a07c0ddce",
+      "status": null
+    }
+  ]
+]

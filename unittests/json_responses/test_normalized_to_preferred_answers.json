@@ -1,0 +1,2443 @@
+[
+  [
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": null,
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "MONDO:0007254"
+              ],
+              "categories": [
+                "biolink:Disease"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:gene_associated_with_condition"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 687,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "efb09163-5867-458c-b61d-ddc508d0e3c6",
+      "status": null
+    }
+  ],
+  [
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": null,
+              "categories": [
+                "biolink:NamedThing"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "MONDO:0007254"
+              ],
+              "categories": [
+                "biolink:Disease"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": null,
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 687,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2021-08-11T05:30:37.552144",
+          "level": "INFO",
+          "message": "Normalized curie: MEDDRA:10006192 to MONDO:0007254",
+          "code": null
+        }
+      ],
+      "id": "c197968f-749e-473a-85df-2b8fd6c0a1d8",
+      "status": null
+    }
+  ],
+  [
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": null,
+              "categories": [
+                "biolink:ChemicalSubstance"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "MONDO:0007254"
+              ],
+              "categories": [
+                "biolink:Disease"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:treats"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 1186,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2021-08-11T05:30:37.684886",
+          "level": "INFO",
+          "message": "Normalized curie: MEDDRA:10006192 to MONDO:0007254",
+          "code": null
+        }
+      ],
+      "id": "77038ba0-b51a-4365-9811-e0238d3f4c09",
+      "status": null
+    }
+  ],
+  [
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "ENSEMBL:ENSG00000187889"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "MONDO:0007254"
+              ],
+              "categories": [
+                "biolink:Disease"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:genetic_association"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 930,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2021-08-11T05:30:37.817881",
+          "level": "INFO",
+          "message": "Normalized curie: MEDDRA:10006192 to MONDO:0007254",
+          "code": null
+        },
+        {
+          "timestamp": "2021-08-11T05:30:37.817896",
+          "level": "WARNING",
+          "message": "Passed category for n1: biolink:BiologicalEntity, did not match our preferred category biolink:Disease for this curie. Going with our preferred category.",
+          "code": null
+        }
+      ],
+      "id": "d843308c-342b-4488-8eeb-51d9ade92163",
+      "status": null
+    }
+  ],
+  [
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL1201583"
+              ],
+              "categories": [
+                "biolink:ChemicalSubstance"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "MONDO:0004992"
+              ],
+              "categories": [
+                "biolink:Disease"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:affects"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 1377,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2021-08-11T05:30:37.967371",
+          "level": "WARNING",
+          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "code": null
+        }
+      ],
+      "id": "21da2d4b-b954-4724-b60e-5772801af139",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL92"
+              ],
+              "categories": [
+                "biolink:ChemicalSubstance"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "MONDO:0004992"
+              ],
+              "categories": [
+                "biolink:Disease"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:affects"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 1377,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2021-08-11T05:30:37.967414",
+          "level": "INFO",
+          "message": "Normalized curie: CHEBI:4672 to CHEMBL.COMPOUND:CHEMBL92",
+          "code": null
+        },
+        {
+          "timestamp": "2021-08-11T05:30:37.967422",
+          "level": "WARNING",
+          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "code": null
+        }
+      ],
+      "id": "3c50b57c-54fb-4d78-909e-3115f114eac6",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL92"
+              ],
+              "categories": [
+                "biolink:ChemicalSubstance"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "MONDO:0004992"
+              ],
+              "categories": [
+                "biolink:Disease"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:affects"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 1377,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2021-08-11T05:30:37.967456",
+          "level": "INFO",
+          "message": "Normalized curie: CHEBI:4672 to CHEMBL.COMPOUND:CHEMBL92",
+          "code": null
+        },
+        {
+          "timestamp": "2021-08-11T05:30:37.967464",
+          "level": "WARNING",
+          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "code": null
+        }
+      ],
+      "id": "7ef73483-6b1e-424f-88c6-c8cbad43a0ae",
+      "status": null
+    }
+  ],
+  [
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "ENSEMBL:ENSG00000171564"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL1201568"
+              ],
+              "categories": [
+                "biolink:ChemicalSubstance"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 1000,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2021-08-11T05:30:38.111545",
+          "level": "INFO",
+          "message": "Normalized curie: OMIM:134830 to ENSEMBL:ENSG00000171564",
+          "code": null
+        },
+        {
+          "timestamp": "2021-08-11T05:30:38.111580",
+          "level": "WARNING",
+          "message": "Passed category for n1: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "code": null
+        }
+      ],
+      "id": "b39bdf85-5d1c-4c0e-a373-54c78fc383a4",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "ENSEMBL:ENSG00000171564"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL1351"
+              ],
+              "categories": [
+                "biolink:ChemicalSubstance"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 1000,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2021-08-11T05:30:38.111601",
+          "level": "INFO",
+          "message": "Normalized curie: OMIM:134830 to ENSEMBL:ENSG00000171564",
+          "code": null
+        },
+        {
+          "timestamp": "2021-08-11T05:30:38.111627",
+          "level": "WARNING",
+          "message": "Passed category for n1: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "code": null
+        }
+      ],
+      "id": "88ec6ff0-2fb6-41fd-a8ac-a3d4cfa76630",
+      "status": null
+    }
+  ],
+  [
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL428647"
+              ],
+              "categories": [
+                "biolink:ChemicalSubstance"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "ENSEMBL:ENSG00000138798"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 898,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2021-08-11T05:30:38.334208",
+          "level": "INFO",
+          "message": "Normalized curie: CHEBI:45863 to CHEMBL.COMPOUND:CHEMBL428647",
+          "code": null
+        },
+        {
+          "timestamp": "2021-08-11T05:30:38.334225",
+          "level": "WARNING",
+          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "code": null
+        },
+        {
+          "timestamp": "2021-08-11T05:30:38.334244",
+          "level": "INFO",
+          "message": "Normalized curie: UMLS:C1367721 to ENSEMBL:ENSG00000138798",
+          "code": null
+        }
+      ],
+      "id": "37c906bd-e11b-4e0d-b2b5-5e16fc0899a1",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL428647"
+              ],
+              "categories": [
+                "biolink:ChemicalSubstance"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "ENSEMBL:ENSG00000136631"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 898,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2021-08-11T05:30:38.334263",
+          "level": "INFO",
+          "message": "Normalized curie: CHEBI:45863 to CHEMBL.COMPOUND:CHEMBL428647",
+          "code": null
+        },
+        {
+          "timestamp": "2021-08-11T05:30:38.334271",
+          "level": "WARNING",
+          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "code": null
+        }
+      ],
+      "id": "589ac826-44bd-48e7-beff-f2497f33af4c",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL428647"
+              ],
+              "categories": [
+                "biolink:ChemicalSubstance"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "ENSEMBL:ENSG00000111726"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 898,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2021-08-11T05:30:38.334303",
+          "level": "INFO",
+          "message": "Normalized curie: CHEBI:45863 to CHEMBL.COMPOUND:CHEMBL428647",
+          "code": null
+        },
+        {
+          "timestamp": "2021-08-11T05:30:38.334310",
+          "level": "WARNING",
+          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "code": null
+        },
+        {
+          "timestamp": "2021-08-11T05:30:38.334327",
+          "level": "INFO",
+          "message": "Normalized curie: NCBIGene:55907 to ENSEMBL:ENSG00000111726",
+          "code": null
+        }
+      ],
+      "id": "265851fd-152c-461c-ba83-1e9a2881bcf6",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL428647"
+              ],
+              "categories": [
+                "biolink:ChemicalSubstance"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "ENSEMBL:ENSG00000177469"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 898,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2021-08-11T05:30:38.334345",
+          "level": "INFO",
+          "message": "Normalized curie: CHEBI:45863 to CHEMBL.COMPOUND:CHEMBL428647",
+          "code": null
+        },
+        {
+          "timestamp": "2021-08-11T05:30:38.334352",
+          "level": "WARNING",
+          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "code": null
+        },
+        {
+          "timestamp": "2021-08-11T05:30:38.334369",
+          "level": "INFO",
+          "message": "Normalized curie: HGNC:9688 to ENSEMBL:ENSG00000177469",
+          "code": null
+        }
+      ],
+      "id": "07c8b6f4-f7b1-477c-8d96-d84934e82bc5",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL1201568"
+              ],
+              "categories": [
+                "biolink:ChemicalSubstance"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "ENSEMBL:ENSG00000138798"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 898,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2021-08-11T05:30:38.334391",
+          "level": "WARNING",
+          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "code": null
+        },
+        {
+          "timestamp": "2021-08-11T05:30:38.334408",
+          "level": "INFO",
+          "message": "Normalized curie: UMLS:C1367721 to ENSEMBL:ENSG00000138798",
+          "code": null
+        }
+      ],
+      "id": "31e215d6-87c3-47a7-8961-abfc8a3c0649",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL1201568"
+              ],
+              "categories": [
+                "biolink:ChemicalSubstance"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "ENSEMBL:ENSG00000136631"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 898,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2021-08-11T05:30:38.334430",
+          "level": "WARNING",
+          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "code": null
+        }
+      ],
+      "id": "e35988a8-d111-4b5c-a14a-d007e959f23b",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL1201568"
+              ],
+              "categories": [
+                "biolink:ChemicalSubstance"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "ENSEMBL:ENSG00000111726"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 898,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2021-08-11T05:30:38.334464",
+          "level": "WARNING",
+          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "code": null
+        },
+        {
+          "timestamp": "2021-08-11T05:30:38.334480",
+          "level": "INFO",
+          "message": "Normalized curie: NCBIGene:55907 to ENSEMBL:ENSG00000111726",
+          "code": null
+        }
+      ],
+      "id": "54c4d292-818c-480d-ab31-ce00f6d65c9a",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL1201568"
+              ],
+              "categories": [
+                "biolink:ChemicalSubstance"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "ENSEMBL:ENSG00000177469"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 898,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2021-08-11T05:30:38.334502",
+          "level": "WARNING",
+          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "code": null
+        },
+        {
+          "timestamp": "2021-08-11T05:30:38.334518",
+          "level": "INFO",
+          "message": "Normalized curie: HGNC:9688 to ENSEMBL:ENSG00000177469",
+          "code": null
+        }
+      ],
+      "id": "26b2afee-09bc-453d-8556-a02e5be33057",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL3545252"
+              ],
+              "categories": [
+                "biolink:ChemicalSubstance"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "ENSEMBL:ENSG00000138798"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 898,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2021-08-11T05:30:38.334540",
+          "level": "WARNING",
+          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "code": null
+        },
+        {
+          "timestamp": "2021-08-11T05:30:38.334557",
+          "level": "INFO",
+          "message": "Normalized curie: UMLS:C1367721 to ENSEMBL:ENSG00000138798",
+          "code": null
+        }
+      ],
+      "id": "ca83a602-b39d-4efb-8bdf-bbb78fb8d993",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL3545252"
+              ],
+              "categories": [
+                "biolink:ChemicalSubstance"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "ENSEMBL:ENSG00000136631"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 898,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2021-08-11T05:30:38.334578",
+          "level": "WARNING",
+          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "code": null
+        }
+      ],
+      "id": "787fc2f0-574f-44dd-8e2b-4ffc6fbb4a32",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL3545252"
+              ],
+              "categories": [
+                "biolink:ChemicalSubstance"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "ENSEMBL:ENSG00000111726"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 898,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2021-08-11T05:30:38.334612",
+          "level": "WARNING",
+          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "code": null
+        },
+        {
+          "timestamp": "2021-08-11T05:30:38.334628",
+          "level": "INFO",
+          "message": "Normalized curie: NCBIGene:55907 to ENSEMBL:ENSG00000111726",
+          "code": null
+        }
+      ],
+      "id": "b19e0f9a-d15f-4317-add1-30a1acdad243",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL3545252"
+              ],
+              "categories": [
+                "biolink:ChemicalSubstance"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "ENSEMBL:ENSG00000177469"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 898,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2021-08-11T05:30:38.334649",
+          "level": "WARNING",
+          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "code": null
+        },
+        {
+          "timestamp": "2021-08-11T05:30:38.334665",
+          "level": "INFO",
+          "message": "Normalized curie: HGNC:9688 to ENSEMBL:ENSG00000177469",
+          "code": null
+        }
+      ],
+      "id": "9e54c543-1e84-4dda-a659-7c823f31a9fe",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL1201583"
+              ],
+              "categories": [
+                "biolink:ChemicalSubstance"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "ENSEMBL:ENSG00000138798"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 898,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2021-08-11T05:30:38.334687",
+          "level": "WARNING",
+          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "code": null
+        },
+        {
+          "timestamp": "2021-08-11T05:30:38.334703",
+          "level": "INFO",
+          "message": "Normalized curie: UMLS:C1367721 to ENSEMBL:ENSG00000138798",
+          "code": null
+        }
+      ],
+      "id": "36a578d2-ce83-4d21-931c-fe1db61d7889",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL1201583"
+              ],
+              "categories": [
+                "biolink:ChemicalSubstance"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "ENSEMBL:ENSG00000136631"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 898,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2021-08-11T05:30:38.334725",
+          "level": "WARNING",
+          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "code": null
+        }
+      ],
+      "id": "23086b7c-0e1f-49a7-a9b4-ad807b38f719",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL1201583"
+              ],
+              "categories": [
+                "biolink:ChemicalSubstance"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "ENSEMBL:ENSG00000111726"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 898,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2021-08-11T05:30:38.334759",
+          "level": "WARNING",
+          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "code": null
+        },
+        {
+          "timestamp": "2021-08-11T05:30:38.334775",
+          "level": "INFO",
+          "message": "Normalized curie: NCBIGene:55907 to ENSEMBL:ENSG00000111726",
+          "code": null
+        }
+      ],
+      "id": "ab52ee99-8ab0-4a55-bb54-760e4e928d8c",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "CHEMBL.COMPOUND:CHEMBL1201583"
+              ],
+              "categories": [
+                "biolink:ChemicalSubstance"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "ENSEMBL:ENSG00000177469"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 898,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2021-08-11T05:30:38.334797",
+          "level": "WARNING",
+          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "code": null
+        },
+        {
+          "timestamp": "2021-08-11T05:30:38.334813",
+          "level": "INFO",
+          "message": "Normalized curie: HGNC:9688 to ENSEMBL:ENSG00000177469",
+          "code": null
+        }
+      ],
+      "id": "4d707cfa-6691-4e5c-ae85-447227ab5e71",
+      "status": null
+    }
+  ],
+  [
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "ENSEMBL:ENSG00000103888"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "MONDO:0007254"
+              ],
+              "categories": [
+                "biolink:Disease"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:genetic_association"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 1276,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "predicate_context",
+                  "id": "CHP:PredicateContext",
+                  "operator": "==",
+                  "value": [
+                    "drug"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "drug",
+                  "id": "drug",
+                  "operator": "matches",
+                  "value": [
+                    "CHEMBL.COMPOUND:CHEMBL3545252",
+                    "CHEMBL.COMPOUND:CHEMBL1201568"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2021-08-11T05:30:38.494872",
+          "level": "INFO",
+          "message": "Normalized curie: UMLS:C1537465 to ENSEMBL:ENSG00000103888",
+          "code": null
+        },
+        {
+          "timestamp": "2021-08-11T05:30:38.494898",
+          "level": "INFO",
+          "message": "Normalized curie: MEDDRA:10006192 to MONDO:0007254",
+          "code": null
+        }
+      ],
+      "id": "0fc1d6b5-d251-4dd0-b7ad-d49772275122",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "ENSEMBL:ENSG00000156876"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "MONDO:0007254"
+              ],
+              "categories": [
+                "biolink:Disease"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:genetic_association"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 1276,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "predicate_context",
+                  "id": "CHP:PredicateContext",
+                  "operator": "==",
+                  "value": [
+                    "drug"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "drug",
+                  "id": "drug",
+                  "operator": "matches",
+                  "value": [
+                    "CHEMBL.COMPOUND:CHEMBL3545252",
+                    "CHEMBL.COMPOUND:CHEMBL1201568"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2021-08-11T05:30:38.494920",
+          "level": "INFO",
+          "message": "Normalized curie: OMIM:609321 to ENSEMBL:ENSG00000156876",
+          "code": null
+        },
+        {
+          "timestamp": "2021-08-11T05:30:38.494939",
+          "level": "INFO",
+          "message": "Normalized curie: MEDDRA:10006192 to MONDO:0007254",
+          "code": null
+        }
+      ],
+      "id": "0583c509-c830-4b3a-9484-4362728e9a48",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "ENSEMBL:ENSG00000149346"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "MONDO:0007254"
+              ],
+              "categories": [
+                "biolink:Disease"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:genetic_association"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 1276,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "predicate_context",
+                  "id": "CHP:PredicateContext",
+                  "operator": "==",
+                  "value": [
+                    "drug"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "drug",
+                  "id": "drug",
+                  "operator": "matches",
+                  "value": [
+                    "CHEMBL.COMPOUND:CHEMBL3545252",
+                    "CHEMBL.COMPOUND:CHEMBL1201568"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2021-08-11T05:30:38.494959",
+          "level": "INFO",
+          "message": "Normalized curie: OMIM:615958 to ENSEMBL:ENSG00000149346",
+          "code": null
+        },
+        {
+          "timestamp": "2021-08-11T05:30:38.494976",
+          "level": "INFO",
+          "message": "Normalized curie: MEDDRA:10006192 to MONDO:0007254",
+          "code": null
+        }
+      ],
+      "id": "bb11f1a1-3a50-457f-8dbb-13da6bded1da",
+      "status": null
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "ENSEMBL:ENSG00000188869"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "MONDO:0007254"
+              ],
+              "categories": [
+                "biolink:Disease"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:genetic_association"
+              ],
+              "relation": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": [
+                {
+                  "name": "predicate_proxy",
+                  "id": "CHP:PredicateProxy",
+                  "operator": "==",
+                  "value": [
+                    "EFO:0000714"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "EFO:0000714",
+                  "id": "EFO:0000714",
+                  "operator": ">",
+                  "value": 1276,
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "predicate_context",
+                  "id": "CHP:PredicateContext",
+                  "operator": "==",
+                  "value": [
+                    "drug"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                },
+                {
+                  "name": "drug",
+                  "id": "drug",
+                  "operator": "matches",
+                  "value": [
+                    "CHEMBL.COMPOUND:CHEMBL3545252",
+                    "CHEMBL.COMPOUND:CHEMBL1201568"
+                  ],
+                  "unit_id": null,
+                  "unit_name": null,
+                  "not": false
+                }
+              ]
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2021-08-11T05:30:38.495009",
+          "level": "INFO",
+          "message": "Normalized curie: MEDDRA:10006192 to MONDO:0007254",
+          "code": null
+        }
+      ],
+      "id": "1a2ad1ac-e618-4c75-b1b4-7742655d3a6c",
+      "status": null
+    }
+  ]
+]
