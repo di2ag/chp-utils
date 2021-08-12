@@ -1,5 +1,5 @@
 """Setup file for  chp-utils"""
-from setuptools import setup
+from setuptools import setup, find_packages
 
 with open('README.md', 'r') as stream:
     long_description = stream.read()
@@ -13,12 +13,7 @@ setup(
     description = 'A set of tools for any chp api',
     long_description = long_description,
     long_description_content_type = 'text/markdown',
-    packages =[
-        'chp_utils.meta_kg',
-        'chp_utils.meta_kg_validation',
-        'chp_utils.semantic_operations',
-        'chp_utils.schemas'
-    ],
+    packages = find_packages(),
     package_data = {
         'chp_utils.schemas':['*.json']
     },
