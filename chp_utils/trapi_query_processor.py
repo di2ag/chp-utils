@@ -47,7 +47,13 @@ class BaseQueryProcessor:
         most_specific_entity_str = sorted(unsorted_entities, reverse=True)[0][1]
         return get_biolink_entity(most_specific_entity_str)
 
-    def _get_preferred(self, query, curie, categories, normalization_dict, meta_knowledge_graph):
+    def _get_preferred(self, query, node, normalization_dict, meta_knowledge_graph):
+        # Extract curie and category
+        curie = node.ids[0]
+        if node.categories is not None:
+            categories = node.categories[0]
+        else:
+            categories = None
         # Ensure query graph categories and normalization type (categories) are consistent
         curie_types = normalization_dict[curie]["types"]
         curie_prefix = curie.split(':')[0]
@@ -89,8 +95,7 @@ class BaseQueryProcessor:
                 # Get preferred curie and category based on meta kg
                 preferred_curie, preferred_category = self._get_preferred(
                         query,
-                        node.ids[0],
-                        node.categories[0],
+                        node,
                         normalization_dict, 
                         meta_knowledge_graph,
                         )
@@ -105,7 +110,7 @@ class BaseQueryProcessor:
                     query.info(
                             'Filling in empty category for node {}, with {}'.format(
                                 node_id,
-                                preferred_category,
+                                preferred_category.get_curie(),
                                 )
                             )
                 elif node.categories[0] != preferred_category:
@@ -160,12 +165,20 @@ class BaseQueryProcessor:
             query_graph = query.message.query_graph
             for node_id, node in query_graph.nodes.items():
                 if node.ids is not None:
-                    curies[node.categories[0]].extend(node.ids)
+                    try:
+                        curies[node.categories[0]].extend(node.ids)
+                    except TypeError:
+                        query.error('Node: {} has no categories. Can not ontologically expand a node with no category.'.format(
+                            node.ids[0])
+                            )
         return dict(curies)
 
     def _expand_query_with_supported_ontological_descendants(self, query, descendants_map, curies):
         onto_expanded_queries = []
         for biolink_entity, curie_descendants_dict in descendants_map.items():
+            if biolink_entity not in curies.curies:
+                query.error('{} is not support in the meta knowledge graph'.format(biolink_entity.get_curie()))
+                continue
             for curie, descendants in curie_descendants_dict.items():
                 supported_descendants = list(
                         set.intersection(
