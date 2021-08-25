@@ -4,12 +4,17 @@
 def dict_replace_value(d, old, new):
     x = {}
     for k, v in d.items():
+        # Replace item
         if isinstance(v, dict):
             v = dict_replace_value(v, old, new)
         elif isinstance(v, list):
             v = list_replace_value(v, old, new)
         elif isinstance(v, str):
             v = v.replace(old, new)
+        # Replace key
+        if isinstance(k, str):
+            if old in k:
+                k = k.replace(old, new)
         x[k] = v
     return x
 
