@@ -2,7 +2,7 @@ from collections import defaultdict
 
 from trapi_model.biolink.constants import *
 
-from chp_utils.exceptions import SriNodeNormalizerException
+from chp_utils.exceptions import GeneralApiErrorException, SriNodeNormalizerException
 
 class SriNodeNormalizerMixin:
     def _get_normalized_nodes(self, curies, **kwargs):
