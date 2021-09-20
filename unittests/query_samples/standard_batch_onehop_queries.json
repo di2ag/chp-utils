@@ -15,7 +15,7 @@
             "nodes": {
                 "n0": {
                     "ids": [
-                        "NCBIGene:23221"
+                        "NCBIGene:23221", "ENSEMBL:ENSG00000008853", "HGNC:18756"
                     ],
                     "categories": [
                         "biolink:Gene"

@@ -357,13 +357,15 @@ class BaseQueryProcessor:
                     break
             if is_consistent_query:
                 # check that queries aren't duplicates
+                is_duplicate = False
                 for consistent_query in consistent_queries:
-                    is_a_duplicate = Message.check_messages_are_equal(query.message, consistent_query.message)
-                    if is_a_duplicate:
+                    is_duplicate = Message.check_messages_are_equal(query.message, consistent_query.message)
+                    if is_duplicate:
                         query.error(f'Duplicate query.')
                         inconsistent_queries.append(query)
-                        continue
-                consistent_queries.append(query)
+                        break
+                if not is_duplicate:
+                    consistent_queries.append(query)
         if with_inconsistent_queries:
             return consistent_queries, inconsistent_queries
         return consistent_queries
