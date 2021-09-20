@@ -2,7 +2,7 @@ from collections import defaultdict
 
 from trapi_model.biolink.constants import *
 
-from chp_utils.exceptions import GeneralApiErrorException, SriOntologyKpException
+from chp_utils.exceptions import *
 
 class SriOntologyKpMixin:
     def _query(self, ontology_query, **kwargs):

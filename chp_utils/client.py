@@ -12,7 +12,7 @@ try:
 except ImportError:
     caching_avail = False
 
-from chp_utils.exceptions import GeneralApiErrorException
+from chp_utils.exceptions import *
 
 __version__ = '0.0.1'
 

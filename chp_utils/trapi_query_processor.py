@@ -9,7 +9,7 @@ from trapi_model.biolink.constants import *
 from trapi_model.logger import Logger
 
 from chp_utils import SriNodeNormalizerApiClient, SriOntologyKpApiClient
-from chp_utils.exceptions import SriOntologyKpException, SriNodeNormalizerException
+from chp_utils.exceptions import *
 
 class BaseQueryProcessor:
     """ Query Processor class used to abstract the processing infrastructure from
