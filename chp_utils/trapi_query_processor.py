@@ -5,6 +5,7 @@ from collections import defaultdict
 import json
 
 from trapi_model.query import Query
+from trapi_model.message import Message
 from trapi_model.biolink.constants import *
 from trapi_model.logger import Logger
 
@@ -355,6 +356,13 @@ class BaseQueryProcessor:
                     inconsistent_queries.append(query)
                     break
             if is_consistent_query:
+                # check that queries aren't duplicates
+                for consistent_query in consistent_queries:
+                    is_a_duplicate = Message.check_messages_are_equal(query.message, consistent_query.message)
+                    if is_a_duplicate:
+                        query.error(f'Duplicate query.')
+                        inconsistent_queries.append(query)
+                        continue
                 consistent_queries.append(query)
         if with_inconsistent_queries:
             return consistent_queries, inconsistent_queries
