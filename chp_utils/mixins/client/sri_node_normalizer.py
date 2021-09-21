@@ -73,6 +73,8 @@ class SriNodeNormalizerMixin:
     def _parse_normalized_nodes_response(self, resp):
         parse = defaultdict(dict)
         for curie, normalization_dict in resp.items():
+            if normalization_dict is None:
+                continue
             parsed_normalization_dict = defaultdict(list)
             for equal_identifier in normalization_dict["equivalent_identifiers"]:
                 parsed_normalization_dict["equivalent_identifier"].append(equal_identifier)
