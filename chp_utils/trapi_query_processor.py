@@ -88,18 +88,23 @@ class BaseQueryProcessor:
 
     def _normalize_query_graphs(self, queries, normalization_dict, meta_knowledge_graph):
         normalization_map = {}
+        non_normalized_queries = []
         for query in queries:
             query_graph = query.message.query_graph
             for node_id, node in query_graph.nodes.items():
                 if node.ids is None:
                     continue
                 # Get preferred curie and category based on meta kg
-                preferred_curie, preferred_category = self._get_preferred(
-                        query,
-                        node,
-                        normalization_dict, 
-                        meta_knowledge_graph,
-                        )
+                try:
+                    preferred_curie, preferred_category = self._get_preferred(
+                            query,
+                            node,
+                            normalization_dict, 
+                            meta_knowledge_graph,
+                            )
+                except:
+                    non_normalized_queries.append(query)
+                    break
                 # Check if curie was actually converted
                 if node.ids[0] != preferred_curie:
                     query.info('Normalized curie: {} to {}'.format(node.ids[0], preferred_curie))
@@ -123,7 +128,8 @@ class BaseQueryProcessor:
                                 )
                             )
                     node.categories = [preferred_category]
-
+        for nnq in non_normalized_queries:
+            queries.remove(nnq)
         return queries, normalization_map
 
     def normalize_to_preferred(self, queries, meta_knowledge_graph=None, with_normalization_map=False):
