@@ -52,6 +52,11 @@
       "predicate": "biolink:has_real_world_evidence_of_association_with"
     },
     {
+      "subject": "biolink:Disease",
+      "object": "biolink:Gene",
+      "predicate": "biolink:has_real_world_evidence_of_association_with"
+    },
+    {
       "subject": "biolink:Gene",
       "object": "biolink:Drug",
       "predicate": "biolink:interacts_with"
@@ -59,6 +64,11 @@
     {
       "subject": "biolink:Gene",
       "object": "biolink:Drug",
+      "predicate": "biolink:has_real_world_evidence_of_association_with"
+    },
+    {
+      "subject": "biolink:Drug",
+      "object": "biolink:Gene",
       "predicate": "biolink:has_real_world_evidence_of_association_with"
     },
     {
@@ -77,6 +87,11 @@
       "predicate": "biolink:has_real_world_evidence_of_association_with"
     },
     {
+      "subject": "biolink:Disease",
+      "object": "biolink:Drug",
+      "predicate": "biolink:has_real_world_evidence_of_association_with"
+    },
+    {
       "subject": "biolink:Gene",
       "object": "biolink:Gene",
       "predicate": "biolink:genetically_interacts_with"
@@ -84,6 +99,26 @@
     {
       "subject": "biolink:Gene",
       "object": "biolink:Gene",
+      "predicate": "biolink:has_real_world_evidence_of_association_with"
+    },
+    {
+      "subject": "biolink:Gene",
+      "object": "biolink:SmallMolecule",
+      "predicate": "biolink:has_real_world_evidence_of_association_with"
+    },
+    {
+      "subject": "biolink:SmallMolecule",
+      "object": "biolink:Disease",
+      "predicate": "biolink:treats"
+    },
+    {
+      "subject": "biolink:SmallMolecule",
+      "object": "biolink:Disease",
+      "predicate": "biolink:has_real_world_evidence_of_association_with"
+    },
+    {
+      "subject": "biolink:Disease",
+      "object": "biolink:SmallMolecule",
       "predicate": "biolink:has_real_world_evidence_of_association_with"
     },
     {
@@ -97,8 +132,18 @@
       "predicate": "biolink:associated_with_real_world_evidence"
     },
     {
+      "subject": "biolink:Gene",
+      "object": "biolink:Disease",
+      "predicate": "biolink:associated_with_real_world_evidence"
+    },
+    {
       "subject": "biolink:Drug",
       "object": "biolink:Gene",
+      "predicate": "biolink:associated_with_real_world_evidence"
+    },
+    {
+      "subject": "biolink:Gene",
+      "object": "biolink:Drug",
       "predicate": "biolink:associated_with_real_world_evidence"
     },
     {
@@ -112,8 +157,33 @@
       "predicate": "biolink:associated_with_real_world_evidence"
     },
     {
+      "subject": "biolink:Drug",
+      "object": "biolink:Disease",
+      "predicate": "biolink:associated_with_real_world_evidence"
+    },
+    {
       "subject": "biolink:Gene",
       "object": "biolink:Gene",
+      "predicate": "biolink:associated_with_real_world_evidence"
+    },
+    {
+      "subject": "biolink:SmallMolecule",
+      "object": "biolink:Gene",
+      "predicate": "biolink:associated_with_real_world_evidence"
+    },
+    {
+      "subject": "biolink:Disease",
+      "object": "biolink:SmallMolecule",
+      "predicate": "biolink:treated_by"
+    },
+    {
+      "subject": "biolink:Disease",
+      "object": "biolink:SmallMolecule",
+      "predicate": "biolink:associated_with_real_world_evidence"
+    },
+    {
+      "subject": "biolink:SmallMolecule",
+      "object": "biolink:Disease",
       "predicate": "biolink:associated_with_real_world_evidence"
     }
   ]
