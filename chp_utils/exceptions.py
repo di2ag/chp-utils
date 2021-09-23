@@ -6,7 +6,7 @@ class GeneralApiErrorException(Exception):
 
 
 class SriNodeNormalizerException(GeneralApiErrorException):
-    def __init__(self, resp, url, query, message=''):
+    def __init__(self, resp, url, query = None, message=''):
         self.resp = resp
         self.url = url
         self.query = query
@@ -15,7 +15,8 @@ class SriNodeNormalizerException(GeneralApiErrorException):
 
     def __str__(self):
         string = f'Url: {self.url} returned error with status code: {self.resp.status_code} '
-        string += f' for query: {self.query}.'
+        if query is not None:
+            string += f' for query: {self.query}.'
         string += f' Query returned: {self.resp.content}. Could not normalize nodes.'
         return string
 

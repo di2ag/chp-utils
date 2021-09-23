@@ -16,13 +16,13 @@ class SriNodeNormalizerMixin:
         """
         _url = self.url + 'get_normalized_nodes'
         #Build json params
-        params = {"curie": curies}
+        params = {"curies": curies}
 
         verbose = kwargs.pop('verbose', True)
         try: 
-            from_cache, out = self._get(_url, params=params, verbose=verbose)
+            from_cache, out = self._post(_url, params=params, verbose=verbose)
         except GeneralApiErrorException as ex:
-            raise SriNodeNormalizerException(ex.resp, _url, ontology_query)
+            raise SriNodeNormalizerException(ex.resp, _url)
 
         if verbose and from_cache:
             print('Result from cache.')
@@ -45,7 +45,7 @@ class SriNodeNormalizerMixin:
         try:
             from_cache, out = self._get(_url, params=params, verbose=verbose)
         except GeneralApiErrorException as ex:
-            raise SriNodeNormalizerException(ex.resp, _url, ontology_query)
+            raise SriNodeNormalizerException(ex.resp, _url)
 
         if verbose and from_cache:
             print('Result from cache.')
@@ -65,7 +65,7 @@ class SriNodeNormalizerMixin:
         try:
             from_cache, out = self._get(_url, params=params, verbose=verbose)
         except GeneralApiErrorException as ex:
-            raise SriNodeNormalizerException(ex.resp, _url, ontology_query)
+            raise SriNodeNormalizerException(ex.resp, _url)
         if verbose and from_cache:
             print('Result from cache.')
         return self._parse_semantic_types_response(out.json())
