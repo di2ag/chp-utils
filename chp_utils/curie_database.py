@@ -4,6 +4,28 @@ import json
 
 from trapi_model.biolink.constants import *
 
+def merge_curies_databases(list_of_curies_dbs):
+    if len(list_of_curies_dbs) == 1:
+        return list_of_curies_dbs[0].to_dict()
+    merged = list_of_curies_dbs[0].to_dict()
+    for curies_db in list_of_curies_dbs[1:]:
+        for biolink_entity, curies_info_dict in curies_db.to_dict().items():
+            if biolink_entity not in merged:
+                merged[biolink_entity] = curies_info_dict
+                continue
+            for curie, info in curies_info_dict.items():
+                if curie not in merged[biolink_entity]:
+                    merged[biolink_entity][curie] = info
+                    continue
+                new_info = set.union(
+                        *[
+                            set(merged[biolink_entity][curie]),
+                            set(info),
+                            ]
+                        )
+                merged[biolink_entity][curie] = list(new_info)
+    return merged
+
 
 class CurieDatabase:
     def __init__(self, curies=None, curies_filename=None):
