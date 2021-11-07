@@ -138,7 +138,6 @@ class BaseQueryProcessor:
         
         # Get all curies to normalize
         curies_to_normalize = self._extract_all_curies(queries)
-
         # Get normalized nodes
         try:
             normalization_dict = node_normalizer_client.get_normalized_nodes(curies_to_normalize)
