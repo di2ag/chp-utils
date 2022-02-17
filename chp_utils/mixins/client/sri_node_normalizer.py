@@ -2,7 +2,7 @@ from collections import defaultdict
 
 from trapi_model.biolink.constants import *
 
-from chp_utils.exceptions import SriNodeNormalizerException
+from chp_utils.exceptions import SriNodeNormalizerException, GeneralApiErrorException
 
 class SriNodeNormalizerMixin:
     def _get_normalized_nodes(self, curies, **kwargs):
@@ -22,7 +22,7 @@ class SriNodeNormalizerMixin:
         try: 
             from_cache, out = self._get(_url, params=params, verbose=verbose)
         except GeneralApiErrorException as ex:
-            raise SriNodeNormalizerException(ex.resp, _url, ontology_query)
+            raise SriNodeNormalizerException(ex.resp, _url, curies)
 
         if verbose and from_cache:
             print('Result from cache.')
@@ -45,7 +45,7 @@ class SriNodeNormalizerMixin:
         try:
             from_cache, out = self._get(_url, params=params, verbose=verbose)
         except GeneralApiErrorException as ex:
-            raise SriNodeNormalizerException(ex.resp, _url, ontology_query)
+            raise SriNodeNormalizerException(ex.resp, _url, semantic_types)
 
         if verbose and from_cache:
             print('Result from cache.')
@@ -65,7 +65,7 @@ class SriNodeNormalizerMixin:
         try:
             from_cache, out = self._get(_url, params=params, verbose=verbose)
         except GeneralApiErrorException as ex:
-            raise SriNodeNormalizerException(ex.resp, _url, ontology_query)
+            raise SriNodeNormalizerException(ex.resp, _url, None)
         if verbose and from_cache:
             print('Result from cache.')
         return self._parse_semantic_types_response(out.json())
@@ -74,6 +74,9 @@ class SriNodeNormalizerMixin:
         parse = defaultdict(dict)
         for curie, normalization_dict in resp.items():
             parsed_normalization_dict = defaultdict(list)
+            if normalization_dict is None:
+                parse[curie] = None
+                continue
             for equal_identifier in normalization_dict["equivalent_identifiers"]:
                 parsed_normalization_dict["equivalent_identifier"].append(equal_identifier)
             parsed_normalization_dict["types"] = [get_biolink_entity(biolink_curie) for biolink_curie in normalization_dict["type"]]
