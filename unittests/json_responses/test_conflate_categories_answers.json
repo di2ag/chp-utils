@@ -5,6 +5,757 @@
         "query_graph": {
           "nodes": {
             "n0": {
+              "ids": [
+                "NCBIGene:23221"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": null,
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e01": {
+              "predicates": [
+                "biolink:entity_negatively_regulates_entity"
+              ],
+              "subject": "n1",
+              "object": "n0",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "94780305-c399-4a47-b510-4223d5994ac2",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "NCBIGene:23221"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": null,
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e01": {
+              "predicates": [
+                "biolink:genetically_interacts_with"
+              ],
+              "subject": "n1",
+              "object": "n0",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "a9ed3e75-2277-4171-adab-88ebc7d79f3b",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "ENSEMBL:ENSG00000008853"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": null,
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e01": {
+              "predicates": [
+                "biolink:entity_negatively_regulates_entity"
+              ],
+              "subject": "n1",
+              "object": "n0",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "aca4bde6-f071-43a4-a305-1bc3152cc52c",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "ENSEMBL:ENSG00000008853"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": null,
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e01": {
+              "predicates": [
+                "biolink:genetically_interacts_with"
+              ],
+              "subject": "n1",
+              "object": "n0",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "a9026805-d886-43ed-b510-29f53693bcbd",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "HGNC:18756"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": null,
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e01": {
+              "predicates": [
+                "biolink:entity_negatively_regulates_entity"
+              ],
+              "subject": "n1",
+              "object": "n0",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "8ec9aa1d-84ab-4e86-b9d7-1028d644084f",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "HGNC:18756"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": null,
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e01": {
+              "predicates": [
+                "biolink:genetically_interacts_with"
+              ],
+              "subject": "n1",
+              "object": "n0",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "7054b2d2-b4a3-44aa-9f39-a164d6bd70cc",
+      "status": null,
+      "description": null,
+      "workflow": []
+    }
+  ],
+  [
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "HP:0002013"
+              ],
+              "categories": [
+                "biolink:DiseaseOrPhenotypicFeature"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": null,
+              "categories": [
+                "biolink:ChemicalEntity"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "subject": "n0",
+              "object": "n1",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "2c18377a-7c12-40a0-9a49-d7e8bdc08bda",
+      "status": null,
+      "description": null,
+      "workflow": []
+    }
+  ],
+  [
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": null,
+              "categories": [
+                "biolink:Drug"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "NCBIGene:1956"
+              ],
+              "categories": null,
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:decreases_abundance_of"
+              ],
+              "subject": "n0",
+              "object": "n1",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2022-02-24T03:15:39.367247",
+          "level": "WARNING",
+          "message": "Conflated biolink:SmallMolecule with biolink:Drug",
+          "code": null
+        }
+      ],
+      "id": "d6fc6643-356f-493c-946c-8f445f1edd80",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": null,
+              "categories": [
+                "biolink:Drug"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "NCBIGene:1956"
+              ],
+              "categories": null,
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:decreases_activity_of"
+              ],
+              "subject": "n0",
+              "object": "n1",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2022-02-24T03:15:39.393027",
+          "level": "WARNING",
+          "message": "Conflated biolink:SmallMolecule with biolink:Drug",
+          "code": null
+        }
+      ],
+      "id": "5aad93f9-23ef-4bfe-88bf-6b29d9e3ecd3",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": null,
+              "categories": [
+                "biolink:Drug"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "NCBIGene:1956"
+              ],
+              "categories": null,
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:decreases_expression_of"
+              ],
+              "subject": "n0",
+              "object": "n1",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2022-02-24T03:15:39.416383",
+          "level": "WARNING",
+          "message": "Conflated biolink:SmallMolecule with biolink:Drug",
+          "code": null
+        }
+      ],
+      "id": "486b9370-25ce-4ea4-97b9-6069e5340841",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": null,
+              "categories": [
+                "biolink:Drug"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "NCBIGene:1956"
+              ],
+              "categories": null,
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:decreases_synthesis_of"
+              ],
+              "subject": "n0",
+              "object": "n1",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2022-02-24T03:15:39.437272",
+          "level": "WARNING",
+          "message": "Conflated biolink:SmallMolecule with biolink:Drug",
+          "code": null
+        }
+      ],
+      "id": "bd651003-ec34-4950-ab3a-cdf816ba1ee4",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": null,
+              "categories": [
+                "biolink:Drug"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "NCBIGene:1956"
+              ],
+              "categories": null,
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:increases_degradation_of"
+              ],
+              "subject": "n0",
+              "object": "n1",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2022-02-24T03:15:39.456921",
+          "level": "WARNING",
+          "message": "Conflated biolink:SmallMolecule with biolink:Drug",
+          "code": null
+        }
+      ],
+      "id": "374ee1a7-721d-4613-8406-be1189b78778",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": null,
+              "categories": [
+                "biolink:Drug"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "NCBIGene:1956"
+              ],
+              "categories": null,
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:disrupts"
+              ],
+              "subject": "n0",
+              "object": "n1",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2022-02-24T03:15:39.475603",
+          "level": "WARNING",
+          "message": "Conflated biolink:SmallMolecule with biolink:Drug",
+          "code": null
+        }
+      ],
+      "id": "60777cb7-b120-42cc-b270-d69bba686a9e",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": null,
+              "categories": [
+                "biolink:Drug"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "NCBIGene:1956"
+              ],
+              "categories": null,
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:entity_negatively_regulates_entity"
+              ],
+              "subject": "n0",
+              "object": "n1",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2022-02-24T03:15:39.492665",
+          "level": "WARNING",
+          "message": "Conflated biolink:SmallMolecule with biolink:Drug",
+          "code": null
+        }
+      ],
+      "id": "3abe521e-65f5-43a9-ae6c-40468d8882e4",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": null,
+              "categories": [
+                "biolink:Drug"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "NCBIGene:1956"
+              ],
+              "categories": null,
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "subject": "n0",
+              "object": "n1",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2022-02-24T03:15:39.507406",
+          "level": "WARNING",
+          "message": "Conflated biolink:SmallMolecule with biolink:Drug",
+          "code": null
+        }
+      ],
+      "id": "e37ec5d9-4c60-463b-80c5-a68681b6747d",
+      "status": null,
+      "description": null,
+      "workflow": []
+    }
+  ],
+  [
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
               "ids": null,
               "categories": [
                 "biolink:Gene"
@@ -26,7 +777,6 @@
               "predicates": [
                 "biolink:gene_associated_with_condition"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -64,8 +814,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "13d4137e-d65c-4d62-a85e-bf4d7aadd6e6",
-      "status": null
+      "id": "5a3fef0c-6d50-4cf3-85fc-d9ce5648e908",
+      "status": null,
+      "description": null,
+      "workflow": []
     }
   ],
   [
@@ -93,7 +845,6 @@
           "edges": {
             "e0": {
               "predicates": null,
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -131,8 +882,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "09d9e0c9-f884-433c-912e-3cab1812ce31",
-      "status": null
+      "id": "94bd1925-6afc-4c4d-af08-9d57bb55f257",
+      "status": null,
+      "description": null,
+      "workflow": []
     }
   ],
   [
@@ -162,7 +915,6 @@
               "predicates": [
                 "biolink:treats"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -201,14 +953,16 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:38.543576",
+          "timestamp": "2022-02-24T03:15:39.686938",
           "level": "WARNING",
           "message": "Conflated biolink:ChemicalSubstance with biolink:Drug",
           "code": null
         }
       ],
-      "id": "891d264d-d255-43ec-95cd-bcb315238b2a",
-      "status": null
+      "id": "27b84426-ca79-4235-8a39-a2fee570c0e3",
+      "status": null,
+      "description": null,
+      "workflow": []
     }
   ],
   [
@@ -240,7 +994,6 @@
               "predicates": [
                 "biolink:genetic_association"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -278,8 +1031,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "65b04756-5e8c-4566-826c-4f3006e7978e",
-      "status": null
+      "id": "2ce3a645-240c-497c-a5d4-69871a824948",
+      "status": null,
+      "description": null,
+      "workflow": []
     }
   ],
   [
@@ -311,7 +1066,6 @@
               "predicates": [
                 "biolink:affects"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -349,8 +1103,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "f2e621a4-d605-448b-ae69-70b43ab3a32b",
-      "status": null
+      "id": "b09c9f2b-cc8c-4029-8bf9-f5ba03f9bed4",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -380,7 +1136,6 @@
               "predicates": [
                 "biolink:affects"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -418,8 +1173,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "c5462b65-855e-42c1-a6ae-7ba591054cf8",
-      "status": null
+      "id": "0171e249-92e6-4b93-8252-68b0d3ee3a95",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -449,7 +1206,6 @@
               "predicates": [
                 "biolink:affects"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -487,8 +1243,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "b65ba711-b6cf-41fe-a71f-3d6daee9a31f",
-      "status": null
+      "id": "2de392e5-d927-4f5e-9260-e1a92d71ef55",
+      "status": null,
+      "description": null,
+      "workflow": []
     }
   ],
   [
@@ -520,7 +1278,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -558,8 +1315,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "90455fc6-d55f-44fb-8074-24825c69a232",
-      "status": null
+      "id": "55e400a9-03f5-48f1-964c-16288acdffaa",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -589,7 +1348,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -627,8 +1385,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "1b964297-450b-4600-837d-d4d013749382",
-      "status": null
+      "id": "49fcffc5-cdc1-459d-a91f-1db9b957ce4e",
+      "status": null,
+      "description": null,
+      "workflow": []
     }
   ],
   [
@@ -660,7 +1420,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -698,8 +1457,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "62c5ae21-ab59-4417-9f79-4b88df7d4c78",
-      "status": null
+      "id": "cf433be4-815a-471d-80c1-60e5fe22fbdf",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -729,7 +1490,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -767,8 +1527,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "eca27f73-c373-4f92-9616-56c488afde7e",
-      "status": null
+      "id": "3d02680d-5bf2-490b-9024-15c4a5d6fbf4",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -798,7 +1560,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -836,8 +1597,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "e4fd8f72-1fdd-4c1b-b0b2-3587e91f1d1d",
-      "status": null
+      "id": "38fa828f-b240-40ad-a1a1-8b9ccbe0a2eb",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -867,7 +1630,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -905,8 +1667,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "80318b5c-a7fe-43b9-9ee4-44a7ead0b9ce",
-      "status": null
+      "id": "0ce6624d-1999-4bc7-b6be-6c8b81a5ffcb",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -936,7 +1700,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -974,8 +1737,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "f2b80753-9c5e-4a85-8e31-2f48efc9cb57",
-      "status": null
+      "id": "bebde89a-8d11-4631-9e33-1b089064cff5",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1005,7 +1770,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1043,8 +1807,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "28272728-e23b-4d97-a5af-aa5d4aa0cd28",
-      "status": null
+      "id": "13d69734-ee9c-4979-b087-dca15dc45893",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1074,7 +1840,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1112,8 +1877,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "25b4c1b6-655c-4ac7-9aa5-3b53d5fbc793",
-      "status": null
+      "id": "541d3c8b-682f-4315-85fe-18adc355ac5c",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1143,7 +1910,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1181,8 +1947,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "9b14b93f-bd70-4a71-aa25-a0d40f6a44ee",
-      "status": null
+      "id": "e5cf5c37-6be6-4f87-98f3-d7bc34405fb2",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1212,7 +1980,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1250,8 +2017,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "2145493f-041e-40e7-9325-d9aed160d9ff",
-      "status": null
+      "id": "d4249152-7841-4a4b-a2cc-2260bf6b88bc",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1281,7 +2050,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1319,8 +2087,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "f95fc853-b9d9-4a77-9804-ed05eb6be0a1",
-      "status": null
+      "id": "9aed7d59-4dd8-428a-a3b0-a15fce37d52b",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1350,7 +2120,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1388,8 +2157,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "3369e293-c90f-4db5-a7e1-044dfbaab52e",
-      "status": null
+      "id": "7fa1b2ff-f1b7-4cda-a9f2-10e38fd894c1",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1419,7 +2190,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1457,8 +2227,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "207d2b82-4157-4894-b75c-6ab01a3f9fae",
-      "status": null
+      "id": "e6a580b7-e401-406f-a0ab-948bc7cee8f0",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1488,7 +2260,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1526,8 +2297,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "04d65ff8-c19f-430c-a440-0aab581c38d2",
-      "status": null
+      "id": "804ab7d0-99fb-4c6e-a4c8-846d03eb5ab8",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1557,7 +2330,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1595,8 +2367,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "d49c01f1-1027-4ba5-84b9-3d1319ad438c",
-      "status": null
+      "id": "86fa89c6-f0c5-47fa-ae25-7ccc3f713454",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1626,7 +2400,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1664,8 +2437,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "0c66fca3-6030-4d6c-a579-45f0b9dc874b",
-      "status": null
+      "id": "47da6a52-e329-457b-b810-eb14e8f4f1b9",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1695,7 +2470,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1733,8 +2507,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "041b386e-2f1e-47d8-b09c-e00fb5265af8",
-      "status": null
+      "id": "b945c538-6abb-4225-840b-fce20145605a",
+      "status": null,
+      "description": null,
+      "workflow": []
     }
   ],
   [
@@ -1766,7 +2542,6 @@
               "predicates": [
                 "biolink:genetic_association"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1827,8 +2602,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "ee284097-c428-401f-9b8d-c4b1e36ce106",
-      "status": null
+      "id": "1d0d6ea0-2763-41ca-b577-eb7fb93fd60b",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1858,7 +2635,6 @@
               "predicates": [
                 "biolink:genetic_association"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1919,8 +2695,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "0cdac24f-15a3-4b88-b2cf-c1cef9477bf6",
-      "status": null
+      "id": "4685a542-251d-425a-95b5-cf73a1f508c7",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1950,7 +2728,6 @@
               "predicates": [
                 "biolink:genetic_association"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -2011,8 +2788,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "82e83eba-30d0-4719-806f-1467fb13f211",
-      "status": null
+      "id": "a36cacda-d997-4b3c-9af2-68ba2781d2df",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -2042,7 +2821,6 @@
               "predicates": [
                 "biolink:genetic_association"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -2103,8 +2881,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "f482e54b-3794-4c12-9e9c-ab1d41db0c0b",
-      "status": null
+      "id": "91adb798-a9b6-493b-a887-469431ef90b5",
+      "status": null,
+      "description": null,
+      "workflow": []
     }
   ]
 ]

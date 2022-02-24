@@ -5,6 +5,151 @@
         "query_graph": {
           "nodes": {
             "n0": {
+              "ids": [
+                "NCBIGene:23221"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": null,
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e01": {
+              "predicates": [
+                "biolink:genetically_interacts_with"
+              ],
+              "subject": "n1",
+              "object": "n0",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "4c7a585a-d9ad-4ac5-b534-f9a7510a2911",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "ENSEMBL:ENSG00000008853"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": null,
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e01": {
+              "predicates": [
+                "biolink:genetically_interacts_with"
+              ],
+              "subject": "n1",
+              "object": "n0",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "6c652477-ba36-4a05-a4cb-e5650af4c7ea",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "HGNC:18756"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": null,
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e01": {
+              "predicates": [
+                "biolink:genetically_interacts_with"
+              ],
+              "subject": "n1",
+              "object": "n0",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "012a0880-a4bf-4375-9031-75e92c2b0593",
+      "status": null,
+      "description": null,
+      "workflow": []
+    }
+  ],
+  [],
+  [],
+  [
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
               "ids": null,
               "categories": [
                 "biolink:Gene"
@@ -26,7 +171,6 @@
               "predicates": [
                 "biolink:gene_associated_with_condition"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -64,8 +208,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "1f66dc04-ca93-43b2-ad00-c436bc36e1f4",
-      "status": null
+      "id": "849600b0-2b6a-40bd-96da-32f4758175de",
+      "status": null,
+      "description": null,
+      "workflow": []
     }
   ],
   [],

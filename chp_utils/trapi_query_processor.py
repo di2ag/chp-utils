@@ -5,6 +5,7 @@ from collections import defaultdict
 import json
 
 from trapi_model.query import Query
+from trapi_model.biolink import BiolinkEntity
 from trapi_model.message import Message
 from trapi_model.biolink.constants import *
 from trapi_model.logger import Logger
@@ -244,8 +245,17 @@ class BaseQueryProcessor:
         queries = []
         node_expansion_map = {}
         for node_id, node in query_graph.nodes.items():
-            if node.categories is None or node.categories[0] in meta_knowledge_graph.nodes:
-                continue
+            # Greg added base case - if no category we assume Named Thing
+            if node.categories is None:
+                node.categories = [BiolinkEntity(BIOLINK_NAMED_THING)]
+
+            # Greg commented out, similar to predicate expansion, just because a node category happens to be in our meta-kg
+            # does not mean we do not want its descendants and so we should expand. e.g., lets say we had DiseaseOrPhenotypicFeature
+            # in our meta-kg, but we also had a relationship for phenotypes in our meta-kg. We would want to expand for both
+            # queries and answer them.
+            #if node.categories[0] in meta_knowledge_graph.nodes:
+            #    continue
+
             # Else run semantic operations to get descedants
             descendants = node.categories[0].get_descendants()
             supported_descendants = list(
@@ -282,8 +292,17 @@ class BaseQueryProcessor:
             # If predicate is null that substitute with biolink related to.
             if edge.predicates is None:
                 edge.predicates = [BIOLINK_RELATED_TO_ENTITY]
-            elif edge.predicates[0] in supported_edge_predicates:
-                continue
+
+            # Greg removed this. A hit for a predicate in our supported edges does not mean it should be skipped. This
+            # leads to strange semantic operation expansions. For instance on a gene->gene edge using 'interacts_with'
+            # we would expect it to expand to 'genetically_interacts_with', however because 'interacts_with' is a predicate
+            # in our meta-kg for gene->drug relationships, we will stop here otherwise and NOT expand on 'interacts_with'.
+            # this also means we have to add this term manually to the descendants
+
+            #elif edge.predicates[0] in supported_edge_predicates:
+            #    continue
+
+
             # Else run semantic operations to get descedants
             descendants = edge.predicates[0].get_descendants()
             supported_descendants = list(
@@ -294,6 +313,7 @@ class BaseQueryProcessor:
                             ]
                         )
                     )
+            supported_descendants.append(BIOLINK_RELATED_TO_ENTITY)
             if len(supported_descendants) == 0:
                 query.warning('Biolink predicate {} is not inherently supported and could not find any supported descendants,'.format(edge.predicates[0].get_curie()))
                 continue
@@ -348,9 +368,10 @@ class BaseQueryProcessor:
                 if predicate in meta_knowledge_graph_predicate_map:
                     found_consistent_edge = False
                     for meta_edge in meta_knowledge_graph_predicate_map[predicate]:
-                        if subject_node.categories[0] == meta_edge.subject and object_node.categories[0] == meta_edge.object:
-                            found_consistent_edge = True
-                            break
+                        if subject_node.categories is not None and object_node.categories is not None:
+                            if subject_node.categories[0] == meta_edge.subject and object_node.categories[0] == meta_edge.object:
+                                found_consistent_edge = True
+                                break
                     if not found_consistent_edge:
                         query.error('Edge predicate subject/object mismatch with meta knowledge graph.')
                         is_consistent_query = False

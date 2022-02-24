@@ -2,28 +2,40 @@
   "nodes": {
     "biolink:Gene": {
       "id_prefixes": [
-        "ENSEMBL"
+        "ENSEMBL",
+        "NCBIGene",
+        "HGNC"
       ]
     },
     "biolink:Drug": {
+      "id_prefixes": [
+        "CHEMBL.COMPOUND",
+        "PUBCHEM.COMPOUND",
+        "CHEBI"
+      ]
+    },
+    "biolink:ChemicalSubstance": {
+      "id_prefixes": [
+        "CHEMBL.COMPOUND"
+      ]
+    },
+    "biolink:SmallMolecule": {
       "id_prefixes": [
         "CHEMBL.COMPOUND"
       ]
     },
     "biolink:Disease": {
       "id_prefixes": [
-        "MONDO"
+        "MONDO",
+        "DOID",
+        "UMLS",
+        "NCIT"
       ]
     },
-    "biolink:PhenotypicFeature": {
+    "biolink:Pathway": {
       "id_prefixes": [
-        "EFO"
+        "REACT"
       ]
-    },
-    "biolink:ChemicalSubstance": {
-        "id_prefixes": [
-            "CHEMBL.COMPOUND"
-        ]
     }
   },
   "edges": [
@@ -38,6 +50,16 @@
       "predicate": "biolink:interacts_with"
     },
     {
+      "subject": "biolink:Gene",
+      "object": "biolink:Drug",
+      "predicate": "biolink:has_real_world_evidence_of_association_with"
+    },
+    {
+      "subject": "biolink:Drug",
+      "object": "biolink:Gene",
+      "predicate": "biolink:has_real_world_evidence_of_association_with"
+    },
+    {
       "subject": "biolink:Drug",
       "object": "biolink:Gene",
       "predicate": "biolink:interacts_with"
@@ -45,12 +67,7 @@
     {
       "subject": "biolink:Drug",
       "object": "biolink:Disease",
-      "predicate": "biolink:treats"
-    },
-    {
-      "subject": "biolink:Disease",
-      "object": "biolink:PhenotypicFeature",
-      "predicate": "biolink:has_phenotype"
+      "predicate": "biolink:related_to"
     },
     {
       "subject": "biolink:Gene",
@@ -58,19 +75,49 @@
       "predicate": "biolink:genetically_interacts_with"
     },
     {
+      "subject": "biolink:Gene",
+      "object": "biolink:Gene",
+      "predicate": "biolink:has_real_world_evidence_of_association_with"
+    },
+    {
+      "subject": "biolink:Gene",
+      "object": "biolink:Pathway",
+      "predicate": "biolink:participates_in"
+    },
+    {
+      "subject": "biolink:Gene",
+      "object": "biolink:SmallMolecule",
+      "predicate": "biolink:interacts_with"
+    },
+    {
+      "subject": "biolink:Gene",
+      "object": "biolink:SmallMolecule",
+      "predicate": "biolink:has_real_world_evidence_of_association_with"
+    },
+    {
+      "subject": "biolink:SmallMolecule",
+      "object": "biolink:Disease",
+      "predicate": "biolink:related_to"
+    },
+    {
+      "subject": "biolink:SmallMolecule",
+      "object": "biolink:Gene",
+      "predicate": "biolink:has_real_world_evidence_of_association_with"
+    },
+    {
+      "subject": "biolink:SmallMolecule",
+      "object": "biolink:Gene",
+      "predicate": "biolink:interacts_with"
+    },
+    {
       "subject": "biolink:Disease",
       "object": "biolink:Gene",
       "predicate": "biolink:condition_associated_with_gene"
     },
     {
-      "subject": "biolink:Disease",
-      "object": "biolink:Drug",
-      "predicate": "biolink:treated_by"
-    },
-    {
-      "subject": "biolink:PhenotypicFeature",
-      "object": "biolink:Disease",
-      "predicate": "biolink:phenotype_of"
+      "subject": "biolink:Pathway",
+      "object": "biolink:Gene",
+      "predicate": "biolink:has_participant"
     }
   ]
 }

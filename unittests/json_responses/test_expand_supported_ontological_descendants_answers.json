@@ -5,6 +5,764 @@
         "query_graph": {
           "nodes": {
             "n0": {
+              "ids": [
+                "NCBIGene:23221"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": null,
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e01": {
+              "predicates": [
+                "biolink:entity_negatively_regulates_entity"
+              ],
+              "subject": "n1",
+              "object": "n0",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "691e7051-e764-452c-ac78-248bb97ccb82",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "NCBIGene:23221"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": null,
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e01": {
+              "predicates": [
+                "biolink:genetically_interacts_with"
+              ],
+              "subject": "n1",
+              "object": "n0",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "f6a8eb23-1257-4a9b-addf-3418fca9452e",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "ENSEMBL:ENSG00000008853"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": null,
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e01": {
+              "predicates": [
+                "biolink:entity_negatively_regulates_entity"
+              ],
+              "subject": "n1",
+              "object": "n0",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "b1ba45d1-aaa9-4af4-9a9e-33fe0c7b70b0",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "ENSEMBL:ENSG00000008853"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": null,
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e01": {
+              "predicates": [
+                "biolink:genetically_interacts_with"
+              ],
+              "subject": "n1",
+              "object": "n0",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "a5f22067-9b0c-4c86-a023-edd1119a9a82",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "HGNC:18756"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": null,
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e01": {
+              "predicates": [
+                "biolink:entity_negatively_regulates_entity"
+              ],
+              "subject": "n1",
+              "object": "n0",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "ca37cfb4-7285-490c-9d32-3e99ddd12102",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "HGNC:18756"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": null,
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e01": {
+              "predicates": [
+                "biolink:genetically_interacts_with"
+              ],
+              "subject": "n1",
+              "object": "n0",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "b364fdec-aa6c-48e1-8d3e-243a236da571",
+      "status": null,
+      "description": null,
+      "workflow": []
+    }
+  ],
+  [
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "HP:0002013"
+              ],
+              "categories": [
+                "biolink:DiseaseOrPhenotypicFeature"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": null,
+              "categories": [
+                "biolink:ChemicalEntity"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "subject": "n0",
+              "object": "n1",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2022-02-24T03:15:51.843485",
+          "level": "ERROR",
+          "message": "biolink:DiseaseOrPhenotypicFeature is not support in the meta knowledge graph",
+          "code": null
+        }
+      ],
+      "id": "4e18daad-4a99-4f27-8e6e-ba4348306d09",
+      "status": null,
+      "description": null,
+      "workflow": []
+    }
+  ],
+  [
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": null,
+              "categories": [
+                "biolink:SmallMolecule"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "NCBIGene:1956"
+              ],
+              "categories": null,
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:decreases_abundance_of"
+              ],
+              "subject": "n0",
+              "object": "n1",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2022-02-24T03:15:52.023864",
+          "level": "ERROR",
+          "message": "Node: NCBIGene:1956 has no categories. Can not ontologically expand a node with no category.",
+          "code": null
+        }
+      ],
+      "id": "a2ce48f7-f9cc-44df-988d-b3819f065a04",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": null,
+              "categories": [
+                "biolink:SmallMolecule"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "NCBIGene:1956"
+              ],
+              "categories": null,
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:decreases_activity_of"
+              ],
+              "subject": "n0",
+              "object": "n1",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2022-02-24T03:15:52.023884",
+          "level": "ERROR",
+          "message": "Node: NCBIGene:1956 has no categories. Can not ontologically expand a node with no category.",
+          "code": null
+        }
+      ],
+      "id": "f642210e-714a-4a30-875c-74c5031bdf12",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": null,
+              "categories": [
+                "biolink:SmallMolecule"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "NCBIGene:1956"
+              ],
+              "categories": null,
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:decreases_expression_of"
+              ],
+              "subject": "n0",
+              "object": "n1",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2022-02-24T03:15:52.023894",
+          "level": "ERROR",
+          "message": "Node: NCBIGene:1956 has no categories. Can not ontologically expand a node with no category.",
+          "code": null
+        }
+      ],
+      "id": "64fa9a5b-572d-4b71-99ca-f8e132826b97",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": null,
+              "categories": [
+                "biolink:SmallMolecule"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "NCBIGene:1956"
+              ],
+              "categories": null,
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:decreases_synthesis_of"
+              ],
+              "subject": "n0",
+              "object": "n1",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2022-02-24T03:15:52.023903",
+          "level": "ERROR",
+          "message": "Node: NCBIGene:1956 has no categories. Can not ontologically expand a node with no category.",
+          "code": null
+        }
+      ],
+      "id": "56aa47e0-4f28-4b31-a812-118276cb3a03",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": null,
+              "categories": [
+                "biolink:SmallMolecule"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "NCBIGene:1956"
+              ],
+              "categories": null,
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:increases_degradation_of"
+              ],
+              "subject": "n0",
+              "object": "n1",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2022-02-24T03:15:52.023923",
+          "level": "ERROR",
+          "message": "Node: NCBIGene:1956 has no categories. Can not ontologically expand a node with no category.",
+          "code": null
+        }
+      ],
+      "id": "8aaaff0a-143f-4eff-ad1e-a5089a807714",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": null,
+              "categories": [
+                "biolink:SmallMolecule"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "NCBIGene:1956"
+              ],
+              "categories": null,
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:disrupts"
+              ],
+              "subject": "n0",
+              "object": "n1",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2022-02-24T03:15:52.023934",
+          "level": "ERROR",
+          "message": "Node: NCBIGene:1956 has no categories. Can not ontologically expand a node with no category.",
+          "code": null
+        }
+      ],
+      "id": "2ccd50dc-a292-476c-875b-6ccc0cf85b72",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": null,
+              "categories": [
+                "biolink:SmallMolecule"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "NCBIGene:1956"
+              ],
+              "categories": null,
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:entity_negatively_regulates_entity"
+              ],
+              "subject": "n0",
+              "object": "n1",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2022-02-24T03:15:52.023943",
+          "level": "ERROR",
+          "message": "Node: NCBIGene:1956 has no categories. Can not ontologically expand a node with no category.",
+          "code": null
+        }
+      ],
+      "id": "439eeddd-ab4b-4069-a7d8-2c5eb1d2648f",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": null,
+              "categories": [
+                "biolink:SmallMolecule"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "NCBIGene:1956"
+              ],
+              "categories": null,
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "subject": "n0",
+              "object": "n1",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2022-02-24T03:15:52.023953",
+          "level": "ERROR",
+          "message": "Node: NCBIGene:1956 has no categories. Can not ontologically expand a node with no category.",
+          "code": null
+        }
+      ],
+      "id": "ae640417-1241-49b6-8f7b-4a31647f57bd",
+      "status": null,
+      "description": null,
+      "workflow": []
+    }
+  ],
+  [
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
               "ids": null,
               "categories": [
                 "biolink:Gene"
@@ -26,7 +784,6 @@
               "predicates": [
                 "biolink:gene_associated_with_condition"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -64,8 +821,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "413e2734-d703-4a7d-94a5-7c84c1ace5d3",
-      "status": null
+      "id": "6759e9f3-d763-4044-a750-100e5ab65d5c",
+      "status": null,
+      "description": null,
+      "workflow": []
     }
   ],
   [
@@ -93,7 +852,6 @@
           "edges": {
             "e0": {
               "predicates": null,
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -131,8 +889,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "77a23b96-78de-4753-8842-04c226261813",
-      "status": null
+      "id": "f853e2b5-5c00-4b5f-b9e1-1e28556e81c6",
+      "status": null,
+      "description": null,
+      "workflow": []
     }
   ],
   [
@@ -162,7 +922,6 @@
               "predicates": [
                 "biolink:treats"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -200,8 +959,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "71057aea-1742-486f-85c2-24adfed1fef9",
-      "status": null
+      "id": "070052be-a381-4653-b1d5-851b6f73589f",
+      "status": null,
+      "description": null,
+      "workflow": []
     }
   ],
   [
@@ -233,7 +994,6 @@
               "predicates": [
                 "biolink:genetic_association"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -271,8 +1031,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "08517757-fbef-4be7-9dcb-f3ae381b614e",
-      "status": null
+      "id": "7104733e-66c7-4608-8ed5-e9e607967a98",
+      "status": null,
+      "description": null,
+      "workflow": []
     }
   ],
   [
@@ -304,7 +1066,6 @@
               "predicates": [
                 "biolink:affects"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -343,14 +1104,16 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:42.241577",
+          "timestamp": "2022-02-24T03:16:40.573003",
           "level": "INFO",
           "message": "Ontologically expanded MONDO:0004992 to MONDO:0001657",
           "code": null
         }
       ],
-      "id": "af4459d1-9214-4e04-98a0-678b151abef5",
-      "status": null
+      "id": "9afdf54b-82a6-46f5-8cd6-a6804a930b0c",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -380,7 +1143,6 @@
               "predicates": [
                 "biolink:affects"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -419,14 +1181,16 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:42.251806",
+          "timestamp": "2022-02-24T03:16:40.608913",
           "level": "INFO",
           "message": "Ontologically expanded MONDO:0004992 to MONDO:0005061",
           "code": null
         }
       ],
-      "id": "a7330b9c-c867-4505-8ee1-8b1cdbc4352e",
-      "status": null
+      "id": "c691a452-3c32-484d-ad7c-1ba2e2247e2b",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -456,7 +1220,6 @@
               "predicates": [
                 "biolink:affects"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -495,14 +1258,16 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:42.262012",
+          "timestamp": "2022-02-24T03:16:40.644705",
           "level": "INFO",
           "message": "Ontologically expanded MONDO:0004992 to MONDO:0007254",
           "code": null
         }
       ],
-      "id": "982165f1-1679-4c8f-926a-807796c1334e",
-      "status": null
+      "id": "e2212df3-4cbc-4a40-93d8-d7b1351c9e09",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -532,7 +1297,6 @@
               "predicates": [
                 "biolink:affects"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -571,14 +1335,16 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:42.272337",
+          "timestamp": "2022-02-24T03:16:40.680617",
           "level": "INFO",
           "message": "Ontologically expanded MONDO:0004992 to MONDO:0001657",
           "code": null
         }
       ],
-      "id": "a97db3f9-b356-42b1-865a-81b745f52eb0",
-      "status": null
+      "id": "4fa52558-b710-47e0-a3e9-bee9c03e24c2",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -608,7 +1374,6 @@
               "predicates": [
                 "biolink:affects"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -647,14 +1412,16 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:42.282641",
+          "timestamp": "2022-02-24T03:16:40.716565",
           "level": "INFO",
           "message": "Ontologically expanded MONDO:0004992 to MONDO:0005061",
           "code": null
         }
       ],
-      "id": "1b17fe83-9957-49b6-955a-fe8ae062104f",
-      "status": null
+      "id": "d534260a-9b14-4150-87c2-6c5baa9fa4e2",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -684,7 +1451,6 @@
               "predicates": [
                 "biolink:affects"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -723,14 +1489,16 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:42.292482",
+          "timestamp": "2022-02-24T03:16:40.752540",
           "level": "INFO",
           "message": "Ontologically expanded MONDO:0004992 to MONDO:0007254",
           "code": null
         }
       ],
-      "id": "222789ae-007a-4935-ace6-7193423ddc63",
-      "status": null
+      "id": "e8ce8a50-7472-401c-8bb6-dc9b4065e253",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -760,7 +1528,6 @@
               "predicates": [
                 "biolink:affects"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -799,14 +1566,16 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:42.302746",
+          "timestamp": "2022-02-24T03:16:40.788365",
           "level": "INFO",
           "message": "Ontologically expanded MONDO:0004992 to MONDO:0001657",
           "code": null
         }
       ],
-      "id": "bf9f90fc-989a-4045-8f24-f2465575bbe8",
-      "status": null
+      "id": "d070cbb3-ad13-4136-b3a9-8decc14c2525",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -836,7 +1605,6 @@
               "predicates": [
                 "biolink:affects"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -875,14 +1643,16 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:42.316824",
+          "timestamp": "2022-02-24T03:16:40.824594",
           "level": "INFO",
           "message": "Ontologically expanded MONDO:0004992 to MONDO:0005061",
           "code": null
         }
       ],
-      "id": "6a6aca84-163a-4a6f-8657-12c4f744f488",
-      "status": null
+      "id": "eba212d4-f85e-49db-ba4e-71de2d2c596f",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -912,7 +1682,6 @@
               "predicates": [
                 "biolink:affects"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -951,14 +1720,16 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:42.329628",
+          "timestamp": "2022-02-24T03:16:40.859808",
           "level": "INFO",
           "message": "Ontologically expanded MONDO:0004992 to MONDO:0007254",
           "code": null
         }
       ],
-      "id": "7f772503-7b97-446d-bd19-f14cb2ed531f",
-      "status": null
+      "id": "aebd5e63-0f7a-476f-8fed-15645141494d",
+      "status": null,
+      "description": null,
+      "workflow": []
     }
   ],
   [
@@ -990,7 +1761,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1028,8 +1798,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "8e7807a2-ab80-49d8-9782-592b1f5de641",
-      "status": null
+      "id": "fcbfb7c4-9bb4-4c3a-8c4e-d5cb20327c15",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1059,7 +1831,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1097,8 +1868,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "bf163370-8e3d-493b-8d20-e11ab37d3b35",
-      "status": null
+      "id": "e678a125-5d61-448f-b2d1-36e05fe7d7fc",
+      "status": null,
+      "description": null,
+      "workflow": []
     }
   ],
   [
@@ -1130,7 +1903,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1167,16 +1939,11 @@
       "max_results": 10,
       "trapi_version": "1.1",
       "biolink_version": null,
-      "logs": [
-        {
-          "timestamp": "2021-08-11T05:30:43.258877",
-          "level": "ERROR",
-          "message": "Url: https://stars-app.renci.org/sparql-kp/query returned error with status code: 400  for query: {'message': {'query_graph': {'nodes': {'n0': {'ids': ['UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688']}, 'n1': {'categories': ['biolink:Gene']}}, 'edges': {'e0': {'subject': 'n1', 'object': 'n0', 'predicates': ['biolink:subclass_of']}}}}}. Query returned: b'Invalid value for: body'. Could not get ontology descendents.",
-          "code": null
-        }
-      ],
-      "id": "4957b315-3cb8-4b56-8411-7bb6be3f2902",
-      "status": null
+      "logs": [],
+      "id": "423e8fbb-bdf7-4875-98a1-b5978b5a95dd",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1206,7 +1973,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1243,16 +2009,11 @@
       "max_results": 10,
       "trapi_version": "1.1",
       "biolink_version": null,
-      "logs": [
-        {
-          "timestamp": "2021-08-11T05:30:43.258877",
-          "level": "ERROR",
-          "message": "Url: https://stars-app.renci.org/sparql-kp/query returned error with status code: 400  for query: {'message': {'query_graph': {'nodes': {'n0': {'ids': ['UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688']}, 'n1': {'categories': ['biolink:Gene']}}, 'edges': {'e0': {'subject': 'n1', 'object': 'n0', 'predicates': ['biolink:subclass_of']}}}}}. Query returned: b'Invalid value for: body'. Could not get ontology descendents.",
-          "code": null
-        }
-      ],
-      "id": "b65dc94b-d270-49fd-8a41-ec491d7326d2",
-      "status": null
+      "logs": [],
+      "id": "63c53732-25ae-408b-ac99-0039120e956c",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1282,7 +2043,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1319,16 +2079,11 @@
       "max_results": 10,
       "trapi_version": "1.1",
       "biolink_version": null,
-      "logs": [
-        {
-          "timestamp": "2021-08-11T05:30:43.258877",
-          "level": "ERROR",
-          "message": "Url: https://stars-app.renci.org/sparql-kp/query returned error with status code: 400  for query: {'message': {'query_graph': {'nodes': {'n0': {'ids': ['UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688']}, 'n1': {'categories': ['biolink:Gene']}}, 'edges': {'e0': {'subject': 'n1', 'object': 'n0', 'predicates': ['biolink:subclass_of']}}}}}. Query returned: b'Invalid value for: body'. Could not get ontology descendents.",
-          "code": null
-        }
-      ],
-      "id": "ce26baf4-1bb2-4560-b442-fa8ad48ec509",
-      "status": null
+      "logs": [],
+      "id": "2507e00f-4995-474a-ab2c-d38315b0cd06",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1358,7 +2113,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1395,16 +2149,11 @@
       "max_results": 10,
       "trapi_version": "1.1",
       "biolink_version": null,
-      "logs": [
-        {
-          "timestamp": "2021-08-11T05:30:43.258877",
-          "level": "ERROR",
-          "message": "Url: https://stars-app.renci.org/sparql-kp/query returned error with status code: 400  for query: {'message': {'query_graph': {'nodes': {'n0': {'ids': ['UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688']}, 'n1': {'categories': ['biolink:Gene']}}, 'edges': {'e0': {'subject': 'n1', 'object': 'n0', 'predicates': ['biolink:subclass_of']}}}}}. Query returned: b'Invalid value for: body'. Could not get ontology descendents.",
-          "code": null
-        }
-      ],
-      "id": "76ae200c-ca22-4953-9d66-bd1d8703c078",
-      "status": null
+      "logs": [],
+      "id": "15a347a7-7c08-44c9-8031-26a28db22783",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1434,7 +2183,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1471,16 +2219,11 @@
       "max_results": 10,
       "trapi_version": "1.1",
       "biolink_version": null,
-      "logs": [
-        {
-          "timestamp": "2021-08-11T05:30:43.258877",
-          "level": "ERROR",
-          "message": "Url: https://stars-app.renci.org/sparql-kp/query returned error with status code: 400  for query: {'message': {'query_graph': {'nodes': {'n0': {'ids': ['UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688']}, 'n1': {'categories': ['biolink:Gene']}}, 'edges': {'e0': {'subject': 'n1', 'object': 'n0', 'predicates': ['biolink:subclass_of']}}}}}. Query returned: b'Invalid value for: body'. Could not get ontology descendents.",
-          "code": null
-        }
-      ],
-      "id": "1506ef48-9b3a-4873-bd97-b226f7a0e4c4",
-      "status": null
+      "logs": [],
+      "id": "fc5eb88d-82ca-49ed-ae3f-df8499f75a54",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1510,7 +2253,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1547,16 +2289,11 @@
       "max_results": 10,
       "trapi_version": "1.1",
       "biolink_version": null,
-      "logs": [
-        {
-          "timestamp": "2021-08-11T05:30:43.258877",
-          "level": "ERROR",
-          "message": "Url: https://stars-app.renci.org/sparql-kp/query returned error with status code: 400  for query: {'message': {'query_graph': {'nodes': {'n0': {'ids': ['UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688']}, 'n1': {'categories': ['biolink:Gene']}}, 'edges': {'e0': {'subject': 'n1', 'object': 'n0', 'predicates': ['biolink:subclass_of']}}}}}. Query returned: b'Invalid value for: body'. Could not get ontology descendents.",
-          "code": null
-        }
-      ],
-      "id": "a6d357a0-cdaf-4a9f-a832-f4d881b2ac61",
-      "status": null
+      "logs": [],
+      "id": "33c33507-de7f-439e-a14d-5bbbe2a8370a",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1586,7 +2323,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1623,16 +2359,11 @@
       "max_results": 10,
       "trapi_version": "1.1",
       "biolink_version": null,
-      "logs": [
-        {
-          "timestamp": "2021-08-11T05:30:43.258877",
-          "level": "ERROR",
-          "message": "Url: https://stars-app.renci.org/sparql-kp/query returned error with status code: 400  for query: {'message': {'query_graph': {'nodes': {'n0': {'ids': ['UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688']}, 'n1': {'categories': ['biolink:Gene']}}, 'edges': {'e0': {'subject': 'n1', 'object': 'n0', 'predicates': ['biolink:subclass_of']}}}}}. Query returned: b'Invalid value for: body'. Could not get ontology descendents.",
-          "code": null
-        }
-      ],
-      "id": "5ff9c4c3-ddf7-429a-a53c-2e58f6206745",
-      "status": null
+      "logs": [],
+      "id": "e5c73a56-2747-4edd-b780-490fa5de0a8b",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1662,7 +2393,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1699,16 +2429,11 @@
       "max_results": 10,
       "trapi_version": "1.1",
       "biolink_version": null,
-      "logs": [
-        {
-          "timestamp": "2021-08-11T05:30:43.258877",
-          "level": "ERROR",
-          "message": "Url: https://stars-app.renci.org/sparql-kp/query returned error with status code: 400  for query: {'message': {'query_graph': {'nodes': {'n0': {'ids': ['UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688']}, 'n1': {'categories': ['biolink:Gene']}}, 'edges': {'e0': {'subject': 'n1', 'object': 'n0', 'predicates': ['biolink:subclass_of']}}}}}. Query returned: b'Invalid value for: body'. Could not get ontology descendents.",
-          "code": null
-        }
-      ],
-      "id": "021ac950-f82c-470e-a093-cc43aa054adb",
-      "status": null
+      "logs": [],
+      "id": "719c2c2e-8137-4331-81aa-eb8d5d4e82c2",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1738,7 +2463,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1775,16 +2499,11 @@
       "max_results": 10,
       "trapi_version": "1.1",
       "biolink_version": null,
-      "logs": [
-        {
-          "timestamp": "2021-08-11T05:30:43.258877",
-          "level": "ERROR",
-          "message": "Url: https://stars-app.renci.org/sparql-kp/query returned error with status code: 400  for query: {'message': {'query_graph': {'nodes': {'n0': {'ids': ['UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688']}, 'n1': {'categories': ['biolink:Gene']}}, 'edges': {'e0': {'subject': 'n1', 'object': 'n0', 'predicates': ['biolink:subclass_of']}}}}}. Query returned: b'Invalid value for: body'. Could not get ontology descendents.",
-          "code": null
-        }
-      ],
-      "id": "7745a62a-0327-4704-bd07-e1cd6d2057c6",
-      "status": null
+      "logs": [],
+      "id": "328b778d-c378-4ad9-9dcb-4bcf8dd8f145",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1814,7 +2533,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1851,16 +2569,11 @@
       "max_results": 10,
       "trapi_version": "1.1",
       "biolink_version": null,
-      "logs": [
-        {
-          "timestamp": "2021-08-11T05:30:43.258877",
-          "level": "ERROR",
-          "message": "Url: https://stars-app.renci.org/sparql-kp/query returned error with status code: 400  for query: {'message': {'query_graph': {'nodes': {'n0': {'ids': ['UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688']}, 'n1': {'categories': ['biolink:Gene']}}, 'edges': {'e0': {'subject': 'n1', 'object': 'n0', 'predicates': ['biolink:subclass_of']}}}}}. Query returned: b'Invalid value for: body'. Could not get ontology descendents.",
-          "code": null
-        }
-      ],
-      "id": "c3913a68-b367-4328-aa35-e2b605ce10b3",
-      "status": null
+      "logs": [],
+      "id": "1b00ba7d-caca-4ebb-b754-43b2aeab21cb",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1890,7 +2603,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1927,16 +2639,11 @@
       "max_results": 10,
       "trapi_version": "1.1",
       "biolink_version": null,
-      "logs": [
-        {
-          "timestamp": "2021-08-11T05:30:43.258877",
-          "level": "ERROR",
-          "message": "Url: https://stars-app.renci.org/sparql-kp/query returned error with status code: 400  for query: {'message': {'query_graph': {'nodes': {'n0': {'ids': ['UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688']}, 'n1': {'categories': ['biolink:Gene']}}, 'edges': {'e0': {'subject': 'n1', 'object': 'n0', 'predicates': ['biolink:subclass_of']}}}}}. Query returned: b'Invalid value for: body'. Could not get ontology descendents.",
-          "code": null
-        }
-      ],
-      "id": "bea50073-1084-4d6d-8946-0e602e00e13a",
-      "status": null
+      "logs": [],
+      "id": "3dd3f324-9230-4c5b-af74-7ac88e4601e6",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1966,7 +2673,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -2003,16 +2709,11 @@
       "max_results": 10,
       "trapi_version": "1.1",
       "biolink_version": null,
-      "logs": [
-        {
-          "timestamp": "2021-08-11T05:30:43.258877",
-          "level": "ERROR",
-          "message": "Url: https://stars-app.renci.org/sparql-kp/query returned error with status code: 400  for query: {'message': {'query_graph': {'nodes': {'n0': {'ids': ['UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688']}, 'n1': {'categories': ['biolink:Gene']}}, 'edges': {'e0': {'subject': 'n1', 'object': 'n0', 'predicates': ['biolink:subclass_of']}}}}}. Query returned: b'Invalid value for: body'. Could not get ontology descendents.",
-          "code": null
-        }
-      ],
-      "id": "49a16a1f-c16d-4e62-a5fd-2b293b376152",
-      "status": null
+      "logs": [],
+      "id": "52da57fa-3e02-4c14-8fd6-b8f09f7a56b4",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -2042,7 +2743,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -2079,16 +2779,11 @@
       "max_results": 10,
       "trapi_version": "1.1",
       "biolink_version": null,
-      "logs": [
-        {
-          "timestamp": "2021-08-11T05:30:43.258877",
-          "level": "ERROR",
-          "message": "Url: https://stars-app.renci.org/sparql-kp/query returned error with status code: 400  for query: {'message': {'query_graph': {'nodes': {'n0': {'ids': ['UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688']}, 'n1': {'categories': ['biolink:Gene']}}, 'edges': {'e0': {'subject': 'n1', 'object': 'n0', 'predicates': ['biolink:subclass_of']}}}}}. Query returned: b'Invalid value for: body'. Could not get ontology descendents.",
-          "code": null
-        }
-      ],
-      "id": "d3dd954d-7d0a-4ad6-b7c6-d34f646ef522",
-      "status": null
+      "logs": [],
+      "id": "79331244-c5d8-412c-9218-559f88f91d30",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -2118,7 +2813,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -2155,16 +2849,11 @@
       "max_results": 10,
       "trapi_version": "1.1",
       "biolink_version": null,
-      "logs": [
-        {
-          "timestamp": "2021-08-11T05:30:43.258877",
-          "level": "ERROR",
-          "message": "Url: https://stars-app.renci.org/sparql-kp/query returned error with status code: 400  for query: {'message': {'query_graph': {'nodes': {'n0': {'ids': ['UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688']}, 'n1': {'categories': ['biolink:Gene']}}, 'edges': {'e0': {'subject': 'n1', 'object': 'n0', 'predicates': ['biolink:subclass_of']}}}}}. Query returned: b'Invalid value for: body'. Could not get ontology descendents.",
-          "code": null
-        }
-      ],
-      "id": "11eae4d1-392f-46d9-b9e1-c454ca23f254",
-      "status": null
+      "logs": [],
+      "id": "8d650f50-588e-453f-a4fb-e7cb1798c632",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -2194,7 +2883,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -2231,16 +2919,11 @@
       "max_results": 10,
       "trapi_version": "1.1",
       "biolink_version": null,
-      "logs": [
-        {
-          "timestamp": "2021-08-11T05:30:43.258877",
-          "level": "ERROR",
-          "message": "Url: https://stars-app.renci.org/sparql-kp/query returned error with status code: 400  for query: {'message': {'query_graph': {'nodes': {'n0': {'ids': ['UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688']}, 'n1': {'categories': ['biolink:Gene']}}, 'edges': {'e0': {'subject': 'n1', 'object': 'n0', 'predicates': ['biolink:subclass_of']}}}}}. Query returned: b'Invalid value for: body'. Could not get ontology descendents.",
-          "code": null
-        }
-      ],
-      "id": "78dab4a5-d7d1-41de-8b89-612eb8bbe108",
-      "status": null
+      "logs": [],
+      "id": "78f0884e-ef06-4e2d-8d18-72b43e09a887",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -2270,7 +2953,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -2307,16 +2989,11 @@
       "max_results": 10,
       "trapi_version": "1.1",
       "biolink_version": null,
-      "logs": [
-        {
-          "timestamp": "2021-08-11T05:30:43.258877",
-          "level": "ERROR",
-          "message": "Url: https://stars-app.renci.org/sparql-kp/query returned error with status code: 400  for query: {'message': {'query_graph': {'nodes': {'n0': {'ids': ['UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688', 'UMLS:C1367721', 'ENSEMBL:ENSG00000136631', 'NCBIGene:55907', 'HGNC:9688']}, 'n1': {'categories': ['biolink:Gene']}}, 'edges': {'e0': {'subject': 'n1', 'object': 'n0', 'predicates': ['biolink:subclass_of']}}}}}. Query returned: b'Invalid value for: body'. Could not get ontology descendents.",
-          "code": null
-        }
-      ],
-      "id": "7857d029-578e-442e-8ea8-4f66fab0b8d2",
-      "status": null
+      "logs": [],
+      "id": "710354c9-0137-4026-8665-78c37bb83eef",
+      "status": null,
+      "description": null,
+      "workflow": []
     }
   ],
   [
@@ -2348,7 +3025,6 @@
               "predicates": [
                 "biolink:genetic_association"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -2409,8 +3085,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "003096b6-75c2-46ec-aeb2-51008277b849",
-      "status": null
+      "id": "5e708622-3818-4bbb-8ca8-1e0597d37332",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -2440,7 +3118,6 @@
               "predicates": [
                 "biolink:genetic_association"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -2501,8 +3178,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "673ee53f-1abc-4726-b201-7f3617f775f0",
-      "status": null
+      "id": "1ac9a8b3-142f-4f2b-b7de-9259b38f911c",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -2532,7 +3211,6 @@
               "predicates": [
                 "biolink:genetic_association"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -2593,8 +3271,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "2c66d3f4-467b-4bc7-8641-e538957c87a8",
-      "status": null
+      "id": "0dd15e19-545d-4a48-bddc-210614c3d3b2",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -2624,7 +3304,6 @@
               "predicates": [
                 "biolink:genetic_association"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -2685,8 +3364,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "9c39b053-5121-44ac-9067-92784c6aec79",
-      "status": null
+      "id": "2061e4f9-9058-4e38-a30a-23e1b7352ede",
+      "status": null,
+      "description": null,
+      "workflow": []
     }
   ]
 ]

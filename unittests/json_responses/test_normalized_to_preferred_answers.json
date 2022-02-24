@@ -5,6 +5,856 @@
         "query_graph": {
           "nodes": {
             "n0": {
+              "ids": [
+                "ENSEMBL:ENSG00000008853"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": null,
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e01": {
+              "predicates": [
+                "biolink:entity_negatively_regulates_entity"
+              ],
+              "subject": "n1",
+              "object": "n0",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2022-02-24T03:14:46.345294",
+          "level": "INFO",
+          "message": "Normalized curie: NCBIGene:23221 to ENSEMBL:ENSG00000008853",
+          "code": null
+        }
+      ],
+      "id": "864c15f1-118c-49aa-afe9-00e706c4d505",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "ENSEMBL:ENSG00000008853"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": null,
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e01": {
+              "predicates": [
+                "biolink:genetically_interacts_with"
+              ],
+              "subject": "n1",
+              "object": "n0",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2022-02-24T03:14:46.345468",
+          "level": "INFO",
+          "message": "Normalized curie: NCBIGene:23221 to ENSEMBL:ENSG00000008853",
+          "code": null
+        }
+      ],
+      "id": "2f8ac1db-f772-4caa-a900-04c5b03f93b4",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "ENSEMBL:ENSG00000008853"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": null,
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e01": {
+              "predicates": [
+                "biolink:entity_negatively_regulates_entity"
+              ],
+              "subject": "n1",
+              "object": "n0",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "a5db3aff-8d7d-4ade-b3b6-1c4e2a08fa29",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "ENSEMBL:ENSG00000008853"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": null,
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e01": {
+              "predicates": [
+                "biolink:genetically_interacts_with"
+              ],
+              "subject": "n1",
+              "object": "n0",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [],
+      "id": "8e19e383-e6dc-44c0-b696-ab70f793a141",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "ENSEMBL:ENSG00000008853"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": null,
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e01": {
+              "predicates": [
+                "biolink:entity_negatively_regulates_entity"
+              ],
+              "subject": "n1",
+              "object": "n0",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2022-02-24T03:14:46.345873",
+          "level": "INFO",
+          "message": "Normalized curie: HGNC:18756 to ENSEMBL:ENSG00000008853",
+          "code": null
+        }
+      ],
+      "id": "d0ed85a1-5550-4eb6-aadd-42453612c26d",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "ENSEMBL:ENSG00000008853"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": null,
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e01": {
+              "predicates": [
+                "biolink:genetically_interacts_with"
+              ],
+              "subject": "n1",
+              "object": "n0",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2022-02-24T03:14:46.346018",
+          "level": "INFO",
+          "message": "Normalized curie: HGNC:18756 to ENSEMBL:ENSG00000008853",
+          "code": null
+        }
+      ],
+      "id": "f36c3c8a-2524-4b30-bd70-ce8d72497f31",
+      "status": null,
+      "description": null,
+      "workflow": []
+    }
+  ],
+  [
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
+                "HP:0002013"
+              ],
+              "categories": [
+                "biolink:DiseaseOrPhenotypicFeature"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": null,
+              "categories": [
+                "biolink:ChemicalEntity"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "subject": "n0",
+              "object": "n1",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2022-02-24T03:14:51.528265",
+          "level": "WARNING",
+          "message": "Could not normalize curie: HP:0002013, probably will cause failure.",
+          "code": null
+        }
+      ],
+      "id": "9d11996c-1c50-4f73-b5ef-5aea69960907",
+      "status": null,
+      "description": null,
+      "workflow": []
+    }
+  ],
+  [
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": null,
+              "categories": [
+                "biolink:SmallMolecule"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "ENSEMBL:ENSG00000146648"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:decreases_abundance_of"
+              ],
+              "subject": "n0",
+              "object": "n1",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2022-02-24T03:14:56.851598",
+          "level": "INFO",
+          "message": "Normalized curie: NCBIGene:1956 to ENSEMBL:ENSG00000146648",
+          "code": null
+        },
+        {
+          "timestamp": "2022-02-24T03:14:56.851627",
+          "level": "INFO",
+          "message": "Filling in empty category for node n1, with biolink:Gene",
+          "code": null
+        }
+      ],
+      "id": "00d63c46-802c-45f2-b278-a07cd74d91f1",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": null,
+              "categories": [
+                "biolink:SmallMolecule"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "ENSEMBL:ENSG00000146648"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:decreases_activity_of"
+              ],
+              "subject": "n0",
+              "object": "n1",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2022-02-24T03:14:56.851748",
+          "level": "INFO",
+          "message": "Normalized curie: NCBIGene:1956 to ENSEMBL:ENSG00000146648",
+          "code": null
+        },
+        {
+          "timestamp": "2022-02-24T03:14:56.851764",
+          "level": "INFO",
+          "message": "Filling in empty category for node n1, with biolink:Gene",
+          "code": null
+        }
+      ],
+      "id": "7d7725d3-9716-4511-97a3-cdd0d6e7e97a",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": null,
+              "categories": [
+                "biolink:SmallMolecule"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "ENSEMBL:ENSG00000146648"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:decreases_expression_of"
+              ],
+              "subject": "n0",
+              "object": "n1",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2022-02-24T03:14:56.851880",
+          "level": "INFO",
+          "message": "Normalized curie: NCBIGene:1956 to ENSEMBL:ENSG00000146648",
+          "code": null
+        },
+        {
+          "timestamp": "2022-02-24T03:14:56.851894",
+          "level": "INFO",
+          "message": "Filling in empty category for node n1, with biolink:Gene",
+          "code": null
+        }
+      ],
+      "id": "0f2e6bb4-351f-4ee6-b389-c10f0e7f902e",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": null,
+              "categories": [
+                "biolink:SmallMolecule"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "ENSEMBL:ENSG00000146648"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:decreases_synthesis_of"
+              ],
+              "subject": "n0",
+              "object": "n1",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2022-02-24T03:14:56.852030",
+          "level": "INFO",
+          "message": "Normalized curie: NCBIGene:1956 to ENSEMBL:ENSG00000146648",
+          "code": null
+        },
+        {
+          "timestamp": "2022-02-24T03:14:56.852045",
+          "level": "INFO",
+          "message": "Filling in empty category for node n1, with biolink:Gene",
+          "code": null
+        }
+      ],
+      "id": "ef9d5ead-2901-4f06-8f7e-50095e751d30",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": null,
+              "categories": [
+                "biolink:SmallMolecule"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "ENSEMBL:ENSG00000146648"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:increases_degradation_of"
+              ],
+              "subject": "n0",
+              "object": "n1",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2022-02-24T03:14:56.852158",
+          "level": "INFO",
+          "message": "Normalized curie: NCBIGene:1956 to ENSEMBL:ENSG00000146648",
+          "code": null
+        },
+        {
+          "timestamp": "2022-02-24T03:14:56.852173",
+          "level": "INFO",
+          "message": "Filling in empty category for node n1, with biolink:Gene",
+          "code": null
+        }
+      ],
+      "id": "e663f9b2-28e7-4285-a41f-00a0ee8428fc",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": null,
+              "categories": [
+                "biolink:SmallMolecule"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "ENSEMBL:ENSG00000146648"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:disrupts"
+              ],
+              "subject": "n0",
+              "object": "n1",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2022-02-24T03:14:56.852286",
+          "level": "INFO",
+          "message": "Normalized curie: NCBIGene:1956 to ENSEMBL:ENSG00000146648",
+          "code": null
+        },
+        {
+          "timestamp": "2022-02-24T03:14:56.852300",
+          "level": "INFO",
+          "message": "Filling in empty category for node n1, with biolink:Gene",
+          "code": null
+        }
+      ],
+      "id": "a787ad79-0bb9-4de5-b404-e9b880405cac",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": null,
+              "categories": [
+                "biolink:SmallMolecule"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "ENSEMBL:ENSG00000146648"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:entity_negatively_regulates_entity"
+              ],
+              "subject": "n0",
+              "object": "n1",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2022-02-24T03:14:56.852412",
+          "level": "INFO",
+          "message": "Normalized curie: NCBIGene:1956 to ENSEMBL:ENSG00000146648",
+          "code": null
+        },
+        {
+          "timestamp": "2022-02-24T03:14:56.852426",
+          "level": "INFO",
+          "message": "Filling in empty category for node n1, with biolink:Gene",
+          "code": null
+        }
+      ],
+      "id": "da3dfd92-b97a-46b0-88ba-9a7db0b5f561",
+      "status": null,
+      "description": null,
+      "workflow": []
+    },
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": null,
+              "categories": [
+                "biolink:SmallMolecule"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": [
+                "ENSEMBL:ENSG00000146648"
+              ],
+              "categories": [
+                "biolink:Gene"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": [
+                "biolink:related_to"
+              ],
+              "subject": "n0",
+              "object": "n1",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.1",
+      "biolink_version": null,
+      "logs": [
+        {
+          "timestamp": "2022-02-24T03:14:56.852539",
+          "level": "INFO",
+          "message": "Normalized curie: NCBIGene:1956 to ENSEMBL:ENSG00000146648",
+          "code": null
+        },
+        {
+          "timestamp": "2022-02-24T03:14:56.852553",
+          "level": "INFO",
+          "message": "Filling in empty category for node n1, with biolink:Gene",
+          "code": null
+        }
+      ],
+      "id": "d4ec9c82-d212-4abd-b9f8-1c1f4f129059",
+      "status": null,
+      "description": null,
+      "workflow": []
+    }
+  ],
+  [
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
               "ids": null,
               "categories": [
                 "biolink:Gene"
@@ -26,7 +876,6 @@
               "predicates": [
                 "biolink:gene_associated_with_condition"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -64,8 +913,10 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "efb09163-5867-458c-b61d-ddc508d0e3c6",
-      "status": null
+      "id": "5bded559-0c80-49ea-8c3c-29c5988fcdf0",
+      "status": null,
+      "description": null,
+      "workflow": []
     }
   ],
   [
@@ -93,7 +944,6 @@
           "edges": {
             "e0": {
               "predicates": null,
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -132,14 +982,16 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:37.552144",
+          "timestamp": "2022-02-24T03:15:07.219693",
           "level": "INFO",
           "message": "Normalized curie: MEDDRA:10006192 to MONDO:0007254",
           "code": null
         }
       ],
-      "id": "c197968f-749e-473a-85df-2b8fd6c0a1d8",
-      "status": null
+      "id": "d87a1058-94e9-4803-9b49-58612d4691fd",
+      "status": null,
+      "description": null,
+      "workflow": []
     }
   ],
   [
@@ -169,7 +1021,6 @@
               "predicates": [
                 "biolink:treats"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -208,14 +1059,16 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:37.684886",
+          "timestamp": "2022-02-24T03:15:12.403448",
           "level": "INFO",
           "message": "Normalized curie: MEDDRA:10006192 to MONDO:0007254",
           "code": null
         }
       ],
-      "id": "77038ba0-b51a-4365-9811-e0238d3f4c09",
-      "status": null
+      "id": "0afce40c-bb21-4151-bfe7-2fe234d45efc",
+      "status": null,
+      "description": null,
+      "workflow": []
     }
   ],
   [
@@ -247,7 +1100,6 @@
               "predicates": [
                 "biolink:genetic_association"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -286,20 +1138,22 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:37.817881",
+          "timestamp": "2022-02-24T03:15:17.592747",
           "level": "INFO",
           "message": "Normalized curie: MEDDRA:10006192 to MONDO:0007254",
           "code": null
         },
         {
-          "timestamp": "2021-08-11T05:30:37.817896",
+          "timestamp": "2022-02-24T03:15:17.592790",
           "level": "WARNING",
           "message": "Passed category for n1: biolink:BiologicalEntity, did not match our preferred category biolink:Disease for this curie. Going with our preferred category.",
           "code": null
         }
       ],
-      "id": "d843308c-342b-4488-8eeb-51d9ade92163",
-      "status": null
+      "id": "9462deb4-8560-453e-b8d1-760336e90216",
+      "status": null,
+      "description": null,
+      "workflow": []
     }
   ],
   [
@@ -312,7 +1166,7 @@
                 "CHEMBL.COMPOUND:CHEMBL1201583"
               ],
               "categories": [
-                "biolink:ChemicalSubstance"
+                "biolink:Drug"
               ],
               "constraints": []
             },
@@ -331,7 +1185,6 @@
               "predicates": [
                 "biolink:affects"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -370,14 +1223,16 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:37.967371",
+          "timestamp": "2022-02-24T03:15:22.831214",
           "level": "WARNING",
-          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "message": "Could not normalize curie: CHEMBL.COMPOUND:CHEMBL1201583, probably will cause failure.",
           "code": null
         }
       ],
-      "id": "21da2d4b-b954-4724-b60e-5772801af139",
-      "status": null
+      "id": "e30d04a0-c4fd-49df-9325-573b191d41f6",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -388,7 +1243,7 @@
                 "CHEMBL.COMPOUND:CHEMBL92"
               ],
               "categories": [
-                "biolink:ChemicalSubstance"
+                "biolink:SmallMolecule"
               ],
               "constraints": []
             },
@@ -407,7 +1262,6 @@
               "predicates": [
                 "biolink:affects"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -446,20 +1300,22 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:37.967414",
+          "timestamp": "2022-02-24T03:15:22.831401",
           "level": "INFO",
           "message": "Normalized curie: CHEBI:4672 to CHEMBL.COMPOUND:CHEMBL92",
           "code": null
         },
         {
-          "timestamp": "2021-08-11T05:30:37.967422",
+          "timestamp": "2022-02-24T03:15:22.831434",
           "level": "WARNING",
-          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:SmallMolecule for this curie. Going with our preferred category.",
           "code": null
         }
       ],
-      "id": "3c50b57c-54fb-4d78-909e-3115f114eac6",
-      "status": null
+      "id": "c17b2012-55b3-4c6c-a673-fb3126e16396",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -470,7 +1326,7 @@
                 "CHEMBL.COMPOUND:CHEMBL92"
               ],
               "categories": [
-                "biolink:ChemicalSubstance"
+                "biolink:SmallMolecule"
               ],
               "constraints": []
             },
@@ -489,7 +1345,6 @@
               "predicates": [
                 "biolink:affects"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -528,20 +1383,22 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:37.967456",
+          "timestamp": "2022-02-24T03:15:22.831591",
           "level": "INFO",
           "message": "Normalized curie: CHEBI:4672 to CHEMBL.COMPOUND:CHEMBL92",
           "code": null
         },
         {
-          "timestamp": "2021-08-11T05:30:37.967464",
+          "timestamp": "2022-02-24T03:15:22.831622",
           "level": "WARNING",
-          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:SmallMolecule for this curie. Going with our preferred category.",
           "code": null
         }
       ],
-      "id": "7ef73483-6b1e-424f-88c6-c8cbad43a0ae",
-      "status": null
+      "id": "6a245c59-d82e-45b4-8b2c-2901bd5385f9",
+      "status": null,
+      "description": null,
+      "workflow": []
     }
   ],
   [
@@ -563,7 +1420,7 @@
                 "CHEMBL.COMPOUND:CHEMBL1201568"
               ],
               "categories": [
-                "biolink:ChemicalSubstance"
+                "biolink:Drug"
               ],
               "constraints": []
             }
@@ -573,7 +1430,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -612,20 +1468,22 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:38.111545",
+          "timestamp": "2022-02-24T03:15:28.057811",
           "level": "INFO",
           "message": "Normalized curie: OMIM:134830 to ENSEMBL:ENSG00000171564",
           "code": null
         },
         {
-          "timestamp": "2021-08-11T05:30:38.111580",
+          "timestamp": "2022-02-24T03:15:28.057887",
           "level": "WARNING",
-          "message": "Passed category for n1: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "message": "Could not normalize curie: CHEMBL.COMPOUND:CHEMBL1201568, probably will cause failure.",
           "code": null
         }
       ],
-      "id": "b39bdf85-5d1c-4c0e-a373-54c78fc383a4",
-      "status": null
+      "id": "646ca9d0-1dbd-4df5-aa12-37c55ee316c6",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -645,7 +1503,7 @@
                 "CHEMBL.COMPOUND:CHEMBL1351"
               ],
               "categories": [
-                "biolink:ChemicalSubstance"
+                "biolink:Drug"
               ],
               "constraints": []
             }
@@ -655,7 +1513,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -694,20 +1551,22 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:38.111601",
+          "timestamp": "2022-02-24T03:15:28.058018",
           "level": "INFO",
           "message": "Normalized curie: OMIM:134830 to ENSEMBL:ENSG00000171564",
           "code": null
         },
         {
-          "timestamp": "2021-08-11T05:30:38.111627",
+          "timestamp": "2022-02-24T03:15:28.058092",
           "level": "WARNING",
-          "message": "Passed category for n1: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "message": "Could not normalize curie: CHEMBL.COMPOUND:CHEMBL1351, probably will cause failure.",
           "code": null
         }
       ],
-      "id": "88ec6ff0-2fb6-41fd-a8ac-a3d4cfa76630",
-      "status": null
+      "id": "f2c12e4d-67cc-4b90-8e1a-4de6e6bf874e",
+      "status": null,
+      "description": null,
+      "workflow": []
     }
   ],
   [
@@ -720,7 +1579,7 @@
                 "CHEMBL.COMPOUND:CHEMBL428647"
               ],
               "categories": [
-                "biolink:ChemicalSubstance"
+                "biolink:SmallMolecule"
               ],
               "constraints": []
             },
@@ -739,7 +1598,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -778,26 +1636,28 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:38.334208",
+          "timestamp": "2022-02-24T03:15:33.548054",
           "level": "INFO",
           "message": "Normalized curie: CHEBI:45863 to CHEMBL.COMPOUND:CHEMBL428647",
           "code": null
         },
         {
-          "timestamp": "2021-08-11T05:30:38.334225",
+          "timestamp": "2022-02-24T03:15:33.548095",
           "level": "WARNING",
-          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:SmallMolecule for this curie. Going with our preferred category.",
           "code": null
         },
         {
-          "timestamp": "2021-08-11T05:30:38.334244",
+          "timestamp": "2022-02-24T03:15:33.548207",
           "level": "INFO",
           "message": "Normalized curie: UMLS:C1367721 to ENSEMBL:ENSG00000138798",
           "code": null
         }
       ],
-      "id": "37c906bd-e11b-4e0d-b2b5-5e16fc0899a1",
-      "status": null
+      "id": "0f8ccb2a-5d88-4857-a905-e7d9ac15a4bd",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -808,7 +1668,7 @@
                 "CHEMBL.COMPOUND:CHEMBL428647"
               ],
               "categories": [
-                "biolink:ChemicalSubstance"
+                "biolink:SmallMolecule"
               ],
               "constraints": []
             },
@@ -827,7 +1687,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -866,20 +1725,22 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:38.334263",
+          "timestamp": "2022-02-24T03:15:33.548301",
           "level": "INFO",
           "message": "Normalized curie: CHEBI:45863 to CHEMBL.COMPOUND:CHEMBL428647",
           "code": null
         },
         {
-          "timestamp": "2021-08-11T05:30:38.334271",
+          "timestamp": "2022-02-24T03:15:33.548329",
           "level": "WARNING",
-          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:SmallMolecule for this curie. Going with our preferred category.",
           "code": null
         }
       ],
-      "id": "589ac826-44bd-48e7-beff-f2497f33af4c",
-      "status": null
+      "id": "437c4b85-85b2-4a2e-8e8c-3261ff7d0600",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -890,7 +1751,7 @@
                 "CHEMBL.COMPOUND:CHEMBL428647"
               ],
               "categories": [
-                "biolink:ChemicalSubstance"
+                "biolink:SmallMolecule"
               ],
               "constraints": []
             },
@@ -909,7 +1770,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -948,26 +1808,28 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:38.334303",
+          "timestamp": "2022-02-24T03:15:33.548515",
           "level": "INFO",
           "message": "Normalized curie: CHEBI:45863 to CHEMBL.COMPOUND:CHEMBL428647",
           "code": null
         },
         {
-          "timestamp": "2021-08-11T05:30:38.334310",
+          "timestamp": "2022-02-24T03:15:33.548542",
           "level": "WARNING",
-          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:SmallMolecule for this curie. Going with our preferred category.",
           "code": null
         },
         {
-          "timestamp": "2021-08-11T05:30:38.334327",
+          "timestamp": "2022-02-24T03:15:33.548649",
           "level": "INFO",
           "message": "Normalized curie: NCBIGene:55907 to ENSEMBL:ENSG00000111726",
           "code": null
         }
       ],
-      "id": "265851fd-152c-461c-ba83-1e9a2881bcf6",
-      "status": null
+      "id": "dbec132c-6a78-4382-82fa-fb7d5d861e6b",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -978,7 +1840,7 @@
                 "CHEMBL.COMPOUND:CHEMBL428647"
               ],
               "categories": [
-                "biolink:ChemicalSubstance"
+                "biolink:SmallMolecule"
               ],
               "constraints": []
             },
@@ -997,7 +1859,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1036,26 +1897,28 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:38.334345",
+          "timestamp": "2022-02-24T03:15:33.548740",
           "level": "INFO",
           "message": "Normalized curie: CHEBI:45863 to CHEMBL.COMPOUND:CHEMBL428647",
           "code": null
         },
         {
-          "timestamp": "2021-08-11T05:30:38.334352",
+          "timestamp": "2022-02-24T03:15:33.548766",
           "level": "WARNING",
-          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:SmallMolecule for this curie. Going with our preferred category.",
           "code": null
         },
         {
-          "timestamp": "2021-08-11T05:30:38.334369",
+          "timestamp": "2022-02-24T03:15:33.548872",
           "level": "INFO",
           "message": "Normalized curie: HGNC:9688 to ENSEMBL:ENSG00000177469",
           "code": null
         }
       ],
-      "id": "07c8b6f4-f7b1-477c-8d96-d84934e82bc5",
-      "status": null
+      "id": "e653e353-9f9f-4a14-85d7-5a182e34932d",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1066,7 +1929,7 @@
                 "CHEMBL.COMPOUND:CHEMBL1201568"
               ],
               "categories": [
-                "biolink:ChemicalSubstance"
+                "biolink:Drug"
               ],
               "constraints": []
             },
@@ -1085,7 +1948,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1124,20 +1986,22 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:38.334391",
+          "timestamp": "2022-02-24T03:15:33.548931",
           "level": "WARNING",
-          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "message": "Could not normalize curie: CHEMBL.COMPOUND:CHEMBL1201568, probably will cause failure.",
           "code": null
         },
         {
-          "timestamp": "2021-08-11T05:30:38.334408",
+          "timestamp": "2022-02-24T03:15:33.549047",
           "level": "INFO",
           "message": "Normalized curie: UMLS:C1367721 to ENSEMBL:ENSG00000138798",
           "code": null
         }
       ],
-      "id": "31e215d6-87c3-47a7-8961-abfc8a3c0649",
-      "status": null
+      "id": "784b5d71-3fc7-4236-ad70-9cd7963f59cc",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1148,7 +2012,7 @@
                 "CHEMBL.COMPOUND:CHEMBL1201568"
               ],
               "categories": [
-                "biolink:ChemicalSubstance"
+                "biolink:Drug"
               ],
               "constraints": []
             },
@@ -1167,7 +2031,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1206,14 +2069,16 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:38.334430",
+          "timestamp": "2022-02-24T03:15:33.549104",
           "level": "WARNING",
-          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "message": "Could not normalize curie: CHEMBL.COMPOUND:CHEMBL1201568, probably will cause failure.",
           "code": null
         }
       ],
-      "id": "e35988a8-d111-4b5c-a14a-d007e959f23b",
-      "status": null
+      "id": "ff37b941-c9ab-4cb7-b32d-fc56e7a1ca9f",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1224,7 +2089,7 @@
                 "CHEMBL.COMPOUND:CHEMBL1201568"
               ],
               "categories": [
-                "biolink:ChemicalSubstance"
+                "biolink:Drug"
               ],
               "constraints": []
             },
@@ -1243,7 +2108,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1282,20 +2146,22 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:38.334464",
+          "timestamp": "2022-02-24T03:15:33.549261",
           "level": "WARNING",
-          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "message": "Could not normalize curie: CHEMBL.COMPOUND:CHEMBL1201568, probably will cause failure.",
           "code": null
         },
         {
-          "timestamp": "2021-08-11T05:30:38.334480",
+          "timestamp": "2022-02-24T03:15:33.549374",
           "level": "INFO",
           "message": "Normalized curie: NCBIGene:55907 to ENSEMBL:ENSG00000111726",
           "code": null
         }
       ],
-      "id": "54c4d292-818c-480d-ab31-ce00f6d65c9a",
-      "status": null
+      "id": "492ea381-c7c3-4d53-8274-5c4aebd94a25",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1306,7 +2172,7 @@
                 "CHEMBL.COMPOUND:CHEMBL1201568"
               ],
               "categories": [
-                "biolink:ChemicalSubstance"
+                "biolink:Drug"
               ],
               "constraints": []
             },
@@ -1325,7 +2191,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1364,20 +2229,22 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:38.334502",
+          "timestamp": "2022-02-24T03:15:33.549431",
           "level": "WARNING",
-          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "message": "Could not normalize curie: CHEMBL.COMPOUND:CHEMBL1201568, probably will cause failure.",
           "code": null
         },
         {
-          "timestamp": "2021-08-11T05:30:38.334518",
+          "timestamp": "2022-02-24T03:15:33.549545",
           "level": "INFO",
           "message": "Normalized curie: HGNC:9688 to ENSEMBL:ENSG00000177469",
           "code": null
         }
       ],
-      "id": "26b2afee-09bc-453d-8556-a02e5be33057",
-      "status": null
+      "id": "f1c5bf86-f667-4926-8b56-c99a6d395985",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1388,7 +2255,7 @@
                 "CHEMBL.COMPOUND:CHEMBL3545252"
               ],
               "categories": [
-                "biolink:ChemicalSubstance"
+                "biolink:Drug"
               ],
               "constraints": []
             },
@@ -1407,7 +2274,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1446,20 +2312,22 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:38.334540",
+          "timestamp": "2022-02-24T03:15:33.549611",
           "level": "WARNING",
-          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "message": "Could not normalize curie: CHEMBL.COMPOUND:CHEMBL3545252, probably will cause failure.",
           "code": null
         },
         {
-          "timestamp": "2021-08-11T05:30:38.334557",
+          "timestamp": "2022-02-24T03:15:33.549724",
           "level": "INFO",
           "message": "Normalized curie: UMLS:C1367721 to ENSEMBL:ENSG00000138798",
           "code": null
         }
       ],
-      "id": "ca83a602-b39d-4efb-8bdf-bbb78fb8d993",
-      "status": null
+      "id": "1c9fa3ba-9041-425d-bd36-2a30a7b0a7cf",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1470,7 +2338,7 @@
                 "CHEMBL.COMPOUND:CHEMBL3545252"
               ],
               "categories": [
-                "biolink:ChemicalSubstance"
+                "biolink:Drug"
               ],
               "constraints": []
             },
@@ -1489,7 +2357,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1528,14 +2395,16 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:38.334578",
+          "timestamp": "2022-02-24T03:15:33.549789",
           "level": "WARNING",
-          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "message": "Could not normalize curie: CHEMBL.COMPOUND:CHEMBL3545252, probably will cause failure.",
           "code": null
         }
       ],
-      "id": "787fc2f0-574f-44dd-8e2b-4ffc6fbb4a32",
-      "status": null
+      "id": "8972489c-18a1-4830-9eaf-768927de3707",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1546,7 +2415,7 @@
                 "CHEMBL.COMPOUND:CHEMBL3545252"
               ],
               "categories": [
-                "biolink:ChemicalSubstance"
+                "biolink:Drug"
               ],
               "constraints": []
             },
@@ -1565,7 +2434,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1604,20 +2472,22 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:38.334612",
+          "timestamp": "2022-02-24T03:15:33.549953",
           "level": "WARNING",
-          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "message": "Could not normalize curie: CHEMBL.COMPOUND:CHEMBL3545252, probably will cause failure.",
           "code": null
         },
         {
-          "timestamp": "2021-08-11T05:30:38.334628",
+          "timestamp": "2022-02-24T03:15:33.550065",
           "level": "INFO",
           "message": "Normalized curie: NCBIGene:55907 to ENSEMBL:ENSG00000111726",
           "code": null
         }
       ],
-      "id": "b19e0f9a-d15f-4317-add1-30a1acdad243",
-      "status": null
+      "id": "41bdb99c-8e69-4883-a86f-517c5477c295",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1628,7 +2498,7 @@
                 "CHEMBL.COMPOUND:CHEMBL3545252"
               ],
               "categories": [
-                "biolink:ChemicalSubstance"
+                "biolink:Drug"
               ],
               "constraints": []
             },
@@ -1647,7 +2517,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1686,20 +2555,22 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:38.334649",
+          "timestamp": "2022-02-24T03:15:33.550131",
           "level": "WARNING",
-          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "message": "Could not normalize curie: CHEMBL.COMPOUND:CHEMBL3545252, probably will cause failure.",
           "code": null
         },
         {
-          "timestamp": "2021-08-11T05:30:38.334665",
+          "timestamp": "2022-02-24T03:15:33.550244",
           "level": "INFO",
           "message": "Normalized curie: HGNC:9688 to ENSEMBL:ENSG00000177469",
           "code": null
         }
       ],
-      "id": "9e54c543-1e84-4dda-a659-7c823f31a9fe",
-      "status": null
+      "id": "94194bda-ef08-459a-839f-1feba3450a4e",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1710,7 +2581,7 @@
                 "CHEMBL.COMPOUND:CHEMBL1201583"
               ],
               "categories": [
-                "biolink:ChemicalSubstance"
+                "biolink:Drug"
               ],
               "constraints": []
             },
@@ -1729,7 +2600,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1768,20 +2638,22 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:38.334687",
+          "timestamp": "2022-02-24T03:15:33.550301",
           "level": "WARNING",
-          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "message": "Could not normalize curie: CHEMBL.COMPOUND:CHEMBL1201583, probably will cause failure.",
           "code": null
         },
         {
-          "timestamp": "2021-08-11T05:30:38.334703",
+          "timestamp": "2022-02-24T03:15:33.550414",
           "level": "INFO",
           "message": "Normalized curie: UMLS:C1367721 to ENSEMBL:ENSG00000138798",
           "code": null
         }
       ],
-      "id": "36a578d2-ce83-4d21-931c-fe1db61d7889",
-      "status": null
+      "id": "e7cff33b-e062-431e-a834-dbce5be83a42",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1792,7 +2664,7 @@
                 "CHEMBL.COMPOUND:CHEMBL1201583"
               ],
               "categories": [
-                "biolink:ChemicalSubstance"
+                "biolink:Drug"
               ],
               "constraints": []
             },
@@ -1811,7 +2683,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1850,14 +2721,16 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:38.334725",
+          "timestamp": "2022-02-24T03:15:33.550470",
           "level": "WARNING",
-          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "message": "Could not normalize curie: CHEMBL.COMPOUND:CHEMBL1201583, probably will cause failure.",
           "code": null
         }
       ],
-      "id": "23086b7c-0e1f-49a7-a9b4-ad807b38f719",
-      "status": null
+      "id": "fb01a646-3fe8-4fe5-a925-b68a366941bc",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1868,7 +2741,7 @@
                 "CHEMBL.COMPOUND:CHEMBL1201583"
               ],
               "categories": [
-                "biolink:ChemicalSubstance"
+                "biolink:Drug"
               ],
               "constraints": []
             },
@@ -1887,7 +2760,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -1926,20 +2798,22 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:38.334759",
+          "timestamp": "2022-02-24T03:15:33.550626",
           "level": "WARNING",
-          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "message": "Could not normalize curie: CHEMBL.COMPOUND:CHEMBL1201583, probably will cause failure.",
           "code": null
         },
         {
-          "timestamp": "2021-08-11T05:30:38.334775",
+          "timestamp": "2022-02-24T03:15:33.550738",
           "level": "INFO",
           "message": "Normalized curie: NCBIGene:55907 to ENSEMBL:ENSG00000111726",
           "code": null
         }
       ],
-      "id": "ab52ee99-8ab0-4a55-bb54-760e4e928d8c",
-      "status": null
+      "id": "db7a7c97-b3ec-490e-8847-10181f70af24",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -1950,7 +2824,7 @@
                 "CHEMBL.COMPOUND:CHEMBL1201583"
               ],
               "categories": [
-                "biolink:ChemicalSubstance"
+                "biolink:Drug"
               ],
               "constraints": []
             },
@@ -1969,7 +2843,6 @@
               "predicates": [
                 "biolink:related_to"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -2008,20 +2881,22 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:38.334797",
+          "timestamp": "2022-02-24T03:15:33.550795",
           "level": "WARNING",
-          "message": "Passed category for n0: biolink:Drug, did not match our preferred category biolink:ChemicalSubstance for this curie. Going with our preferred category.",
+          "message": "Could not normalize curie: CHEMBL.COMPOUND:CHEMBL1201583, probably will cause failure.",
           "code": null
         },
         {
-          "timestamp": "2021-08-11T05:30:38.334813",
+          "timestamp": "2022-02-24T03:15:33.550908",
           "level": "INFO",
           "message": "Normalized curie: HGNC:9688 to ENSEMBL:ENSG00000177469",
           "code": null
         }
       ],
-      "id": "4d707cfa-6691-4e5c-ae85-447227ab5e71",
-      "status": null
+      "id": "35baff8e-a93b-4e43-b26c-5df17f914b85",
+      "status": null,
+      "description": null,
+      "workflow": []
     }
   ],
   [
@@ -2053,7 +2928,6 @@
               "predicates": [
                 "biolink:genetic_association"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -2115,20 +2989,22 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:38.494872",
+          "timestamp": "2022-02-24T03:15:38.815906",
           "level": "INFO",
           "message": "Normalized curie: UMLS:C1537465 to ENSEMBL:ENSG00000103888",
           "code": null
         },
         {
-          "timestamp": "2021-08-11T05:30:38.494898",
+          "timestamp": "2022-02-24T03:15:38.816023",
           "level": "INFO",
           "message": "Normalized curie: MEDDRA:10006192 to MONDO:0007254",
           "code": null
         }
       ],
-      "id": "0fc1d6b5-d251-4dd0-b7ad-d49772275122",
-      "status": null
+      "id": "0d8ac4a3-3490-4204-8c64-b9fd2d45cfc0",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -2158,7 +3034,6 @@
               "predicates": [
                 "biolink:genetic_association"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -2220,20 +3095,22 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:38.494920",
+          "timestamp": "2022-02-24T03:15:38.816155",
           "level": "INFO",
           "message": "Normalized curie: OMIM:609321 to ENSEMBL:ENSG00000156876",
           "code": null
         },
         {
-          "timestamp": "2021-08-11T05:30:38.494939",
+          "timestamp": "2022-02-24T03:15:38.816232",
           "level": "INFO",
           "message": "Normalized curie: MEDDRA:10006192 to MONDO:0007254",
           "code": null
         }
       ],
-      "id": "0583c509-c830-4b3a-9484-4362728e9a48",
-      "status": null
+      "id": "d3a5df0e-d9ba-4bcb-8d32-dce9d765f3a4",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -2263,7 +3140,6 @@
               "predicates": [
                 "biolink:genetic_association"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -2325,20 +3201,22 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:38.494959",
+          "timestamp": "2022-02-24T03:15:38.816358",
           "level": "INFO",
           "message": "Normalized curie: OMIM:615958 to ENSEMBL:ENSG00000149346",
           "code": null
         },
         {
-          "timestamp": "2021-08-11T05:30:38.494976",
+          "timestamp": "2022-02-24T03:15:38.816435",
           "level": "INFO",
           "message": "Normalized curie: MEDDRA:10006192 to MONDO:0007254",
           "code": null
         }
       ],
-      "id": "bb11f1a1-3a50-457f-8dbb-13da6bded1da",
-      "status": null
+      "id": "4bb1b6cb-d284-4f31-b61e-2c7032b563bf",
+      "status": null,
+      "description": null,
+      "workflow": []
     },
     {
       "message": {
@@ -2368,7 +3246,6 @@
               "predicates": [
                 "biolink:genetic_association"
               ],
-              "relation": null,
               "subject": "n0",
               "object": "n1",
               "constraints": [
@@ -2430,14 +3307,16 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2021-08-11T05:30:38.495009",
+          "timestamp": "2022-02-24T03:15:38.816625",
           "level": "INFO",
           "message": "Normalized curie: MEDDRA:10006192 to MONDO:0007254",
           "code": null
         }
       ],
-      "id": "1a2ad1ac-e618-4c75-b1b4-7742655d3a6c",
-      "status": null
+      "id": "175a29c1-e4bd-4525-a454-8e9ae8dfe2bc",
+      "status": null,
+      "description": null,
+      "workflow": []
     }
   ]
 ]

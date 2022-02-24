@@ -1,3 +1,4 @@
 {
-  "biolink:ChemicalSubstance": "biolink:Drug"
+  "biolink:ChemicalSubstance": "biolink:Drug",
+  "biolink:SmallMolecule": "biolink:Drug"
 }
