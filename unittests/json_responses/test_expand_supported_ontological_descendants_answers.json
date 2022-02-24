@@ -6,6 +6,53 @@
           "nodes": {
             "n0": {
               "ids": [
+                "MONDO:0007254"
+              ],
+              "categories": [
+                "biolink:Disease"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": null,
+              "categories": [
+                "biolink:ChemicalEntity"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.2",
+      "biolink_version": null,
+      "logs": [],
+      "id": "35b79005-23b3-4ff8-bb30-371b521be9ca",
+      "status": null,
+      "description": null,
+      "workflow": []
+    }
+  ],
+  [
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
                 "NCBIGene:23221"
               ],
               "categories": [
@@ -42,7 +89,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "691e7051-e764-452c-ac78-248bb97ccb82",
+      "id": "b804913b-c44e-4b0e-b878-437d14699b28",
       "status": null,
       "description": null,
       "workflow": []
@@ -89,7 +136,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "f6a8eb23-1257-4a9b-addf-3418fca9452e",
+      "id": "05015364-eb64-497d-87ce-402dca3dad2a",
       "status": null,
       "description": null,
       "workflow": []
@@ -136,7 +183,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "b1ba45d1-aaa9-4af4-9a9e-33fe0c7b70b0",
+      "id": "837b89a2-97ab-4887-b2fc-162c0af1edc2",
       "status": null,
       "description": null,
       "workflow": []
@@ -183,7 +230,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "a5f22067-9b0c-4c86-a023-edd1119a9a82",
+      "id": "2df55113-ef14-4767-9cb5-8f6e8f78b0aa",
       "status": null,
       "description": null,
       "workflow": []
@@ -230,7 +277,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "ca37cfb4-7285-490c-9d32-3e99ddd12102",
+      "id": "beac3a32-e656-42e0-9998-6cf1de98051d",
       "status": null,
       "description": null,
       "workflow": []
@@ -277,7 +324,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "b364fdec-aa6c-48e1-8d3e-243a236da571",
+      "id": "f2e4d71a-e62b-4838-833b-62d6b8e41d6a",
       "status": null,
       "description": null,
       "workflow": []
@@ -327,13 +374,13 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2022-02-24T03:15:51.843485",
+          "timestamp": "2022-02-24T15:19:15.337459",
           "level": "ERROR",
           "message": "biolink:DiseaseOrPhenotypicFeature is not support in the meta knowledge graph",
           "code": null
         }
       ],
-      "id": "4e18daad-4a99-4f27-8e6e-ba4348306d09",
+      "id": "8331b9d2-0940-4925-bacc-62da0f8d35db",
       "status": null,
       "description": null,
       "workflow": []
@@ -381,13 +428,13 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2022-02-24T03:15:52.023864",
+          "timestamp": "2022-02-24T15:19:15.512305",
           "level": "ERROR",
           "message": "Node: NCBIGene:1956 has no categories. Can not ontologically expand a node with no category.",
           "code": null
         }
       ],
-      "id": "a2ce48f7-f9cc-44df-988d-b3819f065a04",
+      "id": "edb47470-a43f-4878-8a00-8f8e0d79ae70",
       "status": null,
       "description": null,
       "workflow": []
@@ -433,13 +480,13 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2022-02-24T03:15:52.023884",
+          "timestamp": "2022-02-24T15:19:15.512319",
           "level": "ERROR",
           "message": "Node: NCBIGene:1956 has no categories. Can not ontologically expand a node with no category.",
           "code": null
         }
       ],
-      "id": "f642210e-714a-4a30-875c-74c5031bdf12",
+      "id": "4b842932-13c5-4ac4-a34d-f5fa5d212717",
       "status": null,
       "description": null,
       "workflow": []
@@ -485,13 +532,13 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2022-02-24T03:15:52.023894",
+          "timestamp": "2022-02-24T15:19:15.512327",
           "level": "ERROR",
           "message": "Node: NCBIGene:1956 has no categories. Can not ontologically expand a node with no category.",
           "code": null
         }
       ],
-      "id": "64fa9a5b-572d-4b71-99ca-f8e132826b97",
+      "id": "591478f4-840c-4abd-9112-3a7821ef04f8",
       "status": null,
       "description": null,
       "workflow": []
@@ -537,13 +584,13 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2022-02-24T03:15:52.023903",
+          "timestamp": "2022-02-24T15:19:15.512333",
           "level": "ERROR",
           "message": "Node: NCBIGene:1956 has no categories. Can not ontologically expand a node with no category.",
           "code": null
         }
       ],
-      "id": "56aa47e0-4f28-4b31-a812-118276cb3a03",
+      "id": "07df3c07-1e57-4129-bc1f-a0dfe97045f8",
       "status": null,
       "description": null,
       "workflow": []
@@ -589,13 +636,13 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2022-02-24T03:15:52.023923",
+          "timestamp": "2022-02-24T15:19:15.512340",
           "level": "ERROR",
           "message": "Node: NCBIGene:1956 has no categories. Can not ontologically expand a node with no category.",
           "code": null
         }
       ],
-      "id": "8aaaff0a-143f-4eff-ad1e-a5089a807714",
+      "id": "1728c3de-c4b0-47ce-9007-34aa79d6d956",
       "status": null,
       "description": null,
       "workflow": []
@@ -641,13 +688,13 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2022-02-24T03:15:52.023934",
+          "timestamp": "2022-02-24T15:19:15.512346",
           "level": "ERROR",
           "message": "Node: NCBIGene:1956 has no categories. Can not ontologically expand a node with no category.",
           "code": null
         }
       ],
-      "id": "2ccd50dc-a292-476c-875b-6ccc0cf85b72",
+      "id": "16247114-0a94-466f-ab23-e7f60caf372e",
       "status": null,
       "description": null,
       "workflow": []
@@ -693,13 +740,13 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2022-02-24T03:15:52.023943",
+          "timestamp": "2022-02-24T15:19:15.512352",
           "level": "ERROR",
           "message": "Node: NCBIGene:1956 has no categories. Can not ontologically expand a node with no category.",
           "code": null
         }
       ],
-      "id": "439eeddd-ab4b-4069-a7d8-2c5eb1d2648f",
+      "id": "ba26b33b-a408-4efd-b02b-9a1ae050c9a2",
       "status": null,
       "description": null,
       "workflow": []
@@ -745,13 +792,13 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2022-02-24T03:15:52.023953",
+          "timestamp": "2022-02-24T15:19:15.512358",
           "level": "ERROR",
           "message": "Node: NCBIGene:1956 has no categories. Can not ontologically expand a node with no category.",
           "code": null
         }
       ],
-      "id": "ae640417-1241-49b6-8f7b-4a31647f57bd",
+      "id": "edbc2fc9-d6c1-4680-9ecc-1cc845742d6e",
       "status": null,
       "description": null,
       "workflow": []
@@ -821,7 +868,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "6759e9f3-d763-4044-a750-100e5ab65d5c",
+      "id": "27745413-aeda-42a6-8dc0-921fecc23d54",
       "status": null,
       "description": null,
       "workflow": []
@@ -889,7 +936,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "f853e2b5-5c00-4b5f-b9e1-1e28556e81c6",
+      "id": "268e96ee-4f6c-4964-b4f4-83f6d08ee22b",
       "status": null,
       "description": null,
       "workflow": []
@@ -959,7 +1006,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "070052be-a381-4653-b1d5-851b6f73589f",
+      "id": "1979f341-e3cb-49de-8f8e-6ec443df293a",
       "status": null,
       "description": null,
       "workflow": []
@@ -1031,7 +1078,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "7104733e-66c7-4608-8ed5-e9e607967a98",
+      "id": "c4f63131-d375-4447-80c9-91c69dca9937",
       "status": null,
       "description": null,
       "workflow": []
@@ -1104,13 +1151,13 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2022-02-24T03:16:40.573003",
+          "timestamp": "2022-02-24T15:20:04.522996",
           "level": "INFO",
           "message": "Ontologically expanded MONDO:0004992 to MONDO:0001657",
           "code": null
         }
       ],
-      "id": "9afdf54b-82a6-46f5-8cd6-a6804a930b0c",
+      "id": "e0d94160-643a-48eb-add9-c172622ca5cc",
       "status": null,
       "description": null,
       "workflow": []
@@ -1181,13 +1228,13 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2022-02-24T03:16:40.608913",
+          "timestamp": "2022-02-24T15:20:04.558849",
           "level": "INFO",
           "message": "Ontologically expanded MONDO:0004992 to MONDO:0005061",
           "code": null
         }
       ],
-      "id": "c691a452-3c32-484d-ad7c-1ba2e2247e2b",
+      "id": "6c939b55-6cc0-48c0-903f-db9d403a6811",
       "status": null,
       "description": null,
       "workflow": []
@@ -1258,13 +1305,13 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2022-02-24T03:16:40.644705",
+          "timestamp": "2022-02-24T15:20:04.594732",
           "level": "INFO",
           "message": "Ontologically expanded MONDO:0004992 to MONDO:0007254",
           "code": null
         }
       ],
-      "id": "e2212df3-4cbc-4a40-93d8-d7b1351c9e09",
+      "id": "2706bb96-6ec7-4911-b28e-5359f352604d",
       "status": null,
       "description": null,
       "workflow": []
@@ -1335,13 +1382,13 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2022-02-24T03:16:40.680617",
+          "timestamp": "2022-02-24T15:20:04.630481",
           "level": "INFO",
           "message": "Ontologically expanded MONDO:0004992 to MONDO:0001657",
           "code": null
         }
       ],
-      "id": "4fa52558-b710-47e0-a3e9-bee9c03e24c2",
+      "id": "81759f13-9da4-4673-8dca-942434959332",
       "status": null,
       "description": null,
       "workflow": []
@@ -1412,13 +1459,13 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2022-02-24T03:16:40.716565",
+          "timestamp": "2022-02-24T15:20:04.666497",
           "level": "INFO",
           "message": "Ontologically expanded MONDO:0004992 to MONDO:0005061",
           "code": null
         }
       ],
-      "id": "d534260a-9b14-4150-87c2-6c5baa9fa4e2",
+      "id": "6e8816a6-6257-4062-8e32-d86b31ae8284",
       "status": null,
       "description": null,
       "workflow": []
@@ -1489,13 +1536,13 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2022-02-24T03:16:40.752540",
+          "timestamp": "2022-02-24T15:20:04.703315",
           "level": "INFO",
           "message": "Ontologically expanded MONDO:0004992 to MONDO:0007254",
           "code": null
         }
       ],
-      "id": "e8ce8a50-7472-401c-8bb6-dc9b4065e253",
+      "id": "4b9e3c59-c926-463e-bb7d-e655b446b482",
       "status": null,
       "description": null,
       "workflow": []
@@ -1566,13 +1613,13 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2022-02-24T03:16:40.788365",
+          "timestamp": "2022-02-24T15:20:04.739001",
           "level": "INFO",
           "message": "Ontologically expanded MONDO:0004992 to MONDO:0001657",
           "code": null
         }
       ],
-      "id": "d070cbb3-ad13-4136-b3a9-8decc14c2525",
+      "id": "446ab082-b869-42a4-9798-349301120541",
       "status": null,
       "description": null,
       "workflow": []
@@ -1643,13 +1690,13 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2022-02-24T03:16:40.824594",
+          "timestamp": "2022-02-24T15:20:04.774820",
           "level": "INFO",
           "message": "Ontologically expanded MONDO:0004992 to MONDO:0005061",
           "code": null
         }
       ],
-      "id": "eba212d4-f85e-49db-ba4e-71de2d2c596f",
+      "id": "d07d7a35-08ca-4ab9-8e6f-5d07da612806",
       "status": null,
       "description": null,
       "workflow": []
@@ -1720,13 +1767,13 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2022-02-24T03:16:40.859808",
+          "timestamp": "2022-02-24T15:20:04.810679",
           "level": "INFO",
           "message": "Ontologically expanded MONDO:0004992 to MONDO:0007254",
           "code": null
         }
       ],
-      "id": "aebd5e63-0f7a-476f-8fed-15645141494d",
+      "id": "046427be-1eb9-44d9-be49-9cbc1bcab7ab",
       "status": null,
       "description": null,
       "workflow": []
@@ -1798,7 +1845,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "fcbfb7c4-9bb4-4c3a-8c4e-d5cb20327c15",
+      "id": "26ca0dd1-4a2b-48c2-8366-e09550743a27",
       "status": null,
       "description": null,
       "workflow": []
@@ -1868,7 +1915,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "e678a125-5d61-448f-b2d1-36e05fe7d7fc",
+      "id": "234092c3-246e-47fc-b146-7bcf65c4362d",
       "status": null,
       "description": null,
       "workflow": []
@@ -1940,7 +1987,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "423e8fbb-bdf7-4875-98a1-b5978b5a95dd",
+      "id": "cdea87e2-54e6-4523-8465-3a8b3de77a41",
       "status": null,
       "description": null,
       "workflow": []
@@ -2010,7 +2057,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "63c53732-25ae-408b-ac99-0039120e956c",
+      "id": "ff893af3-0cd3-42f9-8e5d-4960f4ec3cee",
       "status": null,
       "description": null,
       "workflow": []
@@ -2080,7 +2127,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "2507e00f-4995-474a-ab2c-d38315b0cd06",
+      "id": "d503938c-732e-478e-8b8b-af5b45ff3cc1",
       "status": null,
       "description": null,
       "workflow": []
@@ -2150,7 +2197,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "15a347a7-7c08-44c9-8031-26a28db22783",
+      "id": "9ef7c6eb-7b9b-49e4-82d1-59a2e4478580",
       "status": null,
       "description": null,
       "workflow": []
@@ -2220,7 +2267,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "fc5eb88d-82ca-49ed-ae3f-df8499f75a54",
+      "id": "b54ff929-1050-4bc4-87c7-4c914feef22c",
       "status": null,
       "description": null,
       "workflow": []
@@ -2290,7 +2337,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "33c33507-de7f-439e-a14d-5bbbe2a8370a",
+      "id": "680dea6f-84c9-4d94-9448-38c534258a57",
       "status": null,
       "description": null,
       "workflow": []
@@ -2360,7 +2407,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "e5c73a56-2747-4edd-b780-490fa5de0a8b",
+      "id": "441e8b6b-885d-4bd8-b394-0e4249ddf715",
       "status": null,
       "description": null,
       "workflow": []
@@ -2430,7 +2477,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "719c2c2e-8137-4331-81aa-eb8d5d4e82c2",
+      "id": "7c17f1cd-e92a-4346-acb6-962eeeb41025",
       "status": null,
       "description": null,
       "workflow": []
@@ -2500,7 +2547,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "328b778d-c378-4ad9-9dcb-4bcf8dd8f145",
+      "id": "ecb6a09d-af2c-4a7e-9ea7-c0b14cf92a2c",
       "status": null,
       "description": null,
       "workflow": []
@@ -2570,7 +2617,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "1b00ba7d-caca-4ebb-b754-43b2aeab21cb",
+      "id": "4e87ad3f-a070-4f27-b566-dccc41548e90",
       "status": null,
       "description": null,
       "workflow": []
@@ -2640,7 +2687,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "3dd3f324-9230-4c5b-af74-7ac88e4601e6",
+      "id": "513a7a32-468a-46d4-8ca9-eb7fa4c97ece",
       "status": null,
       "description": null,
       "workflow": []
@@ -2710,7 +2757,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "52da57fa-3e02-4c14-8fd6-b8f09f7a56b4",
+      "id": "e50392b5-3fc8-44d3-9ffb-5ad11edfeecd",
       "status": null,
       "description": null,
       "workflow": []
@@ -2780,7 +2827,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "79331244-c5d8-412c-9218-559f88f91d30",
+      "id": "ab802515-a290-42b1-ad16-548b744adfce",
       "status": null,
       "description": null,
       "workflow": []
@@ -2850,7 +2897,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "8d650f50-588e-453f-a4fb-e7cb1798c632",
+      "id": "8a8da754-3c69-499b-9ced-304c1a24c2d6",
       "status": null,
       "description": null,
       "workflow": []
@@ -2920,7 +2967,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "78f0884e-ef06-4e2d-8d18-72b43e09a887",
+      "id": "24e1382e-4142-490b-8280-ceea0d2e0da0",
       "status": null,
       "description": null,
       "workflow": []
@@ -2990,7 +3037,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "710354c9-0137-4026-8665-78c37bb83eef",
+      "id": "7505f470-6d95-4f02-a60c-54028df57f45",
       "status": null,
       "description": null,
       "workflow": []
@@ -3085,7 +3132,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "5e708622-3818-4bbb-8ca8-1e0597d37332",
+      "id": "f2a79916-2758-4a8d-990c-16de43a77721",
       "status": null,
       "description": null,
       "workflow": []
@@ -3178,7 +3225,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "1ac9a8b3-142f-4f2b-b7de-9259b38f911c",
+      "id": "f31592a6-4568-496a-8371-9370766c17b6",
       "status": null,
       "description": null,
       "workflow": []
@@ -3271,7 +3318,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "0dd15e19-545d-4a48-bddc-210614c3d3b2",
+      "id": "56fdeb50-3c33-4777-851f-dab3d47b8da7",
       "status": null,
       "description": null,
       "workflow": []
@@ -3364,7 +3411,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "2061e4f9-9058-4e38-a30a-23e1b7352ede",
+      "id": "691efd09-9b3e-496c-97bc-24445c49c41e",
       "status": null,
       "description": null,
       "workflow": []

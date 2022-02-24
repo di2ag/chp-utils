@@ -6,6 +6,53 @@
           "nodes": {
             "n0": {
               "ids": [
+                "MONDO:0007254"
+              ],
+              "categories": [
+                "biolink:Disease"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": null,
+              "categories": [
+                "biolink:ChemicalEntity"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.2",
+      "biolink_version": null,
+      "logs": [],
+      "id": "9fe67b4f-ab94-4660-adb5-cc3777a43e51",
+      "status": null,
+      "description": null,
+      "workflow": []
+    }
+  ],
+  [
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
                 "NCBIGene:23221"
               ],
               "categories": [
@@ -42,7 +89,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "94780305-c399-4a47-b510-4223d5994ac2",
+      "id": "d355d139-4d9e-44e5-b26d-4bcab42e5b7c",
       "status": null,
       "description": null,
       "workflow": []
@@ -89,7 +136,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "a9ed3e75-2277-4171-adab-88ebc7d79f3b",
+      "id": "5849eeae-94c5-4240-84c9-a727da61adba",
       "status": null,
       "description": null,
       "workflow": []
@@ -136,7 +183,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "aca4bde6-f071-43a4-a305-1bc3152cc52c",
+      "id": "f4bd1432-24ec-485d-9cc2-4e1994b828fd",
       "status": null,
       "description": null,
       "workflow": []
@@ -183,7 +230,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "a9026805-d886-43ed-b510-29f53693bcbd",
+      "id": "4ee20d34-64cc-4de3-ae4f-864a14d6f1f9",
       "status": null,
       "description": null,
       "workflow": []
@@ -230,7 +277,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "8ec9aa1d-84ab-4e86-b9d7-1028d644084f",
+      "id": "4d0dfd1c-aa27-4b5a-a2d5-92c8d7e45bc8",
       "status": null,
       "description": null,
       "workflow": []
@@ -277,7 +324,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "7054b2d2-b4a3-44aa-9f39-a164d6bd70cc",
+      "id": "6a2216ad-8219-41e7-ba1e-e235ba59b4f4",
       "status": null,
       "description": null,
       "workflow": []
@@ -326,7 +373,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "2c18377a-7c12-40a0-9a49-d7e8bdc08bda",
+      "id": "369c9abf-2a7a-45e5-8712-39dc15095bd5",
       "status": null,
       "description": null,
       "workflow": []
@@ -374,13 +421,13 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2022-02-24T03:15:39.367247",
+          "timestamp": "2022-02-24T15:18:56.976770",
           "level": "WARNING",
           "message": "Conflated biolink:SmallMolecule with biolink:Drug",
           "code": null
         }
       ],
-      "id": "d6fc6643-356f-493c-946c-8f445f1edd80",
+      "id": "c6f52900-8bed-4e11-8665-678b58000eba",
       "status": null,
       "description": null,
       "workflow": []
@@ -426,13 +473,13 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2022-02-24T03:15:39.393027",
+          "timestamp": "2022-02-24T15:18:57.001676",
           "level": "WARNING",
           "message": "Conflated biolink:SmallMolecule with biolink:Drug",
           "code": null
         }
       ],
-      "id": "5aad93f9-23ef-4bfe-88bf-6b29d9e3ecd3",
+      "id": "f7dc64d4-94f9-4926-ac41-1a59e2cbf844",
       "status": null,
       "description": null,
       "workflow": []
@@ -478,13 +525,13 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2022-02-24T03:15:39.416383",
+          "timestamp": "2022-02-24T15:18:57.024353",
           "level": "WARNING",
           "message": "Conflated biolink:SmallMolecule with biolink:Drug",
           "code": null
         }
       ],
-      "id": "486b9370-25ce-4ea4-97b9-6069e5340841",
+      "id": "571efdc1-3253-422f-b023-415e42bae95d",
       "status": null,
       "description": null,
       "workflow": []
@@ -530,13 +577,13 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2022-02-24T03:15:39.437272",
+          "timestamp": "2022-02-24T15:18:57.045110",
           "level": "WARNING",
           "message": "Conflated biolink:SmallMolecule with biolink:Drug",
           "code": null
         }
       ],
-      "id": "bd651003-ec34-4950-ab3a-cdf816ba1ee4",
+      "id": "1e1c0df2-0a0a-49ac-9b02-0fe334954db3",
       "status": null,
       "description": null,
       "workflow": []
@@ -582,13 +629,13 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2022-02-24T03:15:39.456921",
+          "timestamp": "2022-02-24T15:18:57.065423",
           "level": "WARNING",
           "message": "Conflated biolink:SmallMolecule with biolink:Drug",
           "code": null
         }
       ],
-      "id": "374ee1a7-721d-4613-8406-be1189b78778",
+      "id": "f7ab7144-6d2b-4bdf-8512-6ac00483b422",
       "status": null,
       "description": null,
       "workflow": []
@@ -634,13 +681,13 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2022-02-24T03:15:39.475603",
+          "timestamp": "2022-02-24T15:18:57.079617",
           "level": "WARNING",
           "message": "Conflated biolink:SmallMolecule with biolink:Drug",
           "code": null
         }
       ],
-      "id": "60777cb7-b120-42cc-b270-d69bba686a9e",
+      "id": "07cc2a77-d222-4aee-ac33-d6f42c0b7a0c",
       "status": null,
       "description": null,
       "workflow": []
@@ -686,13 +733,13 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2022-02-24T03:15:39.492665",
+          "timestamp": "2022-02-24T15:18:57.092693",
           "level": "WARNING",
           "message": "Conflated biolink:SmallMolecule with biolink:Drug",
           "code": null
         }
       ],
-      "id": "3abe521e-65f5-43a9-ae6c-40468d8882e4",
+      "id": "d153a8ea-171c-4910-ac1e-0e7d3c54d94f",
       "status": null,
       "description": null,
       "workflow": []
@@ -738,13 +785,13 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2022-02-24T03:15:39.507406",
+          "timestamp": "2022-02-24T15:18:57.106074",
           "level": "WARNING",
           "message": "Conflated biolink:SmallMolecule with biolink:Drug",
           "code": null
         }
       ],
-      "id": "e37ec5d9-4c60-463b-80c5-a68681b6747d",
+      "id": "da475c53-32cf-4fae-b2e1-f275c9ea3f78",
       "status": null,
       "description": null,
       "workflow": []
@@ -814,7 +861,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "5a3fef0c-6d50-4cf3-85fc-d9ce5648e908",
+      "id": "8c2ad207-e679-43c6-93ea-cee5a83d4d99",
       "status": null,
       "description": null,
       "workflow": []
@@ -882,7 +929,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "94bd1925-6afc-4c4d-af08-9d57bb55f257",
+      "id": "1a939452-5ba6-4ffb-8d4b-95d3a5e95b8a",
       "status": null,
       "description": null,
       "workflow": []
@@ -953,13 +1000,13 @@
       "biolink_version": null,
       "logs": [
         {
-          "timestamp": "2022-02-24T03:15:39.686938",
+          "timestamp": "2022-02-24T15:18:57.298104",
           "level": "WARNING",
           "message": "Conflated biolink:ChemicalSubstance with biolink:Drug",
           "code": null
         }
       ],
-      "id": "27b84426-ca79-4235-8a39-a2fee570c0e3",
+      "id": "fa8fe7a4-ab60-45f0-aa6b-eb32be64b177",
       "status": null,
       "description": null,
       "workflow": []
@@ -1031,7 +1078,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "2ce3a645-240c-497c-a5d4-69871a824948",
+      "id": "74c09f7e-dceb-4a0f-ad92-314001f9f633",
       "status": null,
       "description": null,
       "workflow": []
@@ -1103,7 +1150,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "b09c9f2b-cc8c-4029-8bf9-f5ba03f9bed4",
+      "id": "d4939754-e165-4f40-8eda-413ff0a02d82",
       "status": null,
       "description": null,
       "workflow": []
@@ -1173,7 +1220,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "0171e249-92e6-4b93-8252-68b0d3ee3a95",
+      "id": "21b4c7ec-1fbc-4a01-9e8c-733926813d53",
       "status": null,
       "description": null,
       "workflow": []
@@ -1243,7 +1290,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "2de392e5-d927-4f5e-9260-e1a92d71ef55",
+      "id": "9a50439e-11a2-4482-91e5-e4f7b4887442",
       "status": null,
       "description": null,
       "workflow": []
@@ -1315,7 +1362,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "55e400a9-03f5-48f1-964c-16288acdffaa",
+      "id": "8c46b9d7-753b-43e0-ad8c-fc1c048c24e6",
       "status": null,
       "description": null,
       "workflow": []
@@ -1385,7 +1432,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "49fcffc5-cdc1-459d-a91f-1db9b957ce4e",
+      "id": "812daf68-06f1-4fb3-a593-1cb45840b378",
       "status": null,
       "description": null,
       "workflow": []
@@ -1457,7 +1504,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "cf433be4-815a-471d-80c1-60e5fe22fbdf",
+      "id": "e26c3e95-f215-4bc9-8145-84f65a2acaa3",
       "status": null,
       "description": null,
       "workflow": []
@@ -1527,7 +1574,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "3d02680d-5bf2-490b-9024-15c4a5d6fbf4",
+      "id": "cbc282a6-95bc-4161-b71e-f0c0eed0bd47",
       "status": null,
       "description": null,
       "workflow": []
@@ -1597,7 +1644,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "38fa828f-b240-40ad-a1a1-8b9ccbe0a2eb",
+      "id": "08d4216e-d731-43f2-8d2c-1c110cd24712",
       "status": null,
       "description": null,
       "workflow": []
@@ -1667,7 +1714,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "0ce6624d-1999-4bc7-b6be-6c8b81a5ffcb",
+      "id": "d667f556-59ef-44c2-aec5-edd7df1fcce7",
       "status": null,
       "description": null,
       "workflow": []
@@ -1737,7 +1784,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "bebde89a-8d11-4631-9e33-1b089064cff5",
+      "id": "ee1abceb-f1f6-451e-a469-57e7accb97e1",
       "status": null,
       "description": null,
       "workflow": []
@@ -1807,7 +1854,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "13d69734-ee9c-4979-b087-dca15dc45893",
+      "id": "28d15c41-83e0-4d27-9246-e714895d2d48",
       "status": null,
       "description": null,
       "workflow": []
@@ -1877,7 +1924,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "541d3c8b-682f-4315-85fe-18adc355ac5c",
+      "id": "1ac6e652-61f6-41e8-adfe-12ecf885f249",
       "status": null,
       "description": null,
       "workflow": []
@@ -1947,7 +1994,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "e5cf5c37-6be6-4f87-98f3-d7bc34405fb2",
+      "id": "84dfa4fa-68e0-4a67-bc8f-342b37e788c5",
       "status": null,
       "description": null,
       "workflow": []
@@ -2017,7 +2064,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "d4249152-7841-4a4b-a2cc-2260bf6b88bc",
+      "id": "a395ec6e-c73e-48a8-8514-3239a75845f9",
       "status": null,
       "description": null,
       "workflow": []
@@ -2087,7 +2134,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "9aed7d59-4dd8-428a-a3b0-a15fce37d52b",
+      "id": "bd29fe54-118c-4b11-9f09-2c0f1f252299",
       "status": null,
       "description": null,
       "workflow": []
@@ -2157,7 +2204,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "7fa1b2ff-f1b7-4cda-a9f2-10e38fd894c1",
+      "id": "0389440a-d27b-4d2e-a4b2-42c2518cee0a",
       "status": null,
       "description": null,
       "workflow": []
@@ -2227,7 +2274,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "e6a580b7-e401-406f-a0ab-948bc7cee8f0",
+      "id": "89713456-b7ce-4f0a-b065-920beb541665",
       "status": null,
       "description": null,
       "workflow": []
@@ -2297,7 +2344,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "804ab7d0-99fb-4c6e-a4c8-846d03eb5ab8",
+      "id": "3afaaef4-3bc9-4dc4-b8f1-0f69ccb694a7",
       "status": null,
       "description": null,
       "workflow": []
@@ -2367,7 +2414,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "86fa89c6-f0c5-47fa-ae25-7ccc3f713454",
+      "id": "b64b84d4-d693-461b-96e6-5ce3dc08076e",
       "status": null,
       "description": null,
       "workflow": []
@@ -2437,7 +2484,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "47da6a52-e329-457b-b810-eb14e8f4f1b9",
+      "id": "7401202d-c9f3-4ebf-9a21-efbc75acc4ec",
       "status": null,
       "description": null,
       "workflow": []
@@ -2507,7 +2554,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "b945c538-6abb-4225-840b-fce20145605a",
+      "id": "d6f5b789-3961-4ed4-bcf4-eab9c34daf43",
       "status": null,
       "description": null,
       "workflow": []
@@ -2602,7 +2649,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "1d0d6ea0-2763-41ca-b577-eb7fb93fd60b",
+      "id": "9c2c063a-80ab-44e5-8fd7-911a3e77e1e3",
       "status": null,
       "description": null,
       "workflow": []
@@ -2695,7 +2742,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "4685a542-251d-425a-95b5-cf73a1f508c7",
+      "id": "f42b1277-0b12-4c5b-8c26-765933080404",
       "status": null,
       "description": null,
       "workflow": []
@@ -2788,7 +2835,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "a36cacda-d997-4b3c-9af2-68ba2781d2df",
+      "id": "a85a4dd3-7b19-447a-a0dd-744027d60a3f",
       "status": null,
       "description": null,
       "workflow": []
@@ -2881,7 +2928,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "91adb798-a9b6-493b-a887-469431ef90b5",
+      "id": "45c55c6e-5954-430f-bbce-25b6970b5f39",
       "status": null,
       "description": null,
       "workflow": []

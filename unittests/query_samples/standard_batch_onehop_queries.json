@@ -2,6 +2,34 @@
     {
     "message": {
         "query_graph": {
+            "nodes": {
+                "n0": {
+                    "ids": [
+                        "MONDO:0007254"
+                    ],
+                    "categories": [
+                        "biolink:Disease"
+                    ]
+               },
+               "n1": {
+                    "categories": [
+                        "biolink:ChemicalEntity"
+                    ]
+                }
+            },
+            "edges": {
+                  "e0": {
+                        "subject": "n0",
+                        "object": "n1"
+                    }
+                }
+            }
+        },
+        "trapi_version": "1.2"
+    },
+    {
+    "message": {
+        "query_graph": {
             "edges": {
                 "e01": {
                     "object": "n0",

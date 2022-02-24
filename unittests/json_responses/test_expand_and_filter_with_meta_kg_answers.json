@@ -1,4 +1,5 @@
 [
+  [],
   [
     {
       "message": {
@@ -42,7 +43,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "4c7a585a-d9ad-4ac5-b534-f9a7510a2911",
+      "id": "86b1aa7f-231c-4262-8353-8f102879c1e9",
       "status": null,
       "description": null,
       "workflow": []
@@ -89,7 +90,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "6c652477-ba36-4a05-a4cb-e5650af4c7ea",
+      "id": "0d4f1c8a-9d30-4b0a-bf23-77272f36975e",
       "status": null,
       "description": null,
       "workflow": []
@@ -136,7 +137,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "012a0880-a4bf-4375-9031-75e92c2b0593",
+      "id": "85c33a5f-bb6d-4dd9-8798-158f7a071457",
       "status": null,
       "description": null,
       "workflow": []
@@ -208,7 +209,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "849600b0-2b6a-40bd-96da-32f4758175de",
+      "id": "1997decc-f77c-4084-bde5-baa062ba3517",
       "status": null,
       "description": null,
       "workflow": []

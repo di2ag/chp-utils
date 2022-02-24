@@ -6,6 +6,53 @@
           "nodes": {
             "n0": {
               "ids": [
+                "MONDO:0007254"
+              ],
+              "categories": [
+                "biolink:Disease"
+              ],
+              "constraints": []
+            },
+            "n1": {
+              "ids": null,
+              "categories": [
+                "biolink:ChemicalEntity"
+              ],
+              "constraints": []
+            }
+          },
+          "edges": {
+            "e0": {
+              "predicates": null,
+              "subject": "n0",
+              "object": "n1",
+              "constraints": []
+            }
+          }
+        },
+        "knowledge_graph": {
+          "nodes": {},
+          "edges": {}
+        },
+        "results": []
+      },
+      "max_results": 10,
+      "trapi_version": "1.2",
+      "biolink_version": null,
+      "logs": [],
+      "id": "9a6c2f01-e44a-459f-99a7-d327a64e2be2",
+      "status": null,
+      "description": null,
+      "workflow": []
+    }
+  ],
+  [
+    {
+      "message": {
+        "query_graph": {
+          "nodes": {
+            "n0": {
+              "ids": [
                 "NCBIGene:23221"
               ],
               "categories": [
@@ -42,7 +89,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "b8f5a99f-a971-4e42-8292-e4275c2d705f",
+      "id": "a5c77d24-f2d5-4ebc-91c5-2df4128eb5c9",
       "status": null,
       "description": null,
       "workflow": []
@@ -89,7 +136,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "469188c2-6ecc-4f22-bf4e-7c47ff23f18f",
+      "id": "b851a11c-7be7-4695-8277-678d1843bcb9",
       "status": null,
       "description": null,
       "workflow": []
@@ -136,7 +183,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "0edfd2c1-5adb-4b52-8d07-0a24aee4c283",
+      "id": "fb101147-b3ac-4c72-9539-d0ca2aee30a3",
       "status": null,
       "description": null,
       "workflow": []
@@ -183,7 +230,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "35b78952-c633-47ba-b322-83f6a5cb3b2c",
+      "id": "abcea31a-0685-460c-8198-25c22ce3585f",
       "status": null,
       "description": null,
       "workflow": []
@@ -230,7 +277,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "9daabfd0-830e-45cf-847f-4ee05ea78507",
+      "id": "c73f5aec-b4cc-4bf9-9e7f-f7b0549e1930",
       "status": null,
       "description": null,
       "workflow": []
@@ -277,7 +324,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "00401898-34ee-41cb-ae43-239d5156adfd",
+      "id": "7cd90695-6370-4b6d-9369-f1a8f27b2e72",
       "status": null,
       "description": null,
       "workflow": []
@@ -326,7 +373,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "783541fa-f71a-48b7-9386-45ec9ebc95ad",
+      "id": "dd3b6d78-942e-4e65-becd-8ce34bc5cf1f",
       "status": null,
       "description": null,
       "workflow": []
@@ -373,7 +420,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "e5f34528-a389-4448-bcda-cc7ec7e7623b",
+      "id": "b89d768b-bf17-4f42-8c5b-d957f48ff9e6",
       "status": null,
       "description": null,
       "workflow": []
@@ -418,7 +465,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "aafb368c-3a24-4554-908a-2f7b8689c4e7",
+      "id": "787c0c7f-fbc8-479d-ad23-20a51b3c9340",
       "status": null,
       "description": null,
       "workflow": []
@@ -463,7 +510,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "cdcc199d-20d6-4780-a702-46a591af497d",
+      "id": "6db3a167-6fbe-4591-a7bc-ab96d947e29c",
       "status": null,
       "description": null,
       "workflow": []
@@ -508,7 +555,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "84ed4942-502d-4c12-9428-9d929495bd30",
+      "id": "92106359-eadd-4bd1-a0c6-ed10f83eb164",
       "status": null,
       "description": null,
       "workflow": []
@@ -553,7 +600,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "1c6e3207-43ff-497e-963c-78afc0649d41",
+      "id": "b5b9e79f-f95c-4265-97c2-2eb1fb0acba7",
       "status": null,
       "description": null,
       "workflow": []
@@ -598,7 +645,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "eddd8c05-b387-4159-961a-fe9339162253",
+      "id": "f9f13979-c5f5-4ee5-a588-6e83e00256ab",
       "status": null,
       "description": null,
       "workflow": []
@@ -643,7 +690,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "51a20115-ad71-4c92-a1a7-b303e8d96712",
+      "id": "4dacd234-721f-475e-b32f-d55747d781de",
       "status": null,
       "description": null,
       "workflow": []
@@ -688,7 +735,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "86004286-207e-4fd0-ac1c-74679790cdc2",
+      "id": "2855495a-31c6-45f8-81c4-2a0bcb43589a",
       "status": null,
       "description": null,
       "workflow": []
@@ -758,7 +805,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "c9f354f7-246a-43f5-8ad9-225919a57d2c",
+      "id": "a86a72fd-d550-4f14-9a1a-8638a639fc79",
       "status": null,
       "description": null,
       "workflow": []
@@ -826,7 +873,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "13fe024b-f25d-468c-bcca-dfbb66485730",
+      "id": "deecbc24-6b66-4cb2-a007-36cf63c30904",
       "status": null,
       "description": null,
       "workflow": []
@@ -896,7 +943,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "02f0a7a0-9c86-4aff-bf90-83b72ebcecdc",
+      "id": "752f2f24-f82c-4c3b-9f67-f386bee51c10",
       "status": null,
       "description": null,
       "workflow": []
@@ -968,7 +1015,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "2c3f377b-caba-4e9d-9e12-ddfdb2580216",
+      "id": "8ad60981-3497-4e68-a844-d08b26f64b01",
       "status": null,
       "description": null,
       "workflow": []
@@ -1040,7 +1087,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "88956d69-0fab-4ddd-b726-b573e4639f21",
+      "id": "079118f4-cf2f-4a93-a5f6-3286e6cb058c",
       "status": null,
       "description": null,
       "workflow": []
@@ -1110,7 +1157,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "29c3a48d-dd43-44cb-9472-fe6beabef9dd",
+      "id": "8a88174c-1c4c-4cde-8fd2-d69d783d907c",
       "status": null,
       "description": null,
       "workflow": []
@@ -1180,7 +1227,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "421b59e5-1cfe-4197-ad28-cc1bf8669dce",
+      "id": "4e532e70-692a-487f-9d37-3df9f9daa642",
       "status": null,
       "description": null,
       "workflow": []
@@ -1252,7 +1299,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "f286f2a0-a715-4fca-9119-47b33fb3b591",
+      "id": "7e16e30f-732b-46e8-83cb-0db2c4a1302a",
       "status": null,
       "description": null,
       "workflow": []
@@ -1322,7 +1369,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "57983d23-e4f8-497f-82f8-f696f1fa0a5a",
+      "id": "03799676-b057-45c6-a461-458069219ced",
       "status": null,
       "description": null,
       "workflow": []
@@ -1394,7 +1441,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "d2315491-b149-48bc-a544-b02fd93320c2",
+      "id": "a4fd8151-ffe2-4c3f-9231-4b7e13ac8c94",
       "status": null,
       "description": null,
       "workflow": []
@@ -1464,7 +1511,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "37f23599-de3e-422d-9a75-ebec814f5a93",
+      "id": "6907ea55-6d4c-4a94-8b92-d168ea0cf795",
       "status": null,
       "description": null,
       "workflow": []
@@ -1534,7 +1581,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "213c8471-19eb-44bf-a5cb-a16c385b68f7",
+      "id": "164d50cd-c0fc-41d0-aa5a-f2d881ac7bc2",
       "status": null,
       "description": null,
       "workflow": []
@@ -1604,7 +1651,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "54394c4e-13e2-458d-b0fe-6bd03e3d23b2",
+      "id": "0c561138-9be3-45aa-b794-a80d9b2edeb1",
       "status": null,
       "description": null,
       "workflow": []
@@ -1674,7 +1721,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "2195d832-e631-47d1-9b81-49aa09f67d01",
+      "id": "6d90dd94-e548-4efd-9a0e-a47feef7ffa6",
       "status": null,
       "description": null,
       "workflow": []
@@ -1744,7 +1791,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "d8822551-d911-43f0-82c3-a382b38461d8",
+      "id": "d6f6db92-06a1-4849-94dd-a9c222efd03e",
       "status": null,
       "description": null,
       "workflow": []
@@ -1814,7 +1861,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "990e9b49-20df-4953-86c1-313a283681c1",
+      "id": "9dd72467-1d8f-48ad-a905-04bb13a50757",
       "status": null,
       "description": null,
       "workflow": []
@@ -1884,7 +1931,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "97e1c75f-21c1-4814-a89f-1f08b78b4362",
+      "id": "a1480963-7e9f-4606-be32-02e979263b8e",
       "status": null,
       "description": null,
       "workflow": []
@@ -1954,7 +2001,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "2b07349e-8afc-42f6-8f6a-c4eec0a567ce",
+      "id": "0d7de23f-6bf7-402d-ad12-70998dd1a1de",
       "status": null,
       "description": null,
       "workflow": []
@@ -2024,7 +2071,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "61a7e570-ea62-4efc-b152-18caa5d37a37",
+      "id": "212a13e4-a8cb-4e2d-8c09-1e7c471b2ace",
       "status": null,
       "description": null,
       "workflow": []
@@ -2094,7 +2141,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "ddce2b58-5d65-4a59-9e1e-65cf1ed61f58",
+      "id": "3f687135-96cb-4ec3-a9bb-51467df36015",
       "status": null,
       "description": null,
       "workflow": []
@@ -2164,7 +2211,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "df5422cb-beda-40a1-836a-418202219fac",
+      "id": "e032e8f5-4fa0-4e3e-b211-d17eb7e40cac",
       "status": null,
       "description": null,
       "workflow": []
@@ -2234,7 +2281,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "d0a86527-2c0f-44f6-81cc-0bac3e169b5c",
+      "id": "b18b5e8f-c8fe-4ff3-82a5-88e8fedd9fb8",
       "status": null,
       "description": null,
       "workflow": []
@@ -2304,7 +2351,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "32a7f0a1-4be6-47f6-be74-019ec0bde76b",
+      "id": "030e7197-ee33-4291-bef9-49b679b67846",
       "status": null,
       "description": null,
       "workflow": []
@@ -2374,7 +2421,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "75ac1cee-9d05-4fe9-8f03-50770f3868e5",
+      "id": "b3415586-86c8-4e96-99ba-63e8bbfd8fa1",
       "status": null,
       "description": null,
       "workflow": []
@@ -2444,7 +2491,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "fd9f8abc-8634-4f83-b5f6-82f4458206e3",
+      "id": "364d679d-6b1a-402f-8645-a498c46774bb",
       "status": null,
       "description": null,
       "workflow": []
@@ -2539,7 +2586,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "f49fb3ad-2c10-4865-81a0-a75950f8b724",
+      "id": "dc8e908e-d475-4d35-b2e2-edf13ef1324b",
       "status": null,
       "description": null,
       "workflow": []
@@ -2632,7 +2679,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "b5a7f2f8-a256-49fa-b51c-dca864f60295",
+      "id": "550a4993-a5f3-43a6-9d87-f36bfe6eb22a",
       "status": null,
       "description": null,
       "workflow": []
@@ -2725,7 +2772,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "896a9ee3-044e-440e-834b-a301fce87c40",
+      "id": "ee142db6-8f1f-4ba5-8087-03f57f7f6093",
       "status": null,
       "description": null,
       "workflow": []
@@ -2818,7 +2865,7 @@
       "trapi_version": "1.1",
       "biolink_version": null,
       "logs": [],
-      "id": "2d71ecf2-f2bc-4998-ab36-ff3cdf3019db",
+      "id": "ec6db144-2d9b-4733-9f7d-c0b3528fcfe6",
       "status": null,
       "description": null,
       "workflow": []
