@@ -266,6 +266,8 @@ class BaseQueryProcessor:
                             ]
                         )
                     )
+            if node.categories[0] in meta_knowledge_graph.nodes:
+                supported_descendants.append(node.categories[0])
             if len(supported_descendants) == 0:
                 query.warning('Biolink category {} is not inherently supported and could not find any supported descendants,'.format(node.categories[0].get_curie()))
                 continue
@@ -313,7 +315,9 @@ class BaseQueryProcessor:
                             ]
                         )
                     )
-            supported_descendants.append(BIOLINK_RELATED_TO_ENTITY)
+            if edge.predicates[0] in supported_edge_predicates:
+                supported_descendants.append(edge.predicates[0])
+
             if len(supported_descendants) == 0:
                 query.warning('Biolink predicate {} is not inherently supported and could not find any supported descendants,'.format(edge.predicates[0].get_curie()))
                 continue
