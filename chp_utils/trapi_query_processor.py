@@ -79,8 +79,8 @@ class BaseQueryProcessor:
                             )
         # Go through each possible preference and return the preferred curie that with the most general category
         if len(possible_preferences) == 0:
-            query.warning('Could not normalize curie: {}, probably will cause failure.'.format(curie))
-            return curie, categories
+            query.warning('Could not normalize curie: {}, because no supported curie types where found in the metakg.'.format(curie))
+            raise ValueError
         if len(possible_preferences) > 1:
             preferred_curie, preferred_category = self._get_most_general_preference(possible_preferences)
         else:
