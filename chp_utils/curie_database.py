@@ -23,7 +23,7 @@ def merge_curies_databases(list_of_curies_dbs):
                             set(info),
                             ]
                         )
-                merged[biolink_entity][curie] = list(new_info)
+                merged[biolink_entity][curie] = [info for info in new_info if info]
     return merged
 
 
