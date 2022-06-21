@@ -39,7 +39,7 @@ SRI_NODE_NORMALIZER_API_KWARGS.update({
 # API specific kwargs
 SRI_ONTOLOGY_KP_API_KWARGS = copy(COMMON_KWARGS)
 SRI_ONTOLOGY_KP_API_KWARGS.update({
-    "_default_url": 'https://stars-app.renci.org/sparql-kp/',
+    "_default_url": 'https://ontology-kp.apps.renci.org/',
 })
 
 # Client settings
