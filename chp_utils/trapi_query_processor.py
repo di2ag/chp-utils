@@ -196,7 +196,7 @@ class BaseQueryProcessor:
                         print(new_query)
                         #onto_expanded_message = new_query.message.find_and_replace(curie, descendant)
                         query_graph = query.message.query_graph
-                        for node_id, node in query_graph.nodes.items()
+                        for node_id, node in query_graph.nodes.items():
                             if node.ids is not None and node.ids[0] == curie:
                                 node.ids = [descendant]
                         new_query.info('Ontologically expanded {} to {}'.format(curie, descendant))
