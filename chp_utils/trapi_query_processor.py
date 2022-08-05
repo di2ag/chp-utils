@@ -168,43 +168,35 @@ class BaseQueryProcessor:
     
     def _extract_all_curies_for_ontology_kp(self, queries):
         curies = defaultdict(list)
+        curies_to_query = defaultdict(list)
         for query in queries:
             query_graph = query.message.query_graph
             for node_id, node in query_graph.nodes.items():
                 if node.ids is not None:
                     try:
                         curies[node.categories[0]].extend(node.ids)
+                        curies_to_query[node.ids].append(query)
                     except TypeError:
                         query.error('Node: {} has no categories. Can not ontologically expand a node with no category.'.format(
                             node.ids[0])
                             )
-        return dict(curies)
+        return dict(curies), dict(curies_to_query)
 
-    def _expand_query_with_supported_ontological_descendants(self, query, descendants_map, curies):
+    def _expand_query_with_supported_ontological_descendants(self, curies_to_query_dict, descendants_map, curies):
         onto_expanded_queries = []
         for biolink_entity, curie_descendants_dict in descendants_map.items():
             if biolink_entity not in curies.curies:
                 query.error('{} is not support in the meta knowledge graph'.format(biolink_entity.get_curie()))
                 continue
             for curie, descendants in curie_descendants_dict.items():
-                supported_descendants = list(
-                        set.intersection(
-                            *[
-                                set(curies.curies[biolink_entity].keys()),
-                                set(descendants),
-                                ]
-                            )
-                        )
-                # Using sorted to keep tests consistent
-                for supported_descendant in sorted(supported_descendants):
-                    new_query = query.get_copy()
-                    onto_expanded_message = new_query.message.find_and_replace(curie, supported_descendant)
-                    if onto_expanded_message.to_dict() != new_query.message.to_dict():
-                        new_query.info('Ontologically expanded {} to {}'.format(curie, supported_descendant))
-                        new_query.message = onto_expanded_message
-                        onto_expanded_queries.append(new_query)
-        if len(onto_expanded_queries) == 0:
-            return [query]
+                for query in curies_to_query_dict[curie]:
+                    for descendant in descendants:
+                        new_query = query.get_copy()
+                        onto_expanded_message = new_query.message.find_and_replace(curie, descendant)
+                        if onto_expanded_message.to_dict() != new_query.message.to_dict():
+                            new_query.info('Ontologically expanded {} to {}'.format(curie, descendant))
+                            new_query.message = onto_expanded_message
+                            onto_expanded_queries.append(new_query)
         return onto_expanded_queries
 
     def expand_supported_ontological_descendants(self, queries, curies_database=None):
@@ -214,7 +206,7 @@ class BaseQueryProcessor:
         ontology_kp_client = SriOntologyKpApiClient()
 
         # Get all curies to expand via the Ontology KP
-        curies_to_onto_expand = self._extract_all_curies_for_ontology_kp(queries)
+        curies_to_onto_expand, curies_to_query_dict = self._extract_all_curies_for_ontology_kp(queries)
 
         descendants_map = {}
         for biolink_entity, curies in curies_to_onto_expand.items():
@@ -224,17 +216,24 @@ class BaseQueryProcessor:
                 queries_logger.error(str(ex))
                 continue
             if len(descendants) > 0:
-                descendants_map[biolink_entity] = descendants
+                curie_map = dict()
+                for curie, curie_descendants in descendants.items():
+                    supported_descendants = []
+                    for curie_descendant in curie_descendants:
+                        try:
+                            x = curies_database[biolink_entity][curie_descendant]
+                            supported_descendants.append(curie_descendant)
+                        except:
+                            continue
+                   if len(supported_descendants) > 0: 
+                       curie_map[curie] = supported_descendants
+                descendants_map[biolink_entity] = curie_map
         # Expand each query ontologically with all supported descendants
-        onto_expanded_queries = []
+        onto_expanded_queries = self._expand_query_with_supported_ontological_descendants(curies_to_query_dict,
+                                                                                          descendants_map,
+                                                                                          curies_database)
         for query in queries:
-            onto_expanded_queries.extend(
-                    self._expand_query_with_supported_ontological_descendants(
-                        query,
-                        descendants_map,
-                        curies_database,
-                        )
-                    )
+            onto_expanded_queries.append(query)
         # Merge in queries logger to each individual query log
         for query in onto_expanded_queries:
             query.logger.add_logs(queries_logger.to_dict())
