@@ -195,14 +195,12 @@ class BaseQueryProcessor:
                         new_query = query.get_copy()
                         print('hi')
                         print(new_query)
-                        #onto_expanded_message = new_query.message.find_and_replace(curie, descendant)
-                        query_graph = query.message.query_graph
-                        for node_id, node in query_graph.nodes.items():
-                            if node.ids is not None and node.ids[0] == curie:
-                                node.ids = [descendant]
-                        new_query.info('Ontologically expanded {} to {}'.format(curie, descendant))
+                        onto_expanded_message = new_query.message.find_and_replace(curie, descendant)
+                        if onto_expanded_message.to_dict() != new_query.message.to_dict():
+                            new_query.info('Ontologically expanded {} to {}'.format(curie, descendant))
+                            new_query.message = onto_expanded_message
+                            onto_expanded_queries.append(new_query)
                         print(new_query)
-                        onto_expanded_queries.append(new_query)
         return onto_expanded_queries
 
     def expand_supported_ontological_descendants(self, queries, curies_database=None):
