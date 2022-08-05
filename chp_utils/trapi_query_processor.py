@@ -228,7 +228,7 @@ class BaseQueryProcessor:
                     supported_descendants = []
                     for curie_descendant in curie_descendants:
                         try:
-                            x = curies_database[biolink_entity][curie_descendant]
+                            x = curies_database.curies[biolink_entity][curie_descendant]
                             if curie_descendant not in unique_descendants:
                                 supported_descendants.append(curie_descendant)
                                 unique_descendants.append(curie_descendant)
