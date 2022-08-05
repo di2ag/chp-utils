@@ -174,8 +174,8 @@ class BaseQueryProcessor:
             for node_id, node in query_graph.nodes.items():
                 if node.ids is not None:
                     try:
-                        curies[node.categories[0]].extend(node.ids)
-                        curies_to_query[node.ids].append(query)
+                        curies[node.categories[0]].append(node.ids[0])
+                        curies_to_query[node.ids[0]].append(query)
                     except TypeError:
                         query.error('Node: {} has no categories. Can not ontologically expand a node with no category.'.format(
                             node.ids[0])
@@ -192,11 +192,16 @@ class BaseQueryProcessor:
                 for query in curies_to_query_dict[curie]:
                     for descendant in descendants:
                         new_query = query.get_copy()
-                        onto_expanded_message = new_query.message.find_and_replace(curie, descendant)
-                        if onto_expanded_message.to_dict() != new_query.message.to_dict():
-                            new_query.info('Ontologically expanded {} to {}'.format(curie, descendant))
-                            new_query.message = onto_expanded_message
-                            onto_expanded_queries.append(new_query)
+                        print('hi')
+                        print(new_query)
+                        #onto_expanded_message = new_query.message.find_and_replace(curie, descendant)
+                        query_graph = query.message.query_graph
+                        for node_id, node in query_graph.nodes.items()
+                            if node.ids is not None and node.ids[0] == curie:
+                                node.ids = [descendant]
+                        new_query.info('Ontologically expanded {} to {}'.format(curie, descendant))
+                        print(new_query)
+                        onto_expanded_queries.append(new_query)
         return onto_expanded_queries
 
     def expand_supported_ontological_descendants(self, queries, curies_database=None):
@@ -217,16 +222,20 @@ class BaseQueryProcessor:
                 continue
             if len(descendants) > 0:
                 curie_map = dict()
+                unique_descendants = []
                 for curie, curie_descendants in descendants.items():
                     supported_descendants = []
                     for curie_descendant in curie_descendants:
                         try:
                             x = curies_database[biolink_entity][curie_descendant]
-                            supported_descendants.append(curie_descendant)
+                            if curie_descendant not in unique_descendants:
+                                supported_descendants.append(curie_descendant)
+                                unique_descendants.append(curie_descendant)
                         except:
                             continue
                     if len(supported_descendants) > 0: 
                         curie_map[curie] = supported_descendants
+                print('num unique descendants: {}'.format(len(unique_descendants)))
                 descendants_map[biolink_entity] = curie_map
         # Expand each query ontologically with all supported descendants
         onto_expanded_queries = self._expand_query_with_supported_ontological_descendants(curies_to_query_dict,
