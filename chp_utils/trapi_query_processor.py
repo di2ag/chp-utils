@@ -173,7 +173,6 @@ class BaseQueryProcessor:
             query_graph = query.message.query_graph
             for node_id, node in query_graph.nodes.items():
                 if node.ids is not None:
-                    print(node)
                     try:
                         curies[node.categories[0]].append(node.ids[0])
                         curies_to_query[node.ids[0]].append(query)
