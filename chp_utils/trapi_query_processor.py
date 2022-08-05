@@ -225,8 +225,8 @@ class BaseQueryProcessor:
                             supported_descendants.append(curie_descendant)
                         except:
                             continue
-                   if len(supported_descendants) > 0: 
-                       curie_map[curie] = supported_descendants
+                    if len(supported_descendants) > 0: 
+                        curie_map[curie] = supported_descendants
                 descendants_map[biolink_entity] = curie_map
         # Expand each query ontologically with all supported descendants
         onto_expanded_queries = self._expand_query_with_supported_ontological_descendants(curies_to_query_dict,
