@@ -1,3 +1,4 @@
+import time
 import logging
 import itertools
 from copy import deepcopy
@@ -192,14 +193,11 @@ class BaseQueryProcessor:
                 for query in curies_to_query_dict[curie]:
                     for descendant in descendants:
                         new_query = query.get_copy()
-                        print('hi')
-                        print(new_query)
                         onto_expanded_message = new_query.message.find_and_replace(curie, descendant)
                         if onto_expanded_message.to_dict() != new_query.message.to_dict():
                             new_query.info('Ontologically expanded {} to {}'.format(curie, descendant))
                             new_query.message = onto_expanded_message
                             onto_expanded_queries.append(new_query)
-                        print(new_query)
         return onto_expanded_queries
 
     def expand_supported_ontological_descendants(self, queries, curies_database=None):
@@ -213,11 +211,14 @@ class BaseQueryProcessor:
 
         descendants_map = {}
         for biolink_entity, curies in curies_to_onto_expand.items():
+            t1 = time.time()
             try:
                 descendants = ontology_kp_client.get_ontology_descendants(curies, biolink_entity)
             except SriOntologyKpException as ex:
                 queries_logger.error(str(ex))
                 continue
+            t2 = time.time()
+            print('time for SRI ontology kp: {}'.format(t2-t1))
             if len(descendants) > 0:
                 curie_map = dict()
                 unique_descendants = []
@@ -233,7 +234,6 @@ class BaseQueryProcessor:
                             continue
                     if len(supported_descendants) > 0: 
                         curie_map[curie] = supported_descendants
-                print('num unique descendants: {}'.format(len(unique_descendants)))
                 descendants_map[biolink_entity] = curie_map
         # Expand each query ontologically with all supported descendants
         onto_expanded_queries = self._expand_query_with_supported_ontological_descendants(curies_to_query_dict,
