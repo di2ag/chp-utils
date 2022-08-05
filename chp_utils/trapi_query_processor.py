@@ -211,14 +211,11 @@ class BaseQueryProcessor:
 
         descendants_map = {}
         for biolink_entity, curies in curies_to_onto_expand.items():
-            t1 = time.time()
             try:
                 descendants = ontology_kp_client.get_ontology_descendants(curies, biolink_entity)
             except SriOntologyKpException as ex:
                 queries_logger.error(str(ex))
                 continue
-            t2 = time.time()
-            print('time for SRI ontology kp: {}'.format(t2-t1))
             if len(descendants) > 0:
                 curie_map = dict()
                 unique_descendants = []
@@ -369,6 +366,7 @@ class BaseQueryProcessor:
             # Check each edge that it's subject and object are consistent with the meta KG.
             query_graph = query.message.query_graph
             is_consistent_query = True
+            t1 = time.time()
             for edge_id, edge in query_graph.edges.items():
                 if edge.predicates is None:
                     edge.predicates = [BIOLINK_RELATED_TO_ENTITY]
@@ -391,6 +389,8 @@ class BaseQueryProcessor:
                     is_consistent_query = False
                     inconsistent_queries.append(query)
                     break
+            t2 = time.time()
+            print('time to check if qg is consistent with metakg: {}'.format(t2-t1))
             if is_consistent_query:
                 # check that queries aren't duplicates
                 is_duplicate = False
@@ -402,6 +402,8 @@ class BaseQueryProcessor:
                         break
                 if not is_duplicate:
                     consistent_queries.append(query)
+            t3 = time.time()
+            print('time to check if qg is a duplicate: {}'.format(t3-t2))
         if with_inconsistent_queries:
             return consistent_queries, inconsistent_queries
         return consistent_queries
