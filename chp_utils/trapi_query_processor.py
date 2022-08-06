@@ -362,11 +362,13 @@ class BaseQueryProcessor:
         meta_knowledge_graph_predicate_map = defaultdict(list)
         for edge in meta_knowledge_graph.edges:
             meta_knowledge_graph_predicate_map[edge.predicate].append(edge)
+        consistent_graphs = []
         for query in queries:
             # Check each edge that it's subject and object are consistent with the meta KG.
             query_graph = query.message.query_graph
             is_consistent_query = True
             t1 = time.time()
+            consistent_edges = []
             for edge_id, edge in query_graph.edges.items():
                 if edge.predicates is None:
                     edge.predicates = [BIOLINK_RELATED_TO_ENTITY]
@@ -379,6 +381,16 @@ class BaseQueryProcessor:
                         if subject_node.categories is not None and object_node.categories is not None:
                             if subject_node.categories[0] == meta_edge.subject and object_node.categories[0] == meta_edge.object:
                                 found_consistent_edge = True
+                                if subject_node.ids is not None:
+                                    sub = subject_node.ids[0]
+                                else:
+                                    sub = '?'
+                                if object_node.ids is not None:
+                                    obj = object_node.ids[0]
+                                else:
+                                    obj = '?'
+                                edge = '{(}={})-{}->({}={})'.format(subject_node.categories[0], sub, predicate, object_node.categories[0], obj)
+                                consistent_edges.append(edge)
                                 break
                     if not found_consistent_edge:
                         query.error('Edge predicate subject/object mismatch with meta knowledge graph.')
@@ -391,6 +403,21 @@ class BaseQueryProcessor:
                     break
             t2 = time.time()
             print('time to check if qg is consistent with metakg: {}'.format(t2-t1))
+            for consistent_graph in consistent_graphs:
+                for edge in consistent_edges:
+                    if edge not in consistent_graph:
+                        is_unique = True
+                        break
+                is_unique = False
+                break
+            if is_unique:
+                consistent_graphs.append([consistent_edges])
+                consistent_queries.append(query)
+            else:
+                query.error(f'Duplicate query.')
+                inconsistent_queries.append(query)
+
+            '''
             if is_consistent_query:
                 # check that queries aren't duplicates
                 is_duplicate = False
@@ -402,6 +429,7 @@ class BaseQueryProcessor:
                         break
                 if not is_duplicate:
                     consistent_queries.append(query)
+            '''
             t3 = time.time()
             print('time to check if qg is a duplicate: {}'.format(t3-t2))
         if with_inconsistent_queries:
