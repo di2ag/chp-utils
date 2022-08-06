@@ -367,7 +367,6 @@ class BaseQueryProcessor:
             # Check each edge that it's subject and object are consistent with the meta KG.
             query_graph = query.message.query_graph
             is_consistent_query = True
-            t1 = time.time()
             consistent_edges = []
             for edge_id, edge in query_graph.edges.items():
                 if edge.predicates is None:
@@ -401,13 +400,14 @@ class BaseQueryProcessor:
                     is_consistent_query = False
                     inconsistent_queries.append(query)
                     break
-            t2 = time.time()
-            print('time to check if qg is consistent with metakg: {}'.format(t2-t1))
 
             is_unique = True
             for consistent_graph in consistent_graphs:
+                print('consistent_graph')
+                print(consistent_graph)
                 all_edges_match = True
                 for edge in consistent_edges:
+                    print('\tedge to check:', edge)
                     if edge not in consistent_graph:
                         all_edges_match = False
                         break
@@ -434,8 +434,6 @@ class BaseQueryProcessor:
                 if not is_duplicate:
                     consistent_queries.append(query)
             '''
-            t3 = time.time()
-            print('time to check if qg is a duplicate: {}'.format(t3-t2))
         if with_inconsistent_queries:
             return consistent_queries, inconsistent_queries
         return consistent_queries
