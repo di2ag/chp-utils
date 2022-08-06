@@ -415,7 +415,7 @@ class BaseQueryProcessor:
                     is_unique = False
                     break
             if is_unique:
-                consistent_graphs.append([consistent_edges])
+                consistent_graphs.append(consistent_edges)
                 consistent_queries.append(query)
             else:
                 query.error(f'Duplicate query.')
