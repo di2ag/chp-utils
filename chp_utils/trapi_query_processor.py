@@ -403,11 +403,8 @@ class BaseQueryProcessor:
 
             is_unique = True
             for consistent_graph in consistent_graphs:
-                print('consistent_graph')
-                print(consistent_graph)
                 all_edges_match = True
                 for edge in consistent_edges:
-                    print('\tedge to check:', edge)
                     if edge not in consistent_graph:
                         all_edges_match = False
                         break
@@ -421,19 +418,6 @@ class BaseQueryProcessor:
                 query.error(f'Duplicate query.')
                 inconsistent_queries.append(query)
 
-            '''
-            if is_consistent_query:
-                # check that queries aren't duplicates
-                is_duplicate = False
-                for consistent_query in consistent_queries:
-                    is_duplicate = Message.check_messages_are_equal(query.message, consistent_query.message)
-                    if is_duplicate:
-                        query.error(f'Duplicate query.')
-                        inconsistent_queries.append(query)
-                        break
-                if not is_duplicate:
-                    consistent_queries.append(query)
-            '''
         if with_inconsistent_queries:
             return consistent_queries, inconsistent_queries
         return consistent_queries
