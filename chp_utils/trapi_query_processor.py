@@ -404,13 +404,15 @@ class BaseQueryProcessor:
             t2 = time.time()
             print('time to check if qg is consistent with metakg: {}'.format(t2-t1))
 
-            is_unique = False
+            is_unique = True
             for consistent_graph in consistent_graphs:
+                all_edges_match = True
                 for edge in consistent_edges:
                     if edge not in consistent_graph:
-                        is_unique = True
+                        all_edges_match = False
                         break
-                if is_unique:
+                if all_edges_match:
+                    is_unique = False
                     break
             if is_unique:
                 consistent_graphs.append([consistent_edges])
