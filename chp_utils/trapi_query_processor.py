@@ -389,7 +389,7 @@ class BaseQueryProcessor:
                                     obj = object_node.ids[0]
                                 else:
                                     obj = '?'
-                                edge = '{(}={})-{}->({}={})'.format(subject_node.categories[0], sub, predicate, object_node.categories[0], obj)
+                                edge = (subject_node.categories[0], sub, predicate, object_node.categories[0], obj)
                                 consistent_edges.append(edge)
                                 break
                     if not found_consistent_edge:
