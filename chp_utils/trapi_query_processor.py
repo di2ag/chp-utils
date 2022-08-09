@@ -1,4 +1,3 @@
-import time
 import logging
 import itertools
 from copy import deepcopy
