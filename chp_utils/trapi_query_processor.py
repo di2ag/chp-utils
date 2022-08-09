@@ -168,43 +168,35 @@ class BaseQueryProcessor:
     
     def _extract_all_curies_for_ontology_kp(self, queries):
         curies = defaultdict(list)
+        curies_to_query = defaultdict(list)
         for query in queries:
             query_graph = query.message.query_graph
             for node_id, node in query_graph.nodes.items():
                 if node.ids is not None:
                     try:
-                        curies[node.categories[0]].extend(node.ids)
+                        curies[node.categories[0]].append(node.ids[0])
+                        curies_to_query[node.ids[0]].append(query)
                     except TypeError:
                         query.error('Node: {} has no categories. Can not ontologically expand a node with no category.'.format(
                             node.ids[0])
                             )
-        return dict(curies)
+        return dict(curies), dict(curies_to_query)
 
-    def _expand_query_with_supported_ontological_descendants(self, query, descendants_map, curies):
+    def _expand_query_with_supported_ontological_descendants(self, curies_to_query_dict, descendants_map, curies):
         onto_expanded_queries = []
         for biolink_entity, curie_descendants_dict in descendants_map.items():
             if biolink_entity not in curies.curies:
                 query.error('{} is not support in the meta knowledge graph'.format(biolink_entity.get_curie()))
                 continue
             for curie, descendants in curie_descendants_dict.items():
-                supported_descendants = list(
-                        set.intersection(
-                            *[
-                                set(curies.curies[biolink_entity].keys()),
-                                set(descendants),
-                                ]
-                            )
-                        )
-                # Using sorted to keep tests consistent
-                for supported_descendant in sorted(supported_descendants):
-                    new_query = query.get_copy()
-                    onto_expanded_message = new_query.message.find_and_replace(curie, supported_descendant)
-                    if onto_expanded_message.to_dict() != new_query.message.to_dict():
-                        new_query.info('Ontologically expanded {} to {}'.format(curie, supported_descendant))
-                        new_query.message = onto_expanded_message
-                        onto_expanded_queries.append(new_query)
-        if len(onto_expanded_queries) == 0:
-            return [query]
+                for query in curies_to_query_dict[curie]:
+                    for descendant in descendants:
+                        new_query = query.get_copy()
+                        onto_expanded_message = new_query.message.find_and_replace(curie, descendant)
+                        if onto_expanded_message.to_dict() != new_query.message.to_dict():
+                            new_query.info('Ontologically expanded {} to {}'.format(curie, descendant))
+                            new_query.message = onto_expanded_message
+                            onto_expanded_queries.append(new_query)
         return onto_expanded_queries
 
     def expand_supported_ontological_descendants(self, queries, curies_database=None):
@@ -214,7 +206,7 @@ class BaseQueryProcessor:
         ontology_kp_client = SriOntologyKpApiClient()
 
         # Get all curies to expand via the Ontology KP
-        curies_to_onto_expand = self._extract_all_curies_for_ontology_kp(queries)
+        curies_to_onto_expand, curies_to_query_dict = self._extract_all_curies_for_ontology_kp(queries)
 
         descendants_map = {}
         for biolink_entity, curies in curies_to_onto_expand.items():
@@ -224,17 +216,27 @@ class BaseQueryProcessor:
                 queries_logger.error(str(ex))
                 continue
             if len(descendants) > 0:
-                descendants_map[biolink_entity] = descendants
+                curie_map = dict()
+                unique_descendants = []
+                for curie, curie_descendants in descendants.items():
+                    supported_descendants = []
+                    for curie_descendant in curie_descendants:
+                        try:
+                            x = curies_database.curies[biolink_entity][curie_descendant]
+                            if curie_descendant not in unique_descendants:
+                                supported_descendants.append(curie_descendant)
+                                unique_descendants.append(curie_descendant)
+                        except:
+                            continue
+                    if len(supported_descendants) > 0: 
+                        curie_map[curie] = supported_descendants
+                descendants_map[biolink_entity] = curie_map
         # Expand each query ontologically with all supported descendants
-        onto_expanded_queries = []
+        onto_expanded_queries = self._expand_query_with_supported_ontological_descendants(curies_to_query_dict,
+                                                                                          descendants_map,
+                                                                                          curies_database)
         for query in queries:
-            onto_expanded_queries.extend(
-                    self._expand_query_with_supported_ontological_descendants(
-                        query,
-                        descendants_map,
-                        curies_database,
-                        )
-                    )
+            onto_expanded_queries.append(query)
         # Merge in queries logger to each individual query log
         for query in onto_expanded_queries:
             query.logger.add_logs(queries_logger.to_dict())
@@ -359,10 +361,12 @@ class BaseQueryProcessor:
         meta_knowledge_graph_predicate_map = defaultdict(list)
         for edge in meta_knowledge_graph.edges:
             meta_knowledge_graph_predicate_map[edge.predicate].append(edge)
+        consistent_graphs = []
         for query in queries:
             # Check each edge that it's subject and object are consistent with the meta KG.
             query_graph = query.message.query_graph
             is_consistent_query = True
+            consistent_edges = []
             for edge_id, edge in query_graph.edges.items():
                 if edge.predicates is None:
                     edge.predicates = [BIOLINK_RELATED_TO_ENTITY]
@@ -375,6 +379,16 @@ class BaseQueryProcessor:
                         if subject_node.categories is not None and object_node.categories is not None:
                             if subject_node.categories[0] == meta_edge.subject and object_node.categories[0] == meta_edge.object:
                                 found_consistent_edge = True
+                                if subject_node.ids is not None:
+                                    sub = subject_node.ids[0]
+                                else:
+                                    sub = '?'
+                                if object_node.ids is not None:
+                                    obj = object_node.ids[0]
+                                else:
+                                    obj = '?'
+                                edge = (subject_node.categories[0].get_curie(), sub, predicate.get_curie(), object_node.categories[0].get_curie(), obj)
+                                consistent_edges.append(edge)
                                 break
                     if not found_consistent_edge:
                         query.error('Edge predicate subject/object mismatch with meta knowledge graph.')
@@ -385,17 +399,24 @@ class BaseQueryProcessor:
                     is_consistent_query = False
                     inconsistent_queries.append(query)
                     break
-            if is_consistent_query:
-                # check that queries aren't duplicates
-                is_duplicate = False
-                for consistent_query in consistent_queries:
-                    is_duplicate = Message.check_messages_are_equal(query.message, consistent_query.message)
-                    if is_duplicate:
-                        query.error(f'Duplicate query.')
-                        inconsistent_queries.append(query)
+
+            is_unique = True
+            for consistent_graph in consistent_graphs:
+                all_edges_match = True
+                for edge in consistent_edges:
+                    if edge not in consistent_graph:
+                        all_edges_match = False
                         break
-                if not is_duplicate:
-                    consistent_queries.append(query)
+                if all_edges_match:
+                    is_unique = False
+                    break
+            if is_unique:
+                consistent_graphs.append(consistent_edges)
+                consistent_queries.append(query)
+            else:
+                query.error(f'Duplicate query.')
+                inconsistent_queries.append(query)
+
         if with_inconsistent_queries:
             return consistent_queries, inconsistent_queries
         return consistent_queries
