@@ -1,0 +1,12 @@
+-c requirements.txt
+
+# dependency management
+pip-tools==6.8.0
+pipdeptree
+
+# test
+pytest
+
+# version control system integration
+commitizen==v2.31.0
+pre-commit
