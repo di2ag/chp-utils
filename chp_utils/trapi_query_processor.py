@@ -174,7 +174,8 @@ class BaseQueryProcessor:
             for node_id, node in query_graph.nodes.items():
                 if node.ids is not None:
                     try:
-                        curies[node.categories[0]].append(node.ids[0])
+                        if node.ids[0] not in curies[node.categories[0]]:
+                            curies[node.categories[0]].append(node.ids[0])
                         curies_to_query[node.ids[0]].append(query)
                     except TypeError:
                         query.error('Node: {} has no categories. Can not ontologically expand a node with no category.'.format(
