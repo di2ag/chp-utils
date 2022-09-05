@@ -269,8 +269,9 @@ class BaseQueryProcessor:
                             ]
                         )
                     )
-            if node.categories[0] in meta_knowledge_graph.nodes:
-                supported_descendants.append(node.categories[0])
+            for m_node in meta_knowledge_graph.nodes:
+                if m_node.get_curie() == node.categories[0].get_curie():
+                    supported_descendants.append(node.categories[0])
             if len(supported_descendants) == 0:
                 query.warning('Biolink category {} is not inherently supported and could not find any supported descendants,'.format(node.categories[0].get_curie()))
                 continue
