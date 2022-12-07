@@ -174,7 +174,8 @@ class BaseQueryProcessor:
             for node_id, node in query_graph.nodes.items():
                 if node.ids is not None:
                     try:
-                        curies[node.categories[0]].append(node.ids[0])
+                        if node.ids[0] not in curies[node.categories[0]]:
+                            curies[node.categories[0]].append(node.ids[0])
                         curies_to_query[node.ids[0]].append(query)
                     except TypeError:
                         query.error('Node: {} has no categories. Can not ontologically expand a node with no category.'.format(
@@ -268,8 +269,9 @@ class BaseQueryProcessor:
                             ]
                         )
                     )
-            if node.categories[0] in meta_knowledge_graph.nodes:
-                supported_descendants.append(node.categories[0])
+            for m_node in meta_knowledge_graph.nodes:
+                if m_node.get_curie() == node.categories[0].get_curie():
+                    supported_descendants.append(node.categories[0])
             if len(supported_descendants) == 0:
                 query.warning('Biolink category {} is not inherently supported and could not find any supported descendants,'.format(node.categories[0].get_curie()))
                 continue

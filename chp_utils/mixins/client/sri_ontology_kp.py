@@ -49,7 +49,7 @@ class SriOntologyKpMixin:
                     "e0": {
                         "subject": "n1",
                         "object": "n0",
-                        "predicates": [BIOLINK_SUBCLASS_OF_ENTITY.get_curie()],
+                        "predicates": [BIOLINK_SUBCLASS_OF_ENTITY.get_curie(), BIOLINK_PART_OF_ENTITY.get_curie()],
                         }
                     }
                 }
