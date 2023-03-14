@@ -6,10 +6,6 @@ from chp_utils.exceptions import *
 
 class SriOntologyKpMixin:
 
-    def __init__(self):
-        self.banned_curies = {'UBERON:0000062', 'UBERON:0002530', 'UBERON:0000058', 'UBERON:0009912'}
-
-
     def _query(self, ontology_query, **kwargs):
         """ Returns all ontological descendants that are present in a given ONTOLOGY query. The KP
         will iteratively go through the query and list all descendants if the curie and biolink type are 
@@ -40,10 +36,10 @@ class SriOntologyKpMixin:
         :returns: A dictionary of the Ontology KP result.
         :rtype: dict
         """
-
+        banned_curies = {'UBERON:0000062', 'UBERON:0002530', 'UBERON:0000058', 'UBERON:0009912'}
         cleaned_curies = []
         for curie in curies:
-            if curie not in self.banned_curies:
+            if curie not in banned_curies:
                 cleaned_curies.append(curie)
 
         # Build weird Ontology KP Query graph.
