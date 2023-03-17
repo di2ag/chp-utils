@@ -36,7 +36,7 @@ class SriOntologyKpMixin:
         :returns: A dictionary of the Ontology KP result.
         :rtype: dict
         """
-        banned_curies = {'UBERON:0000062', 'UBERON:0002530', 'UBERON:0000058', 'UBERON:0009912'}
+        banned_curies = {'UBERON:0000062', 'UBERON:0002530', 'UBERON:0000058', 'UBERON:0009912', 'UBERON:0000483', 'UBERON:0003129', 'UBERON:0000483', 'UBERON:0002103', 'UBERON:0000970', 'UBERON:0001015'}
         cleaned_curies = []
         for curie in curies:
             if curie not in banned_curies:
